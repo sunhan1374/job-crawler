@@ -49,6 +49,19 @@ python3 -m http.server -d site 8000
 # 브라우저에서 http://localhost:8000
 ```
 
+## 매일 자동으로 돌리기
+
+```bash
+./schedule.sh          # 매일 08:30 (시각 바꾸기: ./schedule.sh 07:00)
+./schedule.sh test     # 지금 한 번 시험 실행
+./schedule.sh status   # 예약 상태·최근 기록
+./schedule.sh off      # 예약 해제
+```
+
+- 맥이 잠자기 중이면 깨어날 때 실행하고, 전원이 꺼져 있으면 그날은 건너뜁니다.
+- 자동 실행은 비밀번호를 물을 수 없으므로, **터미널에서 `./update.sh`로 한 번 업로드에 성공**(토큰 저장)한 뒤 예약하세요.
+- 기록 파일: `~/Library/Logs/job-crawler.log`
+
 ## 왜 수집은 "내 맥"에서 하나요?
 
 원티드 같은 사이트는 **클라우드 서버 IP(Render, GitHub Actions 등)에서 오는 요청을 차단**하는 경우가 많습니다
