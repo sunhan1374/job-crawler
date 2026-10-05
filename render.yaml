@@ -1,0 +1,13 @@
+# Render 설정 파일 (Blueprint)
+# site 폴더를 그대로 웹사이트로 올리는 '정적 사이트'입니다. 서버 비용 없음(무료).
+services:
+  - type: web
+    name: ts-job-radar
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./site
+    headers:
+      # jobs.json은 매일 바뀌므로 브라우저가 옛날 파일을 붙잡고 있지 않게 합니다.
+      - path: /jobs.json
+        name: Cache-Control
+        value: no-cache

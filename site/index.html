@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>TS 채용 레이더</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --ground: #F3F5F7;
+    --surface: #FFFFFF;
+    --sunken: #EAEEF2;
+    --ink: #15202B;
+    --muted: #5A6978;
+    --faint: #8995A1;
+    --line: #DAE0E6;
+    --accent: #2C55C9;
+    --accent-ink: #FFFFFF;
+    --accent-soft: #E6ECFB;
+    --domain: #9A5B00;
+    --domain-soft: #FBF0DD;
+    --good: #1C7C52;
+    --good-soft: #E1F3EA;
+    --mid: #5A6978;
+    --mid-soft: #ECEFF2;
+    --warn: #B24A22;
+    --warn-soft: #FBE9E1;
+    --shadow: 0 1px 2px rgba(21, 32, 43, .06);
+    --sans: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --ground: #0E141A; --surface: #151E27; --sunken: #1B2631; --ink: #E4EBF2;
+      --muted: #97A6B5; --faint: #6C7B8A; --line: #253240; --accent: #7F9DFF;
+      --accent-ink: #0E141A; --accent-soft: #1D2A4A; --domain: #F0B35A; --domain-soft: #33270F;
+      --good: #5CCB95; --good-soft: #12301F; --mid: #97A6B5; --mid-soft: #1E2833;
+      --warn: #F08A63; --warn-soft: #3A1E13; --shadow: none;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --ground: #0E141A; --surface: #151E27; --sunken: #1B2631; --ink: #E4EBF2;
+    --muted: #97A6B5; --faint: #6C7B8A; --line: #253240; --accent: #7F9DFF;
+    --accent-ink: #0E141A; --accent-soft: #1D2A4A; --domain: #F0B35A; --domain-soft: #33270F;
+    --good: #5CCB95; --good-soft: #12301F; --mid: #97A6B5; --mid-soft: #1E2833;
+    --warn: #F08A63; --warn-soft: #3A1E13; --shadow: none;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font: 15px/1.55 var(--sans); -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 56px; display: grid; gap: 20px; }
+  a { color: inherit; }
+  button, input, select { font: inherit; color: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+
+  /* ── 헤더 ───────────────────────── */
+  header.top { display: flex; flex-wrap: wrap; gap: 16px 32px; align-items: flex-end; justify-content: space-between; }
+  .eyebrow { font-size: 12px; letter-spacing: .08em; color: var(--muted); font-weight: 500; }
+  h1 { margin: 4px 0 0; font-size: clamp(26px, 4vw, 34px); line-height: 1.15; font-weight: 700; letter-spacing: -.02em; text-wrap: balance; }
+  .stamp {
+    display: grid; gap: 2px; padding: 10px 14px; border: 1px dashed var(--line); border-radius: 10px;
+    background: var(--surface); min-width: 0;
+  }
+  .stamp .k { font-size: 11px; letter-spacing: .1em; color: var(--muted); }
+  .stamp .v { font: 600 20px/1.2 var(--mono); font-variant-numeric: tabular-nums; }
+  .stamp .s { font: 12px/1.4 var(--mono); color: var(--faint); }
+
+  /* ── 요약 ───────────────────────── */
+  .summary { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding-block: 12px; border-block: 1px solid var(--line); }
+  .summary .n { font: 600 22px/1 var(--mono); font-variant-numeric: tabular-nums; }
+  .summary .l { color: var(--muted); font-size: 13px; margin-left: 6px; }
+  .summary .src { margin-left: auto; display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--muted); }
+  .summary .src b { font-family: var(--mono); font-weight: 500; color: var(--ink); }
+  .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--good); margin-right: 5px; vertical-align: 1px; }
+  .dot.fail { background: var(--warn); }
+
+  /* ── 필터 ───────────────────────── */
+  .filters { display: flex; flex-wrap: wrap; gap: 10px 12px; align-items: center; }
+  .seg { display: inline-flex; background: var(--sunken); border-radius: 10px; padding: 3px; }
+  .seg button {
+    border: 0; background: transparent; padding: 7px 14px; border-radius: 8px; cursor: pointer;
+    font-weight: 500; font-size: 14px; color: var(--muted);
+  }
+  .seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+  .seg button .c { font-family: var(--mono); font-size: 12px; color: var(--faint); margin-left: 4px; }
+  select, input[type="search"] {
+    height: 38px; border: 1px solid var(--line); background: var(--surface); border-radius: 9px; padding-inline: 10px;
+  }
+  input[type="search"] { flex: 1 1 200px; min-width: 0; }
+  .chk { display: inline-flex; gap: 6px; align-items: center; font-size: 14px; color: var(--muted); cursor: pointer; }
+
+  /* ── 목록 ───────────────────────── */
+  .board { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .row {
+    display: grid; gap: 4px 18px; padding: 14px 18px; border-top: 1px solid var(--line);
+    grid-template-columns: 64px minmax(150px, 1.1fr) 120px 92px minmax(260px, 2.4fr) 118px;
+    align-items: center;
+  }
+  .row:first-child { border-top: 0; }
+  .row.head { background: var(--sunken); font-size: 12px; color: var(--muted); letter-spacing: .04em; padding-block: 9px; }
+  .row:not(.head):hover { background: color-mix(in srgb, var(--accent-soft) 45%, transparent); }
+
+  .score { display: grid; gap: 4px; }
+  .score b { font: 600 17px/1 var(--mono); font-variant-numeric: tabular-nums; }
+  .meter { height: 4px; background: var(--sunken); border-radius: 2px; overflow: hidden; }
+  .meter i { display: block; height: 100%; background: var(--accent); }
+
+  .co { font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
+  .co small { display: block; font-weight: 400; color: var(--faint); font-size: 12px; }
+  .loc { color: var(--muted); font-size: 14px; }
+
+  .rate { font: 600 14px/1 var(--mono); padding: 5px 8px; border-radius: 6px; display: inline-block; text-decoration: none; font-variant-numeric: tabular-nums; }
+  .rate.good { color: var(--good); background: var(--good-soft); }
+  .rate.mid { color: var(--mid); background: var(--mid-soft); }
+  .rate.low { color: var(--warn); background: var(--warn-soft); }
+  .rate.none { color: var(--faint); font-weight: 400; font-family: var(--sans); font-size: 13px; padding: 0; }
+
+  .title { min-width: 0; }
+  .title a { font-weight: 500; text-decoration: none; overflow-wrap: anywhere; }
+  .title a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 6px; }
+  .tag { font-size: 11.5px; line-height: 1; padding: 4px 7px; border-radius: 5px; background: var(--sunken); color: var(--muted); white-space: nowrap; }
+  .tag.t1 { background: var(--accent); color: var(--accent-ink); font-weight: 600; }
+  .tag.t2 { background: var(--accent-soft); color: var(--accent); font-weight: 500; }
+  .tag.dom { background: var(--domain-soft); color: var(--domain); font-weight: 500; }
+  .tag.new { background: var(--good-soft); color: var(--good); font-weight: 600; }
+  .tag.meta { background: transparent; padding-inline: 0; font-family: var(--mono); color: var(--faint); }
+
+  .src-links { display: flex; flex-wrap: wrap; gap: 5px; justify-content: flex-end; }
+  .src-links a {
+    font-size: 12px; text-decoration: none; padding: 5px 8px; border-radius: 6px;
+    border: 1px solid var(--line); white-space: nowrap;
+  }
+  .src-links a:hover { border-color: var(--accent); color: var(--accent); }
+
+  .empty { padding: 40px 18px; text-align: center; color: var(--muted); }
+  .more { display: flex; justify-content: center; padding: 14px; border-top: 1px solid var(--line); }
+  .more button { border: 1px solid var(--line); background: var(--surface); padding: 8px 18px; border-radius: 9px; cursor: pointer; }
+  .foot { color: var(--faint); font-size: 12.5px; display: grid; gap: 4px; max-width: 72ch; }
+
+  @media (max-width: 900px) {
+    .row.head { display: none; }
+    .row {
+      grid-template-columns: 1fr auto;
+      grid-template-areas: "co rate" "title title" "loc score" "links links";
+      padding: 14px 16px; gap: 8px 12px;
+    }
+    .row .co { grid-area: co; } .row .rcell { grid-area: rate; justify-self: end; }
+    .row .title { grid-area: title; } .row .loc { grid-area: loc; }
+    .row .score { grid-area: score; width: 88px; justify-self: end; }
+    .row .src-links { grid-area: links; justify-content: flex-start; }
+    .summary .src { margin-left: 0; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .meter i { transition: width .3s ease; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">기술지원 · 서울 / 경기 남부 · 원티드 · 잡코리아 · 사람인 · 리멤버</div>
+      <h1>TS 채용 레이더</h1>
+    </div>
+    <div class="stamp" aria-live="polite">
+      <span class="k">최신화</span>
+      <span class="v" id="updated">불러오는 중</span>
+      <span class="s" id="updatedAgo"></span>
+    </div>
+  </header>
+
+  <section class="summary" id="summary" aria-label="수집 요약"></section>
+
+  <section class="filters" aria-label="필터">
+    <div class="seg" role="group" aria-label="직군">
+      <button type="button" data-tier="기술지원" aria-pressed="true">기술지원<span class="c" id="c1"></span></button>
+      <button type="button" data-tier="추천 직군" aria-pressed="false">추천 직군<span class="c" id="c2"></span></button>
+      <button type="button" data-tier="all" aria-pressed="false">전체<span class="c" id="c3"></span></button>
+    </div>
+    <select id="region" aria-label="지역">
+      <option value="all">지역 전체</option>
+      <option value="seoul">서울</option>
+      <option value="gg">경기 남부</option>
+    </select>
+    <select id="source" aria-label="출처">
+      <option value="all">출처 전체</option>
+      <option value="wanted">원티드</option>
+      <option value="jobkorea">잡코리아</option>
+      <option value="saramin">사람인</option>
+      <option value="remember">리멤버</option>
+    </select>
+    <select id="sort" aria-label="정렬">
+      <option value="score">적합도순</option>
+      <option value="rating">잡플래닛 평점순</option>
+      <option value="new">새로 올라온 순</option>
+    </select>
+    <label class="chk"><input type="checkbox" id="domainOnly"> 결제·핀테크만</label>
+    <input type="search" id="q" placeholder="회사명·공고명 검색" aria-label="검색">
+  </section>
+
+  <section class="board" id="board" aria-label="공고 목록"></section>
+
+  <footer class="foot">
+    <span>적합도는 직무(기술지원 50 · 인접 30) + 결제·핀테크 도메인 20 + 경력 조건 15 + 잡플래닛 평점 최대 15로 계산해요. 헤드헌팅 공고는 실제 회사가 달라 평점을 붙이지 않아요.</span>
+    <span>잡플래닛 평점은 회사명이 정확히 일치할 때만 표시하고, 30일마다 새로 확인해요.</span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  const SRC = { wanted: "원티드", jobkorea: "잡코리아", saramin: "사람인", remember: "리멤버" };
+  const PAGE = 60;
+  const state = { tier: "기술지원", region: "all", source: "all", sort: "score", q: "", domainOnly: false, shown: PAGE };
+  let DATA = null;
+
+  try {
+    const saved = JSON.parse(localStorage.getItem("ts-radar-filters") || "{}");
+    Object.assign(state, saved, { shown: PAGE, q: "" });
+  } catch (e) { /* 저장된 필터 없음 */ }
+
+  const $ = (id) => document.getElementById(id);
+  const el = (tag, cls, text) => {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  };
+
+  function save() {
+    try {
+      const { tier, region, source, sort, domainOnly } = state;
+      localStorage.setItem("ts-radar-filters", JSON.stringify({ tier, region, source, sort, domainOnly }));
+    } catch (e) { /* 저장 불가 환경 */ }
+  }
+
+  function agoText(stamp) {
+    const t = new Date(stamp.replace(" ", "T") + ":00+09:00");
+    if (isNaN(t)) return "";
+    const h = Math.round((Date.now() - t.getTime()) / 36e5);
+    if (h < 1) return "방금 수집";
+    if (h < 24) return h + "시간 전 수집";
+    return Math.floor(h / 24) + "일 전 수집";
+  }
+
+  function rateClass(r) {
+    if (r == null) return "none";
+    return r >= 3.5 ? "good" : r >= 3.0 ? "mid" : "low";
+  }
+
+  function filtered() {
+    const q = state.q.trim().toLowerCase();
+    let list = DATA.jobs.filter((j) => {
+      if (state.tier !== "all" && j.tier !== state.tier) return false;
+      if (state.region === "seoul" && !j.location.startsWith("서울")) return false;
+      if (state.region === "gg" && !j.location.includes("경기")) return false;
+      if (state.source !== "all" && !j.sources.includes(state.source)) return false;
+      if (state.domainOnly && !j.reasons.includes("결제·핀테크 도메인")) return false;
+      if (q && !(j.company + " " + j.title).toLowerCase().includes(q)) return false;
+      return true;
+    });
+    const by = {
+      score: (a, b) => b.score - a.score || (b.rating || 0) - (a.rating || 0),
+      rating: (a, b) => (b.rating || 0) - (a.rating || 0) || b.score - a.score,
+      new: (a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || b.score - a.score,
+    }[state.sort];
+    return list.sort(by);
+  }
+
+  function renderSummary() {
+    const s = $("summary");
+    s.replaceChildren();
+    const stat = (n, l) => { const d = el("span"); d.append(el("span", "n", n), el("span", "l", l)); return d; };
+    const t1 = DATA.jobs.filter((j) => j.tier === "기술지원").length;
+    s.append(stat(DATA.total, "건 수집"), stat(t1, "건 기술지원"));
+    if (DATA.new_today > 0) s.append(stat(DATA.new_today, "건 오늘 새로"));
+    const src = el("span", "src");
+    for (const [k, v] of Object.entries(DATA.sources || {})) {
+      const d = el("span");
+      d.append(el("span", "dot" + (v.ok ? "" : " fail")), SRC[k] + " ");
+      d.append(el("b", null, v.ok ? String(v.kept) : "실패"));
+      if (!v.ok) d.title = "이번 수집 실패 — 직전 공고를 유지했어요";
+      src.append(d);
+    }
+    s.append(src);
+    $("c1").textContent = t1;
+    $("c2").textContent = DATA.jobs.length - t1;
+    $("c3").textContent = DATA.jobs.length;
+  }
+
+  function row(j) {
+    const r = el("div", "row");
+
+    const sc = el("div", "score");
+    sc.append(el("b", null, j.score));
+    const m = el("div", "meter"); const i = el("i"); i.style.width = j.score + "%"; m.append(i);
+    sc.append(m);
+    sc.title = j.reasons.join(" · ");
+
+    const co = el("div", "co", j.company);
+    if (j.headhunter) co.append(el("small", null, "헤드헌팅"));
+
+    const loc = el("div", "loc", j.location);
+
+    const rc = el("div", "rcell");
+    if (j.rating != null && j.jobplanet_url) {
+      const a = el("a", "rate " + rateClass(j.rating), "★ " + j.rating.toFixed(1));
+      a.href = j.jobplanet_url; a.target = "_blank"; a.rel = "noopener";
+      a.title = "잡플래닛 기업 리뷰" + (j.review_count ? " " + j.review_count + "건" : "") + " 보기";
+      rc.append(a);
+    } else {
+      const a = el("a", "rate none", j.headhunter ? "—" : "평점 없음");
+      if (!j.headhunter) {
+        a.href = "https://www.jobplanet.co.kr/search?query=" + encodeURIComponent(j.company.replace(/\(주\)|㈜|주식회사/g, "").trim());
+        a.target = "_blank"; a.rel = "noopener"; a.title = "잡플래닛에서 직접 찾아보기";
+      }
+      rc.append(a);
+    }
+
+    const t = el("div", "title");
+    const a = el("a", null, j.title);
+    a.href = j.url; a.target = "_blank"; a.rel = "noopener";
+    t.append(a);
+    const tags = el("div", "tags");
+    tags.append(el("span", "tag " + (j.tier === "기술지원" ? "t1" : "t2"), j.tier));
+    if (j.reasons.includes("결제·핀테크 도메인")) tags.append(el("span", "tag dom", "결제·핀테크"));
+    if (DATA.new_today > 0 && j.first_seen === DATA.updated_at.slice(0, 10)) tags.append(el("span", "tag new", "NEW"));
+    for (const why of j.reasons) {
+      if (["기술지원 직무", "인접 직무", "결제·핀테크 도메인"].includes(why) || why.startsWith("평점")) continue;
+      tags.append(el("span", "tag", why));
+    }
+    tags.append(el("span", "tag meta", j.experience + (j.due ? " · " + j.due : "")));
+    t.append(tags);
+
+    const links = el("div", "src-links");
+    for (const s of j.sources) {
+      const l = el("a", null, SRC[s] + " ↗");
+      l.href = j.links[s]; l.target = "_blank"; l.rel = "noopener";
+      links.append(l);
+    }
+
+    r.append(sc, co, loc, rc, t, links);
+    return r;
+  }
+
+  function renderBoard() {
+    const b = $("board");
+    b.replaceChildren();
+    const head = el("div", "row head");
+    ["적합도", "회사명", "위치", "잡플래닛", "공고명", "공고 링크"].forEach((h) => head.append(el("div", null, h)));
+    b.append(head);
+    const list = filtered();
+    if (!list.length) {
+      b.append(el("div", "empty", "조건에 맞는 공고가 없어요. 필터를 넓혀 보세요."));
+      return;
+    }
+    list.slice(0, state.shown).forEach((j) => b.append(row(j)));
+    if (list.length > state.shown) {
+      const m = el("div", "more");
+      const btn = el("button", null, `${list.length - state.shown}건 더 보기`);
+      btn.type = "button";
+      btn.onclick = () => { state.shown += PAGE; renderBoard(); };
+      m.append(btn);
+      b.append(m);
+    }
+  }
+
+  function syncControls() {
+    document.querySelectorAll(".seg button").forEach((btn) => btn.setAttribute("aria-pressed", String(btn.dataset.tier === state.tier)));
+    $("region").value = state.region; $("source").value = state.source;
+    $("sort").value = state.sort; $("domainOnly").checked = state.domainOnly;
+  }
+
+  function bind() {
+    document.querySelectorAll(".seg button").forEach((btn) => btn.addEventListener("click", () => {
+      state.tier = btn.dataset.tier; state.shown = PAGE; syncControls(); save(); renderBoard();
+    }));
+    ["region", "source", "sort"].forEach((id) => $(id).addEventListener("change", (e) => {
+      state[id] = e.target.value; state.shown = PAGE; save(); renderBoard();
+    }));
+    $("domainOnly").addEventListener("change", (e) => { state.domainOnly = e.target.checked; state.shown = PAGE; save(); renderBoard(); });
+    $("q").addEventListener("input", (e) => { state.q = e.target.value; state.shown = PAGE; renderBoard(); });
+  }
+
+  fetch("jobs.json", { cache: "no-store" })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((data) => {
+      DATA = data;
+      $("updated").textContent = data.updated_at;
+      $("updatedAgo").textContent = agoText(data.updated_at);
+      renderSummary(); syncControls(); bind(); renderBoard();
+    })
+    .catch(() => {
+      $("updated").textContent = "데이터 없음";
+      $("board").replaceChildren(el("div", "empty", "jobs.json을 읽지 못했어요. 크롤러(python3 crawler/build.py)를 한 번 실행해 주세요."));
+    });
+})();
+</script>
+</body>
+</html>
