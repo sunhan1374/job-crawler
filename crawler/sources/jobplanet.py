@@ -9,9 +9,11 @@
 import json
 import os
 import re
+import time
 from datetime import date, timedelta
 from urllib.parse import quote
 
+import config
 from common import clean_company, http, norm_company
 
 BASE = "https://www.jobplanet.co.kr"
@@ -53,17 +55,30 @@ def parse_rating(html):
     return rating, count
 
 
+# 한 번 실행할 때의 상태: 잡플래닛이 막았는지, 새로 몇 곳을 조회했는지
+STATE = {"blocked": False, "new_lookups": 0}
+
+
 def lookup(company, cache):
-    """회사명 → {'id', 'name', 'rating', 'count'} 또는 None. 캐시 우선."""
+    """회사명 → {'id', 'name', 'rating', 'count'} 또는 None. 캐시 우선.
+
+    잡플래닛이 403/429로 막으면 그 즉시 이번 실행의 조회를 멈춥니다(서킷 브레이커).
+    한 번에 새로 조회하는 회사 수도 제한해서, 며칠에 걸쳐 조금씩 평점을 채웁니다.
+    """
     key = norm_company(company)
     if not key:
         return None
     hit = cache.get(key)
     if hit and hit.get("checked", "") >= str(date.today() - timedelta(days=KEEP_DAYS)):
         return hit if hit.get("id") else None
+    if STATE["blocked"] or STATE["new_lookups"] >= config.JOBPLANET_MAX_NEW:
+        # 오래된 캐시라도 있으면 그걸 쓰고, 없으면 다음 실행 때 조회
+        return hit if hit and hit.get("id") else None
 
+    STATE["new_lookups"] += 1
     result = {"checked": str(date.today())}
     try:
+        time.sleep(config.JOBPLANET_DELAY)
         term = quote(clean_company(company))
         data = http("GET", f"{BASE}/autocomplete/autocomplete/suggest.json?term={term}").json()
         best = next((c for c in data.get("companies") or []
@@ -72,7 +87,12 @@ def lookup(company, cache):
             rating, count = parse_rating(http("GET", f'{BASE}/companies/{best["id"]}').text)
             result.update(id=best["id"], name=best.get("name"), rating=rating, count=count)
     except Exception as e:  # 평점은 부가 정보라 실패해도 전체 수집은 계속
-        print(f"   · 잡플래닛 조회 실패({company}): {e}")
-        return None
+        code = getattr(getattr(e, "response", None), "status_code", None)
+        if code in (403, 429):
+            STATE["blocked"] = True
+            print(f"   · 잡플래닛이 요청을 막았어요({code}). 이번 실행의 평점 조회는 여기서 멈추고 다음에 이어서 해요.")
+        else:
+            print(f"   · 잡플래닛 조회 실패({company}): {e}")
+        return hit if hit and hit.get("id") else None
     cache[key] = result
     return result if result.get("id") else None

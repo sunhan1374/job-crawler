@@ -22,7 +22,7 @@ if [ -z "$PY" ]; then
 fi
 echo "사용하는 Python: $PY" | tee -a "$LOG"
 
-"$PY" crawler/build.py 2>&1 | tee -a "$LOG"
+"$PY" -u crawler/build.py 2>&1 | tee -a "$LOG"
 
 # GitHub 저장소가 연결되어 있을 때만 올립니다.
 if git remote get-url origin >/dev/null 2>&1; then
@@ -31,7 +31,13 @@ if git remote get-url origin >/dev/null 2>&1; then
     echo "변경된 공고가 없어 업로드를 건너뜁니다." | tee -a "$LOG"
   else
     git commit -m "공고 갱신 $(date '+%Y-%m-%d %H:%M')" >> "$LOG" 2>&1
-    git push >> "$LOG" 2>&1 && echo "✔ GitHub 업로드 완료 → Render가 1~2분 안에 사이트를 갱신합니다." | tee -a "$LOG"
+    # Claude가 코드를 고쳐 올렸을 수 있으니, 먼저 GitHub 최신 코드를 받아 합친 뒤 올려요.
+    git pull --rebase -q >> "$LOG" 2>&1 || git rebase --abort >> "$LOG" 2>&1 || true
+    if git push >> "$LOG" 2>&1; then
+      echo "✔ GitHub 업로드 완료 → Render가 1~2분 안에 사이트를 갱신합니다." | tee -a "$LOG"
+    else
+      echo "✘ GitHub 업로드 실패. 수집 결과는 저장(commit)돼 있으니 GitHub Desktop에서 'Push origin'을 누르세요." | tee -a "$LOG"
+    fi
   fi
 else
   echo "(GitHub 저장소가 아직 연결되지 않아 수집만 했어요. site/index.html 을 열어 확인하세요.)"

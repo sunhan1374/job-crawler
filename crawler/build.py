@@ -65,6 +65,8 @@ def add_ratings(jobs):
     for n in names:
         found[n] = jobplanet.lookup(n, cache)
     jobplanet.save_cache(cache)
+    st = jobplanet.STATE
+    print(f"   새로 조회 {st['new_lookups']}곳" + (" · 잡플래닛 차단으로 중간에 멈춤" if st["blocked"] else ""))
     for j in jobs:
         hit = None if j.get("headhunter") else found.get(j["company"])
         j["rating"] = hit.get("rating") if hit else None
