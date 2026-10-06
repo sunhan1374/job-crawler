@@ -1,29 +1,33 @@
 {
- "updated_at": "2026-10-05 19:17",
+ "updated_at": "2026-10-06 08:44",
  "sources": {
   "wanted": {
-   "ok": true,
-   "raw": 159,
-   "kept": 106
+   "ok": false,
+   "raw": 0,
+   "error": "HTTPSConnectionPool(host='www.wanted.co.kr', port=443): Read timed out. (read timeout=20)",
+   "kept": 0
   },
   "jobkorea": {
-   "ok": true,
-   "raw": 544,
-   "kept": 147
+   "ok": false,
+   "raw": 0,
+   "error": "('Connection aborted.', TimeoutError(60, 'Operation timed out'))",
+   "kept": 0
   },
   "saramin": {
-   "ok": true,
-   "raw": 1817,
-   "kept": 157
+   "ok": false,
+   "raw": 0,
+   "error": "HTTPSConnectionPool(host='www.saramin.co.kr', port=443): Read timed out. (read timeout=20)",
+   "kept": 0
   },
   "remember": {
-   "ok": true,
-   "raw": 653,
-   "kept": 75
+   "ok": false,
+   "raw": 0,
+   "error": "HTTPSConnectionPool(host='career-api.rememberapp.co.kr', port=443): Read timed out. (read timeout=20)",
+   "kept": 0
   }
  },
  "total": 462,
- "new_today": 224,
+ "new_today": 0,
  "jobs": [
   {
    "key": "비바리퍼블리카|토스페이먼츠technicalaccountmanagerglobal",
