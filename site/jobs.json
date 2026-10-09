@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-08 08:45",
+ "updated_at": "2026-10-09 08:32",
  "sources": {
   "wanted": {
    "ok": false,
@@ -10,7 +10,7 @@
   "jobkorea": {
    "ok": false,
    "raw": 0,
-   "error": "('Connection aborted.', TimeoutError(60, 'Operation timed out'))",
+   "error": "HTTPSConnectionPool(host='www.jobkorea.co.kr', port=443): Read timed out. (read timeout=20)",
    "kept": 0
   },
   "saramin": {
