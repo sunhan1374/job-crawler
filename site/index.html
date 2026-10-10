@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>TS 채용 레이더</title>
+<title>서난이의 기술지원 공고 모음</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,8 +62,7 @@
 
   /* ── 헤더 ───────────────────────── */
   header.top { display: flex; flex-wrap: wrap; gap: 16px 32px; align-items: flex-end; justify-content: space-between; }
-  .eyebrow { font-size: 12px; letter-spacing: .08em; color: var(--muted); font-weight: 500; }
-  h1 { margin: 4px 0 0; font-size: clamp(26px, 4vw, 34px); line-height: 1.15; font-weight: 700; letter-spacing: -.02em; text-wrap: balance; }
+  h1 { margin: 0; font-size: clamp(26px, 4vw, 34px); line-height: 1.15; font-weight: 700; letter-spacing: -.02em; text-wrap: balance; }
   .stamp {
     display: grid; gap: 2px; padding: 10px 14px; border: 1px dashed var(--line); border-radius: 10px;
     background: var(--surface); min-width: 0;
@@ -132,6 +131,9 @@
   .tag.dom { background: var(--domain-soft); color: var(--domain); font-weight: 500; }
   .tag.new { background: var(--good-soft); color: var(--good); font-weight: 600; }
   .tag.meta { background: transparent; padding-inline: 0; font-family: var(--mono); color: var(--faint); }
+  .tag.due { background: var(--sunken); color: var(--muted); font-weight: 500; }
+  .tag.due.soon { background: var(--warn-soft); color: var(--warn); font-weight: 600; }
+  .loc .station { display: block; font-size: 12.5px; color: var(--faint); margin-top: 1px; }
 
   .src-links { display: flex; flex-wrap: wrap; gap: 5px; justify-content: flex-end; }
   .src-links a {
@@ -167,8 +169,7 @@
 <div class="wrap">
   <header class="top">
     <div>
-      <div class="eyebrow">기술지원 · 서울 / 경기 남부 · 원티드 · 잡코리아 · 사람인 · 리멤버</div>
-      <h1>TS 채용 레이더</h1>
+      <h1>서난이의 기술지원 공고 모음</h1>
     </div>
     <div class="stamp" aria-live="polite">
       <span class="k">최신화</span>
@@ -201,6 +202,8 @@
       <option value="score">적합도순</option>
       <option value="rating">잡플래닛 평점순</option>
       <option value="new">새로 올라온 순</option>
+      <option value="due">마감순</option>
+      <option value="distance">집과의 거리순</option>
     </select>
     <label class="chk"><input type="checkbox" id="domainOnly"> 결제·핀테크만</label>
     <input type="search" id="q" placeholder="회사명·공고명 검색" aria-label="검색">
@@ -211,6 +214,7 @@
   <footer class="foot">
     <span>적합도는 직무(기술지원 50 · 인접 30) + 결제·핀테크 도메인 20 + 경력 조건 15 + 잡플래닛 평점 최대 15로 계산해요. 헤드헌팅 공고는 실제 회사가 달라 평점을 붙이지 않아요.</span>
     <span>잡플래닛 평점은 회사명이 정확히 일치할 때만 표시하고, 30일마다 새로 확인해요.</span>
+    <span>지하철역·거리는 공고의 구/시 단위 위치를 기준으로 한 근사치예요(정확한 사무실 주소 기준 아님). 집 기준점은 신갈역이에요.</span>
   </footer>
 </div>
 
@@ -270,6 +274,8 @@
       score: (a, b) => b.score - a.score || (b.rating || 0) - (a.rating || 0),
       rating: (a, b) => (b.rating || 0) - (a.rating || 0) || b.score - a.score,
       new: (a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || b.score - a.score,
+      due: (a, b) => (a.due_sort || "9999-99-99").localeCompare(b.due_sort || "9999-99-99") || b.score - a.score,
+      distance: (a, b) => (a.distance_km ?? 9999) - (b.distance_km ?? 9999) || b.score - a.score,
     }[state.sort];
     return list.sort(by);
   }
@@ -308,6 +314,10 @@
     if (j.headhunter) co.append(el("small", null, "헤드헌팅"));
 
     const loc = el("div", "loc", j.location);
+    if (j.station) {
+      const st = el("span", "station", j.station + (j.distance_km != null ? ` · ${j.distance_km}km` : ""));
+      loc.append(st);
+    }
 
     const rc = el("div", "rcell");
     if (j.rating != null && j.jobplanet_url) {
@@ -336,7 +346,15 @@
       if (["기술지원 직무", "인접 직무", "결제·핀테크 도메인"].includes(why) || why.startsWith("평점")) continue;
       tags.append(el("span", "tag", why));
     }
-    tags.append(el("span", "tag meta", j.experience + (j.due ? " · " + j.due : "")));
+    tags.append(el("span", "tag meta", j.experience));
+    if (j.due) {
+      let soon = false;
+      if (j.due_sort && j.due_sort !== "9999-99-99") {
+        const days = Math.ceil((new Date(j.due_sort + "T00:00:00+09:00") - Date.now()) / 864e5);
+        soon = days <= 3;
+      }
+      tags.append(el("span", "tag due" + (soon ? " soon" : ""), "마감 " + j.due));
+    }
     t.append(tags);
 
     const links = el("div", "src-links");

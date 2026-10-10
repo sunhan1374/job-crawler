@@ -1,10 +1,13 @@
 """여러 사이트가 함께 쓰는 도구: HTTP 요청, 지역 필터, 점수 계산."""
 import re
 import time
+from datetime import datetime, timedelta, timezone
 
 import requests
 
 import config
+
+KST = timezone(timedelta(hours=9))
 
 HEADERS = {
     "User-Agent": (
@@ -150,3 +153,53 @@ def norm_company(name: str) -> str:
 
 def norm_title(title: str) -> str:
     return re.sub(r"[\s\[\]()·\-_/,.|]", "", (title or "")).lower()
+
+
+# ── 마감일 정리 ──────────────────────────────────────────
+def normalize_due(raw: str):
+    """사이트마다 다른 마감일 표기를 'YYYY-MM-DD' 또는 '상시채용'으로 통일합니다.
+
+    반환값: (화면에 보여줄 문구, 정렬용 날짜 또는 None)
+    정렬용 날짜가 없으면(상시/해석 불가) 마감순 정렬에서 맨 뒤로 보냅니다.
+    """
+    text = (raw or "").strip()
+    if not text or "상시" in text:
+        return "상시채용", None
+
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", text)
+    if m:
+        d = m.group(0)[:10]
+        return d, d
+
+    if re.fullmatch(r"\d{10,13}", text):  # epoch(초 또는 밀리초)
+        ts = int(text)
+        if len(text) >= 13:
+            ts //= 1000
+        try:
+            d = datetime.fromtimestamp(ts, KST).strftime("%Y-%m-%d")
+            return d, d
+        except (ValueError, OSError, OverflowError):
+            return text, None
+
+    today = datetime.now(KST).date()
+    if "오늘마감" in text:
+        d = today.isoformat()
+        return d, d
+    if "내일마감" in text:
+        d = (today + timedelta(days=1)).isoformat()
+        return d, d
+    m = re.search(r"D-(\d+)", text, re.I)
+    if m:
+        d = (today + timedelta(days=int(m.group(1)))).isoformat()
+        return d, d
+    m = re.search(r"(\d{1,2})[./](\d{1,2})", text)
+    if m:
+        mo, da = int(m.group(1)), int(m.group(2))
+        try:
+            d = today.replace(month=mo, day=da)
+            if d < today - timedelta(days=200):  # 이미 많이 지났으면 내년으로 간주
+                d = d.replace(year=d.year + 1)
+            return d.isoformat(), d.isoformat()
+        except ValueError:
+            pass
+    return text, None

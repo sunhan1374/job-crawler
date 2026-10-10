@@ -11,8 +11,9 @@ from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(__file__))
 
+import geo  # noqa: E402
 from common import (classify, exp_text, norm_company, norm_title,  # noqa: E402
-                    region_ok, score, short_location)
+                    normalize_due, region_ok, score, short_location)
 from sources import jobkorea, jobplanet, remember, saramin, wanted  # noqa: E402
 
 KST = timezone(timedelta(hours=9))
@@ -95,6 +96,8 @@ def main():
     for j in jobs:
         score(j)
         key = norm_company(j["company"]) + "|" + norm_title(j["title"])
+        due, due_sort = normalize_due(j.get("due", ""))
+        station, distance_km = geo.lookup(j["location"])
         out.append({
             "key": key,
             "tier": j["tier"],
@@ -103,6 +106,8 @@ def main():
             "company": j["company"],
             "headhunter": bool(j.get("headhunter")),
             "location": j["location"],
+            "station": station,
+            "distance_km": distance_km,
             "rating": j["rating"],
             "review_count": j.get("review_count"),
             "jobplanet_url": j["jobplanet_url"],
@@ -111,7 +116,8 @@ def main():
             "links": j["links"],
             "sources": j["sources"],
             "experience": exp_text(j.get("exp_min"), j.get("exp_max"), j.get("newbie_only")),
-            "due": j.get("due", ""),
+            "due": due,
+            "due_sort": due_sort or "9999-99-99",
             "first_seen": prev.get(key) or today,
         })
     out.sort(key=lambda x: (-x["score"], -(x["rating"] or 0)))
