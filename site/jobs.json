@@ -1,10 +1,10 @@
 {
- "updated_at": "2026-10-09 08:32",
+ "updated_at": "2026-10-10 08:40",
  "sources": {
   "wanted": {
    "ok": false,
    "raw": 0,
-   "error": "HTTPSConnectionPool(host='www.wanted.co.kr', port=443): Read timed out. (read timeout=20)",
+   "error": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))",
    "kept": 0
   },
   "jobkorea": {
@@ -16,18 +16,17 @@
   "saramin": {
    "ok": false,
    "raw": 0,
-   "error": "('Connection aborted.', TimeoutError(60, 'Operation timed out'))",
+   "error": "HTTPSConnectionPool(host='www.saramin.co.kr', port=443): Read timed out. (read timeout=20)",
    "kept": 0
   },
   "remember": {
-   "ok": false,
-   "raw": 0,
-   "error": "HTTPSConnectionPool(host='career-api.rememberapp.co.kr', port=443): Read timed out. (read timeout=20)",
-   "kept": 0
+   "ok": true,
+   "raw": 657,
+   "kept": 68
   }
  },
- "total": 462,
- "new_today": 0,
+ "total": 459,
+ "new_today": 25,
  "jobs": [
   {
    "key": "비바리퍼블리카|토스페이먼츠technicalaccountmanagerglobal",
@@ -56,6 +55,1749 @@
    "experience": "8년↑",
    "due": "",
    "first_seen": "2026-09-26"
+  },
+  {
+   "key": "비바리퍼블리카|토스플레이스technicalaccountmanager",
+   "tier": "기술지원",
+   "score": 80,
+   "reasons": [
+    "기술지원 직무",
+    "경력 조건 맞음",
+    "평점 3.6"
+   ],
+   "company": "(주)비바리퍼블리카",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "rating": 3.6,
+   "review_count": 541,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/309507",
+   "title": "[토스플레이스] Technical Account Manager",
+   "url": "https://career.rememberapp.co.kr/job/posting/289339",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/289339"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "8~15년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "쿠팡|쿠팡페이technicalaccountmanager신사업로켓페이",
+   "tier": "기술지원",
+   "score": 75,
+   "reasons": [
+    "기술지원 직무",
+    "결제·핀테크 도메인"
+   ],
+   "company": "쿠팡(주)",
+   "headhunter": false,
+   "location": "서울 광진구",
+   "rating": 3.2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
+   "title": "[쿠팡페이]Technical Account Manager(신사업-로켓페이)",
+   "url": "https://career.rememberapp.co.kr/job/posting/341909",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/341909"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "10~15년",
+   "due": "2026-10-18",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "쿠팡|쿠팡결제정산운영담당자핀테크",
+   "tier": "추천 직군",
+   "score": 70,
+   "reasons": [
+    "인접 직무",
+    "결제·핀테크 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "쿠팡(주)",
+   "headhunter": false,
+   "location": "서울 송파구",
+   "rating": 3.2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
+   "title": "[쿠팡] 결제/정산 운영 담당자 (핀테크)",
+   "url": "https://career.rememberapp.co.kr/job/posting/307097",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/307097"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "8~15년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "한국신용데이터|한국결제네트웍스kpn결제승인시스템운영엔지니어경력3년이상",
+   "tier": "추천 직군",
+   "score": 70,
+   "reasons": [
+    "인접 직무",
+    "결제·핀테크 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)한국신용데이터",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": 3.1,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/322151",
+   "title": "[한국결제네트웍스 - KPN] 결제 승인 시스템 운영 엔지니어 (경력 3년 이상)",
+   "url": "https://career.rememberapp.co.kr/job/posting/339046",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/339046"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5~12년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "지마켓|지마켓경력결제서비스운영및정산매니저",
+   "tier": "추천 직군",
+   "score": 65,
+   "reasons": [
+    "인접 직무",
+    "결제·핀테크 도메인",
+    "평점 3.7"
+   ],
+   "company": "(주)지마켓",
+   "headhunter": false,
+   "location": "서울 성동구",
+   "rating": 3.7,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/58985",
+   "title": "[지마켓/경력] 결제서비스 운영 및 정산 매니저",
+   "url": "https://career.rememberapp.co.kr/job/posting/344309",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/344309"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "4~7년",
+   "due": "2026-10-16",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "올거나이즈코리아|technicalaccountmanager5년이상",
+   "tier": "기술지원",
+   "score": 65,
+   "reasons": [
+    "기술지원 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "올거나이즈코리아(주)",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": 2.9,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/415135",
+   "title": "Technical Account Manager (5년 이상)",
+   "url": "https://career.rememberapp.co.kr/job/posting/342174",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/342174"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5~20년",
+   "due": "2026-10-19",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "위펀|이커머스운영매니저b2c온라인몰",
+   "tier": "추천 직군",
+   "score": 65,
+   "reasons": [
+    "인접 직무",
+    "결제·핀테크 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)위펀",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": 2.6,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/352285",
+   "title": "이커머스 운영 매니저 (B2C/온라인몰)",
+   "url": "https://career.rememberapp.co.kr/job/posting/345942",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345942"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5년↑",
+   "due": "",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "프로써치코리아|technicalsupportspecialist",
+   "tier": "기술지원",
+   "score": 65,
+   "reasons": [
+    "기술지원 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)프로써치코리아",
+   "headhunter": true,
+   "location": "서울 중구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "Technical Support Specialist",
+   "url": "https://career.rememberapp.co.kr/job/posting/297563",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/297563"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5~15년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "페이타랩|qaengineer",
+   "tier": "추천 직군",
+   "score": 65,
+   "reasons": [
+    "인접 직무",
+    "결제·핀테크 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)페이타랩",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "QA Engineer",
+   "url": "https://career.rememberapp.co.kr/job/posting/345224",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345224"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~15년",
+   "due": "",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "캐치테이블|캐치테이블페이결제서비스팀pmpo팀장",
+   "tier": "추천 직군",
+   "score": 65,
+   "reasons": [
+    "인접 직무",
+    "결제·핀테크 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "캐치테이블",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "캐치테이블페이_결제서비스팀 PM/PO 팀장",
+   "url": "https://career.rememberapp.co.kr/job/posting/340249",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/340249"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "6~10년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "cj올리브영|cj올리브영결제제휴및프로모션기획담당자",
+   "tier": "추천 직군",
+   "score": 65,
+   "reasons": [
+    "인접 직무",
+    "결제·핀테크 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "CJ올리브영(주)",
+   "headhunter": false,
+   "location": "서울 용산구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[CJ올리브영] 결제 제휴 및 프로모션 기획 담당자",
+   "url": "https://career.rememberapp.co.kr/job/posting/325912",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/325912"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "8~10년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "비사이드코리아|customersuccessmanager",
+   "tier": "추천 직군",
+   "score": 60,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 4.5"
+   ],
+   "company": "(주)비사이드코리아",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "rating": 4.5,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/390117",
+   "title": "Customer Success Manager",
+   "url": "https://career.rememberapp.co.kr/job/posting/329060",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/329060"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5~10년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "어나더컴퍼니그룹|고객경험팀cx매니저",
+   "tier": "추천 직군",
+   "score": 60,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 4"
+   ],
+   "company": "(주)어나더컴퍼니그룹",
+   "headhunter": false,
+   "location": "서울 구로구",
+   "rating": 4,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/414128",
+   "title": "고객경험팀(CX) 매니저",
+   "url": "https://career.rememberapp.co.kr/job/posting/334439",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/334439"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3년↑",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "플라잎|technicalpm",
+   "tier": "추천 직군",
+   "score": 60,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 3.5"
+   ],
+   "company": "(주)플라잎",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "rating": 3.5,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/376998",
+   "title": "Technical PM",
+   "url": "https://career.rememberapp.co.kr/job/posting/336472",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/336472"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5년↑",
+   "due": "2026-10-31",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "현대오토에버|그룹웨어시스템운영및개발",
+   "tier": "추천 직군",
+   "score": 60,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 3.5"
+   ],
+   "company": "현대오토에버(주)",
+   "headhunter": false,
+   "location": "서울",
+   "rating": 3.5,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/1306",
+   "title": "그룹웨어 시스템 운영 및 개발",
+   "url": "https://career.rememberapp.co.kr/job/posting/345153",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345153"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3년↑",
+   "due": "2026-10-29",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "쿠팡|staffcxresearchercustomerexperience",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "쿠팡(주)",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": 3.2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
+   "title": "Staff CX Researcher (Customer Experience)",
+   "url": "https://career.rememberapp.co.kr/job/posting/11910",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/11910"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "7~17년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "더파운더즈|anua글로벌제품운영매니저productoperations",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)더파운더즈",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": 3.1,
+   "review_count": 165,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/331898",
+   "title": "[ANUA] 글로벌 제품운영 매니저 (Product Operations)",
+   "url": "https://career.rememberapp.co.kr/job/posting/341399",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/341399"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "1년↑",
+   "due": "2026-11-30",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "트래블월렛|pmlead결제스쿼드10년이상",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "결제·핀테크 도메인"
+   ],
+   "company": "(주)트래블월렛",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": 2.5,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/382192",
+   "title": "PM Lead (결제 스쿼드) - 10년 이상",
+   "url": "https://career.rememberapp.co.kr/job/posting/341835",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/341835"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "10년↑",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "에스디바이오센서|기흥fse제품기술지원담당자",
+   "tier": "기술지원",
+   "score": 50,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "에스디바이오센서(주)",
+   "headhunter": false,
+   "location": "경기 용인시 기흥구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "(기흥) FSE 제품기술지원 담당자",
+   "url": "https://career.rememberapp.co.kr/job/posting/345674",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345674"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "0~7년",
+   "due": "",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "모벤시스|기술지원ts팀기술지원엔지니어",
+   "tier": "기술지원",
+   "score": 50,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "모벤시스(주)",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[기술지원(TS)팀] 기술지원 엔지니어",
+   "url": "https://career.rememberapp.co.kr/job/posting/345648",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345648"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "1~8년",
+   "due": "2026-11-08",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "페이플|pg가맹점영업",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "결제·핀테크 도메인"
+   ],
+   "company": "(주)페이플",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "PG 가맹점 영업",
+   "url": "https://career.rememberapp.co.kr/job/posting/344531",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/344531"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "1~5년",
+   "due": "",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "에이비일팔공|globalcustomersuccessmanager",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "평점 4"
+   ],
+   "company": "(주)에이비일팔공",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": 4,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/318620",
+   "title": "Global Customer Success Manager",
+   "url": "https://career.rememberapp.co.kr/job/posting/341249",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/341249"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "1~5년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "알티엠|technicalpmpmo",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "평점 3.9"
+   ],
+   "company": "(주)알티엠",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": 3.9,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/447943",
+   "title": "Technical PM (PMO)",
+   "url": "https://career.rememberapp.co.kr/job/posting/322105",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/322105"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~5년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "비바리퍼블리카|토스뱅크customersuccessspecialist계약직",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "평점 3.6"
+   ],
+   "company": "(주)비바리퍼블리카",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": 3.6,
+   "review_count": 541,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/309507",
+   "title": "[토스뱅크] Customer Success Specialist (계약직)",
+   "url": "https://career.rememberapp.co.kr/job/posting/328908",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/328908"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "경력무관",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "비바리퍼블리카|토스뱅크customersuccessmanager",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "평점 3.6"
+   ],
+   "company": "(주)비바리퍼블리카",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": 3.6,
+   "review_count": 541,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/309507",
+   "title": "[토스뱅크] Customer Success Manager",
+   "url": "https://career.rememberapp.co.kr/job/posting/327967",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/327967"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "경력무관",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "마크비전코리아|seniorcustomersuccessmanager",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)마크비전코리아",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "rating": 2.9,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/395220",
+   "title": "Senior Customer Success Manager",
+   "url": "https://career.rememberapp.co.kr/job/posting/340463",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/340463"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5~10년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "엘케이엔지니어링|해외기술영업영어직원",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)엘케이엔지니어링",
+   "headhunter": false,
+   "location": "경기 화성시",
+   "rating": 2.8,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/321862",
+   "title": "해외기술영업(영어)직원",
+   "url": "https://career.rememberapp.co.kr/job/posting/345598",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345598"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "7~10년",
+   "due": "2026-10-20",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "유니퀘스트|기술영업fieldsalesengineeronsemi담당",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "유니퀘스트(주)",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "기술영업 Field Sales Engineer (Onsemi 담당)",
+   "url": "https://career.rememberapp.co.kr/job/posting/346061",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/346061"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~10년",
+   "due": "",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "모벤시스|영업팀기술영업담당자팀원",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "모벤시스(주)",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[영업팀] 기술영업 담당자 (팀원)",
+   "url": "https://career.rememberapp.co.kr/job/posting/345641",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345641"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~10년",
+   "due": "2026-11-08",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "프로써치코리아|nanotech기술영업",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)프로써치코리아",
+   "headhunter": true,
+   "location": "경기 이천시",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "Nanotech 기술영업",
+   "url": "https://career.rememberapp.co.kr/job/posting/345101",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345101"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~10년",
+   "due": "",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "마드라스체크|플로우엔터프라이즈기술영업담당자",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "마드라스체크(주)",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[플로우] 엔터프라이즈 기술영업 담당자",
+   "url": "https://career.rememberapp.co.kr/job/posting/344987",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/344987"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5~10년",
+   "due": "2026-10-31",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "에버브레인써치|글로벌기업기술영업",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)에버브레인써치",
+   "headhunter": true,
+   "location": "경기 안양시 만안구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "글로벌 기업 기술영업",
+   "url": "https://career.rememberapp.co.kr/job/posting/334360",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/334360"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5~15년",
+   "due": "",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "맨파워써치|기술운영실pm",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)맨파워써치",
+   "headhunter": true,
+   "location": "서울 마포구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "기술운영실 PM",
+   "url": "https://career.rememberapp.co.kr/job/posting/344816",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/344816"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "7년↑",
+   "due": "2026-10-18",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "맨파워써치|air&dtechnicalpm",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)맨파워써치",
+   "headhunter": true,
+   "location": "서울 강남구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "AI R&D Technical PM",
+   "url": "https://career.rememberapp.co.kr/job/posting/331366",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/331366"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5년↑",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "유니코써치|분당외국계기술영업technicalsales",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)유니코써치",
+   "headhunter": true,
+   "location": "경기 성남시 분당구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[분당/외국계] 기술 영업 (Technical Sales)",
+   "url": "https://career.rememberapp.co.kr/job/posting/319985",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/319985"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~12년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "유니코써치|외국계그룹사technicalpm",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)유니코써치",
+   "headhunter": true,
+   "location": "서울 강남구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "외국계 그룹사 Technical PM",
+   "url": "https://career.rememberapp.co.kr/job/posting/300820",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/300820"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "2~10년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "모비어스|모비어스cs엔지니어",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "모비어스(주)",
+   "headhunter": false,
+   "location": "경기 시흥시",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[모비어스] CS 엔지니어",
+   "url": "https://career.rememberapp.co.kr/job/posting/345701",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345701"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "2년↑",
+   "due": "",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "한국암웨이|qaengineer",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "한국암웨이(주)",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "QA Engineer",
+   "url": "https://career.rememberapp.co.kr/job/posting/345180",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345180"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "7~12년",
+   "due": "",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "부스터스|eqqualberry브랜드아마존운영매니저",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)부스터스",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[EQQUALBERRY] 브랜드 아마존 운영 매니저",
+   "url": "https://career.rememberapp.co.kr/job/posting/346010",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/346010"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~10년",
+   "due": "",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "리멤버헤드헌팅서비스|f&b직영점운영매니저",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "리멤버 헤드헌팅 서비스",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[F&B]직영점 운영 매니저",
+   "url": "https://career.rememberapp.co.kr/job/posting/339044",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/339044"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "7~20년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "피처링|프로덕트csm고객성공매니저",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)피처링",
+   "headhunter": false,
+   "location": "서울",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[프로덕트] CSM 고객성공매니저",
+   "url": "https://career.rememberapp.co.kr/job/posting/344154",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/344154"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "2년↑",
+   "due": "",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "cj올리브네트웍스|고객성공매니저csm",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "CJ올리브네트웍스(주)",
+   "headhunter": false,
+   "location": "서울 용산구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "고객성공매니저(CSM)",
+   "url": "https://career.rememberapp.co.kr/job/posting/304607",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/304607"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "4~12년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "프로써치코리아|수도권기술영업datacenter고객사",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)프로써치코리아",
+   "headhunter": true,
+   "location": "경기 화성시",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "수도권 기술영업 (Data Center 고객사)",
+   "url": "https://career.rememberapp.co.kr/job/posting/303026",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/303026"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~10년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "쉐어잇|이벤트공간운영&고객응대cs담당자",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "쉐어잇(주)",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": 3.4,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/368645",
+   "title": "이벤트 공간 운영 & 고객 응대(CS) 담당자",
+   "url": "https://career.rememberapp.co.kr/job/posting/336895",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/336895"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "경력무관",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "마티니아이오|고객성공매니저customersuccessmanager",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)마티니아이오",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "rating": 3.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/422455",
+   "title": "고객성공매니저 (Customer Success Manager)",
+   "url": "https://career.rememberapp.co.kr/job/posting/319483",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/319483"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "경력무관",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "쿠팡|쿠팡고객경험개선pm주니어",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "쿠팡(주)",
+   "headhunter": false,
+   "location": "서울 송파구",
+   "rating": 3.2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
+   "title": "[쿠팡] 고객경험 개선 PM (주니어)",
+   "url": "https://career.rememberapp.co.kr/job/posting/311707",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/311707"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "1~5년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "바이다|기술영업technicalsales",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 낮음 2.4"
+   ],
+   "company": "(주)바이다",
+   "headhunter": false,
+   "location": "서울 중구",
+   "rating": 2.4,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/393193",
+   "title": "기술영업 (Technical Sales)",
+   "url": "https://career.rememberapp.co.kr/job/posting/336557",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/336557"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "4~10년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "캐스팅엔|customersuccessmanager",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 낮음 2.4"
+   ],
+   "company": "(주)캐스팅엔",
+   "headhunter": false,
+   "location": "서울 마포구",
+   "rating": 2.4,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/384877",
+   "title": "Customer Success Manager",
+   "url": "https://career.rememberapp.co.kr/job/posting/321230",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/321230"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5년↑",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "바텍|바텍cs엔지니어",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 낮음 2.3"
+   ],
+   "company": "(주)바텍",
+   "headhunter": false,
+   "location": "경기 화성시",
+   "rating": 2.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/76137",
+   "title": "[바텍] CS 엔지니어",
+   "url": "https://career.rememberapp.co.kr/job/posting/333439",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/333439"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~10년",
+   "due": "2026-10-16",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "프로메디우스|프로메디우스cxcustomerexperiencemanager",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 낮음 2.3"
+   ],
+   "company": "프로메디우스(주)",
+   "headhunter": false,
+   "location": "서울 송파구",
+   "rating": 2.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/393516",
+   "title": "[프로메디우스] CX(Customer Experience) Manager",
+   "url": "https://career.rememberapp.co.kr/job/posting/336371",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/336371"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3년↑",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "크리에이티브멋|기술영업technicalsales",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 낮음 1.8"
+   ],
+   "company": "(주)크리에이티브멋",
+   "headhunter": false,
+   "location": "서울 성동구",
+   "rating": 1.8,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/418250",
+   "title": "기술 영업(Technical Sales)",
+   "url": "https://career.rememberapp.co.kr/job/posting/306387",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/306387"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "8~10년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "모벤시스|영업팀기술영업담당자팀장",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "모벤시스(주)",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[영업팀] 기술영업 담당자(팀장)",
+   "url": "https://career.rememberapp.co.kr/job/posting/345644",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345644"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "10~20년",
+   "due": "2026-11-08",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "에버브레인써치|머신비전기술영업ai머신비전솔루션기업",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)에버브레인써치",
+   "headhunter": true,
+   "location": "경기 과천시",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "머신비전 기술영업_AI 머신비전 솔루션 기업",
+   "url": "https://career.rememberapp.co.kr/job/posting/345548",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345548"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "10년↑",
+   "due": "2026-10-30",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "웨어밸리|pm기술엔지니어",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)웨어밸리",
+   "headhunter": false,
+   "location": "서울",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "PM(기술엔지니어)",
+   "url": "https://career.rememberapp.co.kr/job/posting/345543",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345543"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~5년",
+   "due": "2026-11-07",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "비티씨|비티씨건기식b2b기술영업팀팀장채용",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)비티씨",
+   "headhunter": false,
+   "location": "경기 과천시",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[비티씨] 건기식 B2B 기술영업팀 팀장 채용",
+   "url": "https://career.rememberapp.co.kr/job/posting/337336",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/337336"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "10~20년",
+   "due": "2026-10-24",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "노타|technicaloperationsqaengineer",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)노타",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[Technical Operations] QA Engineer",
+   "url": "https://career.rememberapp.co.kr/job/posting/344059",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/344059"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "10~20년",
+   "due": "",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "퓨처메인|퓨처메인소음진동솔루션엔지니어",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "퓨처메인(주)",
+   "headhunter": false,
+   "location": "경기 수원시 영통구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "퓨처메인 소음진동 솔루션 엔지니어",
+   "url": "https://career.rememberapp.co.kr/job/posting/294117",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/294117"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "경력무관",
+   "due": "2026-10-18",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "헤딩써치|cx경력",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)헤딩써치",
+   "headhunter": true,
+   "location": "서울 강남구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "CX 경력",
+   "url": "https://career.rememberapp.co.kr/job/posting/346100",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/346100"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "1~5년",
+   "due": "2026-10-18",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "모비데이즈|서비스기획자pm신입",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)모비데이즈",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "서비스기획자(PM) 신입",
+   "url": "https://career.rememberapp.co.kr/job/posting/345815",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345815"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "경력무관",
+   "due": "",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "프로써치코리아|탑티어엔터사응원봉연출운영pm3~8년",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)프로써치코리아",
+   "headhunter": true,
+   "location": "서울 강동구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[탑티어-엔터사] 응원봉 연출 운영 PM (3~8년)",
+   "url": "https://career.rememberapp.co.kr/job/posting/320881",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/320881"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~8년",
+   "due": "2026-10-13",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "코리아포트원|customersuccessmanager",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)코리아포트원",
+   "headhunter": false,
+   "location": "서울 성동구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "Customer Success Manager",
+   "url": "https://career.rememberapp.co.kr/job/posting/344159",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/344159"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "1~5년",
+   "due": "",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "쿼터풀|쿼터풀고객지원경험매니저",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)쿼터풀",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "rating": null,
+   "review_count": 0,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/546008",
+   "title": "[쿼터풀] 고객 지원·경험 매니저",
+   "url": "https://career.rememberapp.co.kr/job/posting/330862",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/330862"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "경력무관",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "바텍|바텍서비스기획리더급",
+   "tier": "추천 직군",
+   "score": 20,
+   "reasons": [
+    "인접 직무",
+    "평점 낮음 2.3"
+   ],
+   "company": "(주)바텍",
+   "headhunter": false,
+   "location": "경기 화성시",
+   "rating": 2.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/76137",
+   "title": "[바텍] 서비스 기획(리더급)",
+   "url": "https://career.rememberapp.co.kr/job/posting/284422",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/284422"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "12~20년",
+   "due": "2026-10-16",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "포페런츠|cscx고객경험매니저신입경력",
+   "tier": "추천 직군",
+   "score": 20,
+   "reasons": [
+    "인접 직무",
+    "평점 낮음 2.2"
+   ],
+   "company": "(주)포페런츠",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "rating": 2.2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/482659",
+   "title": "CS/CX 고객경험 매니저 (신입·경력)",
+   "url": "https://career.rememberapp.co.kr/job/posting/302945",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/302945"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "경력무관",
+   "due": "2026-10-30",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "쿠팡|쿠팡고객경험개선pm경력2년이상주니어",
+   "tier": "추천 직군",
+   "score": 15,
+   "reasons": [
+    "인접 직무",
+    "주니어 대상"
+   ],
+   "company": "쿠팡(주)",
+   "headhunter": false,
+   "location": "서울 송파구",
+   "rating": 3.2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
+   "title": "[쿠팡] 고객경험 개선 PM (경력2년이상/주니어)",
+   "url": "https://career.rememberapp.co.kr/job/posting/313080",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/313080"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "2~4년",
+   "due": "",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "엔키화이트햇|사업개발팀:기술영업신입및경력",
+   "tier": "추천 직군",
+   "score": 15,
+   "reasons": [
+    "인접 직무",
+    "주니어 대상"
+   ],
+   "company": "(주)엔키화이트햇",
+   "headhunter": false,
+   "location": "서울 송파구",
+   "rating": 3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/435290",
+   "title": "사업개발팀 : 기술영업 신입 및 경력",
+   "url": "https://career.rememberapp.co.kr/job/posting/345828",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/345828"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "1~3년",
+   "due": "",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "팀스파르타|b2g사업운영매니저미래내일일경험사업",
+   "tier": "추천 직군",
+   "score": 10,
+   "reasons": [
+    "인접 직무",
+    "주니어 대상"
+   ],
+   "company": "팀스파르타(주)",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "B2G 사업 운영 매니저 (미래내일 일경험 사업)",
+   "url": "https://career.rememberapp.co.kr/job/posting/344877",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/344877"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "1~3년",
+   "due": "",
+   "first_seen": "2026-10-10"
   },
   {
    "key": "시큐웨이브|microsoft기반엔드포인트관리솔루션팀뷰어dex기술지원엔지니어",
@@ -306,33 +2048,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "비바리퍼블리카|토스플레이스technicalaccountmanager",
-   "tier": "기술지원",
-   "score": 80,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음",
-    "평점 3.6"
-   ],
-   "company": "(주)비바리퍼블리카",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "rating": 3.6,
-   "review_count": 541,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/309507",
-   "title": "[토스플레이스] Technical Account Manager",
-   "url": "https://career.rememberapp.co.kr/job/posting/289339",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/289339"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "8~15년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "힐링페이퍼|강남언니서비스운영매니저",
    "tier": "추천 직군",
    "score": 80,
@@ -570,60 +2285,6 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "쿠팡|쿠팡결제정산운영담당자핀테크",
-   "tier": "추천 직군",
-   "score": 70,
-   "reasons": [
-    "인접 직무",
-    "결제·핀테크 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "쿠팡(주)",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "rating": 3.2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
-   "title": "[쿠팡] 결제/정산 운영 담당자 (핀테크)",
-   "url": "https://career.rememberapp.co.kr/job/posting/307097",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/307097"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "8~15년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "쿠팡|쿠팡이츠서비스가맹점보상운영기획담당자",
-   "tier": "추천 직군",
-   "score": 70,
-   "reasons": [
-    "인접 직무",
-    "결제·핀테크 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "쿠팡(주)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": 3.2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
-   "title": "[쿠팡이츠서비스] 가맹점 보상 운영 기획 담당자",
-   "url": "https://career.rememberapp.co.kr/job/posting/338170",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/338170"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5년↑",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "케이에스넷|ksnetpg영업담당자채용신규가맹점발굴플랫폼제안영업파트너제휴",
    "tier": "추천 직군",
    "score": 70,
@@ -649,33 +2310,6 @@
    "experience": "2년↑",
    "due": "채용시",
    "first_seen": "2026-10-05"
-  },
-  {
-   "key": "한국신용데이터|한국결제네트웍스kpn결제승인시스템운영엔지니어경력3년이상",
-   "tier": "추천 직군",
-   "score": 70,
-   "reasons": [
-    "인접 직무",
-    "결제·핀테크 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)한국신용데이터",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": 3.1,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/322151",
-   "title": "[한국결제네트웍스 - KPN] 결제 승인 시스템 운영 엔지니어 (경력 3년 이상)",
-   "url": "https://career.rememberapp.co.kr/job/posting/339046",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/339046"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5~12년",
-   "due": "",
-   "first_seen": "2026-09-26"
   },
   {
    "key": "오픈베이스|기술지원운영매니저",
@@ -806,35 +2440,6 @@
    ],
    "experience": "경력무관",
    "due": "~ 10/17(토)",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "지마켓|지마켓경력결제서비스운영및정산매니저",
-   "tier": "추천 직군",
-   "score": 65,
-   "reasons": [
-    "인접 직무",
-    "결제·핀테크 도메인",
-    "평점 3.7"
-   ],
-   "company": "(주)지마켓",
-   "headhunter": false,
-   "location": "서울 성동구",
-   "rating": 3.7,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/58985",
-   "title": "[지마켓/경력] 결제서비스 운영 및 정산 매니저",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55172559",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55172559",
-    "remember": "https://career.rememberapp.co.kr/job/posting/344309"
-   },
-   "sources": [
-    "saramin",
-    "remember"
-   ],
-   "experience": "4~7년",
-   "due": "~ 10/15(목)",
    "first_seen": "2026-10-05"
   },
   {
@@ -1021,32 +2626,6 @@
    ],
    "experience": "3년↑",
    "due": "2026-10-11",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "올거나이즈코리아|technicalaccountmanager5년이상",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "올거나이즈코리아(주)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": 2.9,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/415135",
-   "title": "Technical Account Manager (5년 이상)",
-   "url": "https://career.rememberapp.co.kr/job/posting/342174",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/342174"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5~20년",
-   "due": "2026-10-19",
    "first_seen": "2026-09-26"
   },
   {
@@ -2035,112 +3614,6 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "쿤텍|해양사이버보안엔지니어관제기술지원",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "쿤텍(주)",
-   "headhunter": false,
-   "location": "경기 성남시 수정구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "해양 사이버보안 엔지니어 (관제·기술지원)",
-   "url": "https://career.rememberapp.co.kr/job/posting/344415",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344415"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3년↑",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "프로써치코리아|technicalsupportspecialist",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)프로써치코리아",
-   "headhunter": true,
-   "location": "서울 중구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "Technical Support Specialist",
-   "url": "https://career.rememberapp.co.kr/job/posting/297563",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/297563"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5~15년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "캐치테이블|캐치테이블페이결제서비스팀pmpo팀장",
-   "tier": "추천 직군",
-   "score": 65,
-   "reasons": [
-    "인접 직무",
-    "결제·핀테크 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "캐치테이블",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "캐치테이블페이_결제서비스팀 PM/PO 팀장",
-   "url": "https://career.rememberapp.co.kr/job/posting/340249",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/340249"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "6~10년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "cj올리브영|cj올리브영결제제휴및프로모션기획담당자",
-   "tier": "추천 직군",
-   "score": 65,
-   "reasons": [
-    "인접 직무",
-    "결제·핀테크 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "CJ올리브영(주)",
-   "headhunter": false,
-   "location": "서울 용산구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[CJ올리브영] 결제 제휴 및 프로모션 기획 담당자",
-   "url": "https://career.rememberapp.co.kr/job/posting/325912",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/325912"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "8~10년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "씽킹데이터코리아|customersuccessleadenterprisecsmleader",
    "tier": "추천 직군",
    "score": 60,
@@ -2194,33 +3667,6 @@
    ],
    "experience": "5년↑",
    "due": "2026-10-22",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "비사이드코리아|customersuccessmanager",
-   "tier": "추천 직군",
-   "score": 60,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 4.5"
-   ],
-   "company": "(주)비사이드코리아",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "rating": 4.5,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/390117",
-   "title": "Customer Success Manager",
-   "url": "https://career.rememberapp.co.kr/job/posting/329060",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/329060"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5~10년",
-   "due": "",
    "first_seen": "2026-09-26"
   },
   {
@@ -2361,33 +3807,6 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "어나더컴퍼니그룹|고객경험팀cx매니저",
-   "tier": "추천 직군",
-   "score": 60,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 4"
-   ],
-   "company": "(주)어나더컴퍼니그룹",
-   "headhunter": false,
-   "location": "서울 구로구",
-   "rating": 4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/414128",
-   "title": "고객경험팀(CX) 매니저",
-   "url": "https://career.rememberapp.co.kr/job/posting/334439",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/334439"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3년↑",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "큐리오시스|영업부문기술영업5년이상",
    "tier": "추천 직군",
    "score": 60,
@@ -2412,33 +3831,6 @@
    ],
    "experience": "5~10년",
    "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "플라잎|technicalpm",
-   "tier": "추천 직군",
-   "score": 60,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 3.5"
-   ],
-   "company": "(주)플라잎",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "rating": 3.5,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/376998",
-   "title": "Technical PM",
-   "url": "https://career.rememberapp.co.kr/job/posting/336472",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/336472"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5년↑",
-   "due": "2026-10-31",
    "first_seen": "2026-09-26"
   },
   {
@@ -3100,32 +4492,6 @@
    ],
    "experience": "3년↑",
    "due": "2026-10-15",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "쿠팡|staffcxresearchercustomerexperience",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "쿠팡(주)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": 3.2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
-   "title": "Staff CX Researcher (Customer Experience)",
-   "url": "https://career.rememberapp.co.kr/job/posting/11910",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/11910"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "7~17년",
-   "due": "",
    "first_seen": "2026-09-26"
   },
   {
@@ -3808,34 +5174,6 @@
    ],
    "experience": "3~8년",
    "due": "2026-10-30",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "트래블월렛|pmlead결제스쿼드10년이상",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "결제·핀테크 도메인"
-   ],
-   "company": "트래블월렛",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": 2.5,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/382192",
-   "title": "PM Lead (결제 스쿼드) - 10년 이상",
-   "url": "https://www.wanted.co.kr/wd/387736",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/387736",
-    "remember": "https://career.rememberapp.co.kr/job/posting/341835"
-   },
-   "sources": [
-    "wanted",
-    "remember"
-   ],
-   "experience": "10년↑",
-   "due": "",
    "first_seen": "2026-09-26"
   },
   {
@@ -4812,57 +6150,6 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "휴비츠|해외기술지원",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "(주)휴비츠",
-   "headhunter": false,
-   "location": "경기 안양시 동안구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "해외 기술 지원",
-   "url": "https://career.rememberapp.co.kr/job/posting/343898",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/343898"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~8년",
-   "due": "2026-11-30",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "페이플|pg가맹점영업",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "결제·핀테크 도메인"
-   ],
-   "company": "(주)페이플",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "PG 가맹점 영업",
-   "url": "https://career.rememberapp.co.kr/job/posting/344531",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344531"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "1~5년",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
    "key": "벳칭|고객성공매니저csm신입주니어",
    "tier": "추천 직군",
    "score": 45,
@@ -4938,110 +6225,6 @@
     "wanted"
    ],
    "experience": "3~7년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "에이비일팔공|globalcustomersuccessmanager",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "평점 4"
-   ],
-   "company": "(주)에이비일팔공",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": 4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/318620",
-   "title": "Global Customer Success Manager",
-   "url": "https://career.rememberapp.co.kr/job/posting/341249",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/341249"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "1~5년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "알티엠|technicalpmpmo",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "평점 3.9"
-   ],
-   "company": "(주)알티엠",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": 3.9,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/447943",
-   "title": "Technical PM (PMO)",
-   "url": "https://career.rememberapp.co.kr/job/posting/322105",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/322105"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~5년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "비바리퍼블리카|토스뱅크customersuccessspecialist계약직",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "평점 3.6"
-   ],
-   "company": "(주)비바리퍼블리카",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": 3.6,
-   "review_count": 541,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/309507",
-   "title": "[토스뱅크] Customer Success Specialist (계약직)",
-   "url": "https://career.rememberapp.co.kr/job/posting/328908",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/328908"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "경력무관",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "비바리퍼블리카|토스뱅크customersuccessmanager",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "평점 3.6"
-   ],
-   "company": "(주)비바리퍼블리카",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": 3.6,
-   "review_count": 541,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/309507",
-   "title": "[토스뱅크] Customer Success Manager",
-   "url": "https://career.rememberapp.co.kr/job/posting/327967",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/327967"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "경력무관",
    "due": "",
    "first_seen": "2026-09-26"
   },
@@ -5147,58 +6330,6 @@
    ],
    "experience": "5년↑",
    "due": "2026-10-12",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "올거나이즈코리아|aipresalesmanager제안서포트폴리오필수",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "올거나이즈코리아(주)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": 2.9,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/415135",
-   "title": "AI Pre-Sales Manager (제안서 포트폴리오 필수)",
-   "url": "https://career.rememberapp.co.kr/job/posting/344470",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344470"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~15년",
-   "due": "2026-10-20",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "마크비전코리아|seniorcustomersuccessmanager",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)마크비전코리아",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "rating": 2.9,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/395220",
-   "title": "Senior Customer Success Manager",
-   "url": "https://career.rememberapp.co.kr/job/posting/340463",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/340463"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5~10년",
-   "due": "",
    "first_seen": "2026-09-26"
   },
   {
@@ -7650,552 +8781,6 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "에버브레인써치|글로벌기업기술영업",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)에버브레인써치",
-   "headhunter": true,
-   "location": "경기 안양시 만안구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "글로벌 기업 기술영업",
-   "url": "https://career.rememberapp.co.kr/job/posting/334360",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/334360"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5~15년",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "맨파워써치|기술운영실pm",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)맨파워써치",
-   "headhunter": true,
-   "location": "서울 마포구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "기술운영실 PM",
-   "url": "https://career.rememberapp.co.kr/job/posting/344816",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344816"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "7년↑",
-   "due": "2026-10-18",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "엠엑스로보틱스|엠엑스로보틱스기술영업물류자동화시스템",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)엠엑스로보틱스",
-   "headhunter": false,
-   "location": "서울 중구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[엠엑스로보틱스] 기술 영업(물류 자동화 시스템)",
-   "url": "https://career.rememberapp.co.kr/job/posting/344492",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344492"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5년↑",
-   "due": "2026-10-31",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "프로써치코리아|기술영업중국어혹은일본어능통",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)프로써치코리아",
-   "headhunter": true,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "기술영업(중국어 혹은 일본어 능통)",
-   "url": "https://career.rememberapp.co.kr/job/posting/287732",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/287732"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~16년",
-   "due": "2026-10-16",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "맨파워써치|air&dtechnicalpm",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)맨파워써치",
-   "headhunter": true,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "AI R&D Technical PM",
-   "url": "https://career.rememberapp.co.kr/job/posting/331366",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/331366"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5년↑",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "유니코써치|분당외국계기술영업technicalsales",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)유니코써치",
-   "headhunter": true,
-   "location": "경기 성남시 분당구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[분당/외국계] 기술 영업 (Technical Sales)",
-   "url": "https://career.rememberapp.co.kr/job/posting/319985",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/319985"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~12년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "유니코써치|외국계그룹사technicalpm",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)유니코써치",
-   "headhunter": true,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "외국계 그룹사 Technical PM",
-   "url": "https://career.rememberapp.co.kr/job/posting/300820",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/300820"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "2~10년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "맨파워써치|국내대형제약그룹마케팅pm골다공증품목",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)맨파워써치",
-   "headhunter": true,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "국내 대형 제약그룹 마케팅 PM(골다공증 품목)",
-   "url": "https://career.rememberapp.co.kr/job/posting/341308",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/341308"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~12년",
-   "due": "2026-10-18",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "맨파워써치|국내대형제약사마케팅pm항암제품목",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)맨파워써치",
-   "headhunter": true,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "국내 대형 제약사 마케팅 PM(항암제 품목)",
-   "url": "https://career.rememberapp.co.kr/job/posting/341305",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/341305"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "4~14년",
-   "due": "2026-10-18",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "맨파워써치|국내대형제약사마케팅pm순환기품목",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)맨파워써치",
-   "headhunter": true,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "국내 대형 제약사 마케팅 PM(순환기 품목)",
-   "url": "https://career.rememberapp.co.kr/job/posting/341304",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/341304"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "4~14년",
-   "due": "2026-10-18",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "맨파워써치|국내대형제약그룹마케팅pmcns품목",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)맨파워써치",
-   "headhunter": true,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "국내 대형 제약그룹 마케팅 PM(CNS 품목)",
-   "url": "https://career.rememberapp.co.kr/job/posting/341303",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/341303"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "4~14년",
-   "due": "2026-10-18",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "한국에이아이컴퓨팅센터|한국ai컴퓨팅센터클라우드서비스운영",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "한국에이아이컴퓨팅센터(주)",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[한국AI컴퓨팅센터] 클라우드 서비스 운영",
-   "url": "https://career.rememberapp.co.kr/job/posting/344535",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344535"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5~15년",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "엘리스|공교육사업운영매니저b2g교육사업",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)엘리스",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "공교육 사업 운영 매니저 (B2G 교육사업)",
-   "url": "https://career.rememberapp.co.kr/job/posting/344833",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344833"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~10년",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "맨파워써치|화장품마케팅pm과~차장급",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)맨파워써치",
-   "headhunter": true,
-   "location": "서울 마포구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "화장품 마케팅 PM(과~차장급)",
-   "url": "https://career.rememberapp.co.kr/job/posting/344692",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344692"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "7~15년",
-   "due": "2026-10-31",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "포티투닷|ai서비스기획자",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)포티투닷",
-   "headhunter": false,
-   "location": "경기 성남시 수정구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "AI 서비스 기획자",
-   "url": "https://career.rememberapp.co.kr/job/posting/344675",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344675"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5~15년",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "교육지대|족보닷컴uiux설계및서비스기획경력직",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "교육지대(주)",
-   "headhunter": false,
-   "location": "서울 구로구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[족보닷컴] UI/UX 설계 및 서비스 기획 경력직",
-   "url": "https://career.rememberapp.co.kr/job/posting/339005",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/339005"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "7~15년",
-   "due": "2026-10-31",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "헥토큐앤엠|aiagentqa플랫폼서비스기획자",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)헥토큐앤엠",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "AI Agent QA 플랫폼 서비스 기획자",
-   "url": "https://career.rememberapp.co.kr/job/posting/344594",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344594"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5~12년",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "브이티코스메틱|vt코스메틱리들샷cs운영",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)브이티코스메틱",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[VT코스메틱/리들샷] CS 운영",
-   "url": "https://career.rememberapp.co.kr/job/posting/344319",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344319"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "2년↑",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "리멤버헤드헌팅서비스|f&b직영점운영매니저",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "리멤버 헤드헌팅 서비스",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[F&B]직영점 운영 매니저",
-   "url": "https://career.rememberapp.co.kr/job/posting/339044",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/339044"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "7~20년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "cj올리브네트웍스|고객성공매니저csm",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "CJ올리브네트웍스(주)",
-   "headhunter": false,
-   "location": "서울 용산구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "고객성공매니저(CSM)",
-   "url": "https://career.rememberapp.co.kr/job/posting/304607",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/304607"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "4~12년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "프로써치코리아|수도권기술영업datacenter고객사",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)프로써치코리아",
-   "headhunter": true,
-   "location": "경기 화성시",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "수도권 기술영업 (Data Center 고객사)",
-   "url": "https://career.rememberapp.co.kr/job/posting/303026",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/303026"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~10년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "디에스솔루션즈|비타페이서비스기획과마케팅역량을가진인재를모십니다",
    "tier": "추천 직군",
    "score": 40,
@@ -8355,58 +8940,6 @@
    "experience": "신입",
    "due": "채용시",
    "first_seen": "2026-10-05"
-  },
-  {
-   "key": "쉐어잇|이벤트공간운영&고객응대cs담당자",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "쉐어잇(주)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": 3.4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/368645",
-   "title": "이벤트 공간 운영 & 고객 응대(CS) 담당자",
-   "url": "https://career.rememberapp.co.kr/job/posting/336895",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/336895"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "경력무관",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "마티니아이오|고객성공매니저customersuccessmanager",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "마티니아이오",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "rating": 3.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/422455",
-   "title": "고객성공매니저 (Customer Success Manager)",
-   "url": "https://www.wanted.co.kr/wd/349956",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/349956",
-    "remember": "https://career.rememberapp.co.kr/job/posting/319483"
-   },
-   "sources": [
-    "wanted",
-    "remember"
-   ],
-   "experience": "0~5년",
-   "due": "",
-   "first_seen": "2026-09-26"
   },
   {
    "key": "마티니아이오|주마티니아이오고객성공매니저",
@@ -8584,31 +9117,6 @@
    "experience": "5~8년",
    "due": "~ 10/31(토)",
    "first_seen": "2026-10-05"
-  },
-  {
-   "key": "쿠팡|쿠팡고객경험개선pm주니어",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "쿠팡(주)",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "rating": 3.2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
-   "title": "[쿠팡] 고객경험 개선 PM (주니어)",
-   "url": "https://career.rememberapp.co.kr/job/posting/311707",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/311707"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "1~5년",
-   "due": "",
-   "first_seen": "2026-09-26"
   },
   {
    "key": "아크리비스시스템즈코리아|아크리비스시스템즈코리아글로벌기술영업전문가를찾습니다",
@@ -8790,60 +9298,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "바이다|기술영업technicalsales",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 낮음 2.4"
-   ],
-   "company": "(주)바이다",
-   "headhunter": false,
-   "location": "서울 중구",
-   "rating": 2.4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/393193",
-   "title": "기술영업 (Technical Sales)",
-   "url": "https://career.rememberapp.co.kr/job/posting/336557",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/336557"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "4~10년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "캐스팅엔|customersuccessmanager",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 낮음 2.4"
-   ],
-   "company": "(주)캐스팅엔",
-   "headhunter": false,
-   "location": "서울 마포구",
-   "rating": 2.4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/384877",
-   "title": "Customer Success Manager",
-   "url": "https://career.rememberapp.co.kr/job/posting/321230",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/321230"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5년↑",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "씨메스로보틱스|물류자동화기술영업",
    "tier": "추천 직군",
    "score": 35,
@@ -8922,60 +9376,6 @@
    ],
    "experience": "4~10년",
    "due": "2026-10-31",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "바텍|바텍cs엔지니어",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 낮음 2.3"
-   ],
-   "company": "(주)바텍",
-   "headhunter": false,
-   "location": "경기 화성시",
-   "rating": 2.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/76137",
-   "title": "[바텍] CS 엔지니어",
-   "url": "https://career.rememberapp.co.kr/job/posting/333439",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/333439"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~10년",
-   "due": "2026-10-16",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "프로메디우스|프로메디우스cxcustomerexperiencemanager",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 낮음 2.3"
-   ],
-   "company": "프로메디우스(주)",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "rating": 2.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/393516",
-   "title": "[프로메디우스] CX(Customer Experience) Manager",
-   "url": "https://career.rememberapp.co.kr/job/posting/336371",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/336371"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3년↑",
-   "due": "",
    "first_seen": "2026-09-26"
   },
   {
@@ -9165,33 +9565,6 @@
    ],
    "experience": "3년↑",
    "due": "상시채용",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "크리에이티브멋|기술영업technicalsales",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 낮음 1.8"
-   ],
-   "company": "(주)크리에이티브멋",
-   "headhunter": false,
-   "location": "서울 성동구",
-   "rating": 1.8,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/418250",
-   "title": "기술 영업(Technical Sales)",
-   "url": "https://career.rememberapp.co.kr/job/posting/306387",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/306387"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "8~10년",
-   "due": "",
    "first_seen": "2026-09-26"
   },
   {
@@ -9826,33 +10199,6 @@
    ],
    "experience": "0~1년",
    "due": "2026-10-30",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "피처링|프로덕트csm고객성공매니저",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "피처링(FeaturingCorp.)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[프로덕트] CSM 고객성공매니저",
-   "url": "https://www.wanted.co.kr/wd/389851",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/389851",
-    "remember": "https://career.rememberapp.co.kr/job/posting/344154"
-   },
-   "sources": [
-    "wanted",
-    "remember"
-   ],
-   "experience": "2~7년",
-   "due": "",
    "first_seen": "2026-10-05"
   },
   {
@@ -10883,308 +11229,6 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "마이노멀컴퍼니|마이노멀해외영업지원및수출운영매니저",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)마이노멀컴퍼니",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[마이노멀] 해외영업 지원 및 수출 운영 매니저",
-   "url": "https://career.rememberapp.co.kr/job/posting/318399",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/318399"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "2~7년",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "노타|technicaloperationsqaengineer",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)노타",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[Technical Operations] QA Engineer",
-   "url": "https://career.rememberapp.co.kr/job/posting/344059",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344059"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "10~20년",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "리더스시스템즈|로보틱스솔루션프리세일즈경력",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)리더스시스템즈",
-   "headhunter": false,
-   "location": "경기 하남시",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "로보틱스 솔루션 프리세일즈(경력)",
-   "url": "https://career.rememberapp.co.kr/job/posting/344386",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344386"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~7년",
-   "due": "2026-10-31",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "비즈테크아이|web기반솔루션운영및pmpl경력",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)비즈테크아이",
-   "headhunter": false,
-   "location": "서울 마포구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "Web 기반 솔루션 운영 및 PM/PL (경력)",
-   "url": "https://career.rememberapp.co.kr/job/posting/344327",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344327"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "10~15년",
-   "due": "2026-11-30",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "핀브릿지|서비스pm기획및운영",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "핀브릿지(주)",
-   "headhunter": false,
-   "location": "서울 마포구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "서비스 PM (기획 및 운영)",
-   "url": "https://career.rememberapp.co.kr/job/posting/344764",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344764"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~7년",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "리터니티|틱톡샵어필리에이트운영매니저",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)리터니티",
-   "headhunter": false,
-   "location": "서울 강서구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "틱톡샵 어필리에이트 운영 매니저",
-   "url": "https://career.rememberapp.co.kr/job/posting/344653",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344653"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "1~8년",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "두핸즈|제품팀서비스기획자커머스및플랫폼연동",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무",
-    "결제·핀테크 도메인",
-    "주니어 대상"
-   ],
-   "company": "(주)두핸즈",
-   "headhunter": false,
-   "location": "서울 성동구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "제품팀 서비스 기획자 (커머스 및 플랫폼 연동)",
-   "url": "https://career.rememberapp.co.kr/job/posting/344351",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344351"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "1~3년",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "리멤버헤드헌팅서비스|서울중견스포츠산업서비스기획담당자채용",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "리멤버 헤드헌팅 서비스",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[서울/중견] 스포츠산업 서비스기획 담당자 채용",
-   "url": "https://career.rememberapp.co.kr/job/posting/344605",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344605"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~8년",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "엘리스|엘리스데이터센터운영매니저",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)엘리스",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[엘리스] 데이터센터 운영 매니저",
-   "url": "https://career.rememberapp.co.kr/job/posting/344478",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344478"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "경력무관",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "제네시스네스트|웹앱서비스기획자1년~5년",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)제네시스네스트",
-   "headhunter": false,
-   "location": "경기 용인시 수지구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "웹/앱 서비스 기획자 (1년~5년)",
-   "url": "https://career.rememberapp.co.kr/job/posting/344187",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344187"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "1~5년",
-   "due": "2026-10-31",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "코리아포트원|customersuccessmanager",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)코리아포트원",
-   "headhunter": false,
-   "location": "서울 성동구",
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "Customer Success Manager",
-   "url": "https://career.rememberapp.co.kr/job/posting/344159",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/344159"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "1~5년",
-   "due": "",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "쿼터풀|쿼터풀고객지원경험매니저",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)쿼터풀",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/546008",
-   "title": "[쿼터풀] 고객 지원·경험 매니저",
-   "url": "https://career.rememberapp.co.kr/job/posting/330862",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/330862"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "경력무관",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "매일새옷|서비스운영신입",
    "tier": "추천 직군",
    "score": 25,
@@ -11265,58 +11309,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "바텍|바텍서비스기획리더급",
-   "tier": "추천 직군",
-   "score": 20,
-   "reasons": [
-    "인접 직무",
-    "평점 낮음 2.3"
-   ],
-   "company": "(주)바텍",
-   "headhunter": false,
-   "location": "경기 화성시",
-   "rating": 2.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/76137",
-   "title": "[바텍] 서비스 기획(리더급)",
-   "url": "https://career.rememberapp.co.kr/job/posting/284422",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/284422"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "12~20년",
-   "due": "2026-10-16",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "가제트코리아|고객지원팀선임급매니저4년이상",
-   "tier": "추천 직군",
-   "score": 20,
-   "reasons": [
-    "인접 직무",
-    "평점 낮음 2.3"
-   ],
-   "company": "가제트코리아(주)",
-   "headhunter": false,
-   "location": "서울 강서구",
-   "rating": 2.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/396249",
-   "title": "[고객지원팀] 선임급 매니저 (4년이상)",
-   "url": "https://career.rememberapp.co.kr/job/posting/329613",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/329613"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "4~5년",
-   "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "마인드허브|서비스운영담당자",
    "tier": "추천 직군",
    "score": 20,
@@ -11340,32 +11332,6 @@
    ],
    "experience": "1~8년",
    "due": "",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "포페런츠|cscx고객경험매니저신입경력",
-   "tier": "추천 직군",
-   "score": 20,
-   "reasons": [
-    "인접 직무",
-    "평점 낮음 2.2"
-   ],
-   "company": "(주)포페런츠",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "rating": 2.2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/482659",
-   "title": "CS/CX 고객경험 매니저 (신입·경력)",
-   "url": "https://career.rememberapp.co.kr/job/posting/302945",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/302945"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "경력무관",
-   "due": "2026-10-30",
    "first_seen": "2026-09-26"
   },
   {
@@ -11418,32 +11384,6 @@
    ],
    "experience": "경력무관",
    "due": "~ 10/19(월)",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "금강주택|고객지원as",
-   "tier": "추천 직군",
-   "score": 20,
-   "reasons": [
-    "인접 직무",
-    "평점 낮음 2"
-   ],
-   "company": "(주)금강주택",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "rating": 2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/181775",
-   "title": "고객지원(AS)",
-   "url": "https://career.rememberapp.co.kr/job/posting/342495",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/342495"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "10년↑",
-   "due": "",
    "first_seen": "2026-09-26"
   },
   {
@@ -11602,32 +11542,6 @@
    ],
    "experience": "신입",
    "due": "2026-10-09",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "쿠팡|쿠팡고객경험개선pm경력2년이상주니어",
-   "tier": "추천 직군",
-   "score": 15,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상"
-   ],
-   "company": "쿠팡(주)",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "rating": 3.2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
-   "title": "[쿠팡] 고객경험 개선 PM (경력2년이상/주니어)",
-   "url": "https://career.rememberapp.co.kr/job/posting/313080",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/313080"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "2~4년",
-   "due": "",
    "first_seen": "2026-09-26"
   },
   {
