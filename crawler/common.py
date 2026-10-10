@@ -92,7 +92,7 @@ def score(job: dict) -> int:
     text = f'{job["title"]} {job["company"]}'
     if _DOM.search(text):
         s += 20
-        why.append("결제·핀테크 도메인")
+        why.append("API 서비스 도메인")
 
     lo, hi = job.get("exp_min"), job.get("exp_max")
     me = config.MY_YEARS

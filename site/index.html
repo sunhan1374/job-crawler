@@ -205,14 +205,14 @@
       <option value="due">마감순</option>
       <option value="distance">집과의 거리순</option>
     </select>
-    <label class="chk"><input type="checkbox" id="domainOnly"> 결제·핀테크만</label>
+    <label class="chk"><input type="checkbox" id="domainOnly"> API 서비스만</label>
     <input type="search" id="q" placeholder="회사명·공고명 검색" aria-label="검색">
   </section>
 
   <section class="board" id="board" aria-label="공고 목록"></section>
 
   <footer class="foot">
-    <span>적합도는 직무(기술지원 50 · 인접 30) + 결제·핀테크 도메인 20 + 경력 조건 15 + 잡플래닛 평점 최대 15로 계산해요. 헤드헌팅 공고는 실제 회사가 달라 평점을 붙이지 않아요.</span>
+    <span>적합도는 직무(기술지원 50 · 인접 30) + API 서비스 도메인(결제·멤버십·대출·본인인증 등) 20 + 경력 조건 15 + 잡플래닛 평점 최대 15로 계산해요. 헤드헌팅 공고는 실제 회사가 달라 평점을 붙이지 않아요.</span>
     <span>잡플래닛 평점은 회사명이 정확히 일치할 때만 표시하고, 30일마다 새로 확인해요.</span>
     <span>지하철역·거리는 공고의 구/시 단위 위치를 기준으로 한 근사치예요(정확한 사무실 주소 기준 아님). 집 기준점은 신갈역이에요.</span>
   </footer>
@@ -266,7 +266,7 @@
       if (state.region === "seoul" && !j.location.startsWith("서울")) return false;
       if (state.region === "gg" && !j.location.includes("경기")) return false;
       if (state.source !== "all" && !j.sources.includes(state.source)) return false;
-      if (state.domainOnly && !j.reasons.includes("결제·핀테크 도메인")) return false;
+      if (state.domainOnly && !j.reasons.includes("API 서비스 도메인")) return false;
       if (q && !(j.company + " " + j.title).toLowerCase().includes(q)) return false;
       return true;
     });
@@ -340,10 +340,10 @@
     t.append(a);
     const tags = el("div", "tags");
     tags.append(el("span", "tag " + (j.tier === "기술지원" ? "t1" : "t2"), j.tier));
-    if (j.reasons.includes("결제·핀테크 도메인")) tags.append(el("span", "tag dom", "결제·핀테크"));
+    if (j.reasons.includes("API 서비스 도메인")) tags.append(el("span", "tag dom", "API 서비스"));
     if (DATA.new_today > 0 && j.first_seen === DATA.updated_at.slice(0, 10)) tags.append(el("span", "tag new", "NEW"));
     for (const why of j.reasons) {
-      if (["기술지원 직무", "인접 직무", "결제·핀테크 도메인"].includes(why) || why.startsWith("평점")) continue;
+      if (["기술지원 직무", "인접 직무", "API 서비스 도메인"].includes(why) || why.startsWith("평점")) continue;
       tags.append(el("span", "tag", why));
     }
     tags.append(el("span", "tag meta", j.experience));
