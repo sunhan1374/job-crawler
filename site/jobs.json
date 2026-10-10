@@ -1,10 +1,10 @@
 {
- "updated_at": "2026-10-10 14:04",
+ "updated_at": "2026-10-10 14:48",
  "sources": {
   "wanted": {
    "ok": true,
    "raw": 156,
-   "kept": 104
+   "kept": 103
   },
   "jobkorea": {
    "ok": true,
@@ -14,7 +14,7 @@
   "saramin": {
    "ok": true,
    "raw": 1819,
-   "kept": 173
+   "kept": 171
   },
   "remember": {
    "ok": true,
@@ -22,8 +22,8 @@
    "kept": 68
   }
  },
- "total": 485,
- "new_today": 190,
+ "total": 482,
+ "new_today": 188,
  "jobs": [
   {
    "key": "비바리퍼블리카|토스페이먼츠technicalaccountmanagerglobal",
@@ -31,7 +31,7 @@
    "score": 100,
    "reasons": [
     "기술지원 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음",
     "평점 3.6"
    ],
@@ -57,12 +57,42 @@
    "first_seen": "2026-09-26"
   },
   {
+   "key": "티맵모빌리티|apisdk상품운영및기술지원담당자",
+   "tier": "기술지원",
+   "score": 90,
+   "reasons": [
+    "기술지원 직무",
+    "API 서비스 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "티맵모빌리티",
+   "headhunter": false,
+   "location": "서울 중구",
+   "station": "서울역",
+   "distance_km": 33.3,
+   "rating": 3.2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/387552",
+   "title": "API/SDK 상품운영 및 기술지원 담당자",
+   "url": "https://www.wanted.co.kr/wd/373922",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/373922"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "5년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
    "key": "시큐웨이브|microsoft기반엔드포인트관리솔루션팀뷰어dex기술지원엔지니어",
    "tier": "기술지원",
    "score": 85,
    "reasons": [
     "기술지원 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "㈜시큐웨이브",
@@ -302,7 +332,7 @@
    "score": 80,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음",
     "평점 4"
    ],
@@ -333,7 +363,7 @@
    "score": 80,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음",
     "평점 3.7"
    ],
@@ -364,7 +394,7 @@
    "score": 80,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음",
     "평점 3.6"
    ],
@@ -425,7 +455,7 @@
    "score": 80,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음",
     "평점 3.5"
    ],
@@ -456,7 +486,7 @@
    "score": 75,
    "reasons": [
     "기술지원 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "쿠팡(주)",
    "headhunter": false,
@@ -485,7 +515,7 @@
    "score": 75,
    "reasons": [
     "기술지원 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "엔에이치엔케이씨피㈜",
    "headhunter": false,
@@ -601,7 +631,7 @@
    "score": 70,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)키스템프그룹",
@@ -655,41 +685,12 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "티맵모빌리티|apisdk상품운영및기술지원담당자",
-   "tier": "기술지원",
-   "score": 70,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "티맵모빌리티",
-   "headhunter": false,
-   "location": "서울 중구",
-   "station": "서울역",
-   "distance_km": 33.3,
-   "rating": 3.2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/387552",
-   "title": "API/SDK 상품운영 및 기술지원 담당자",
-   "url": "https://www.wanted.co.kr/wd/373922",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/373922"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "골프존|가맹점관리담당광주전남",
    "tier": "추천 직군",
    "score": 70,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "골프존",
@@ -719,7 +720,7 @@
    "score": 70,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "쿠팡(주)",
@@ -749,7 +750,7 @@
    "score": 70,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)케이에스넷",
@@ -779,7 +780,7 @@
    "score": 70,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)한국신용데이터",
@@ -838,7 +839,7 @@
    "score": 70,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "와드(캐치테이블)",
@@ -868,7 +869,7 @@
    "score": 70,
    "reasons": [
     "기술지원 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "태산소프트",
    "headhunter": false,
@@ -897,7 +898,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "평점 3.7"
    ],
    "company": "(주)지마켓",
@@ -929,7 +930,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "평점 3.6"
    ],
    "company": "유핀테크허브(유트랜스퍼)",
@@ -990,7 +991,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "평점 3.5"
    ],
    "company": "엔에이치엔페이코㈜",
@@ -1049,7 +1050,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "㈜다날",
@@ -1079,7 +1080,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "㈜다날",
@@ -1138,7 +1139,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "㈜인피니소프트",
@@ -1168,7 +1169,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)스카우트",
@@ -1198,7 +1199,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)위펀",
@@ -1518,7 +1519,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "브이오지코리아",
@@ -1693,7 +1694,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "갤럭시아머니트리㈜",
@@ -1723,7 +1724,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "㈜페이플",
@@ -1755,7 +1756,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)섹타나인",
@@ -1785,7 +1786,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "㈜노리앤드",
@@ -1815,7 +1816,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "㈜하이프랜차이즈",
@@ -1845,7 +1846,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "설성푸드㈜",
@@ -1875,7 +1876,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "주식회사 내근처팩토리",
@@ -1905,7 +1906,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)국민티에스",
@@ -1935,7 +1936,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "삼성웰스토리(주)",
@@ -2052,7 +2053,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)조이토이",
@@ -2082,7 +2083,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "주식회사라핀홀딩스",
@@ -2112,7 +2113,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)에이치피오",
@@ -2142,7 +2143,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)페칭",
@@ -2172,7 +2173,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "커리어커넥트(주)",
@@ -2202,7 +2203,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)네이블",
@@ -2232,7 +2233,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)스타페이먼츠",
@@ -2262,7 +2263,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)하이프랜차이즈",
@@ -2321,7 +2322,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "(주)페이타랩",
@@ -2351,7 +2352,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "캐치테이블",
@@ -2381,7 +2382,7 @@
    "score": 65,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
    "company": "CJ올리브영(주)",
@@ -2586,36 +2587,6 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
-  },
-  {
-   "key": "에이치알포유|ict통합서비스대기업it인프라서버스토리지프리세일즈",
-   "tier": "추천 직군",
-   "score": 60,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 4.3"
-   ],
-   "company": "에이치알포유(주)",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": 4.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/425744",
-   "title": "[ICT 통합서비스대기업] IT인프라(서버/스토리지) 프리세일즈",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55249794",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55249794"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "8~15년",
-   "due": "2026-10-16",
-   "due_sort": "2026-10-16",
-   "first_seen": "2026-10-10"
   },
   {
    "key": "에이치알포유|자동차검사장비제조전문기업자동차계열장비기술영업",
@@ -3251,7 +3222,7 @@
    "score": 55,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "㈜케이에스넷",
    "headhunter": false,
@@ -3280,7 +3251,7 @@
    "score": 55,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "㈜케이에스넷",
    "headhunter": false,
@@ -3367,7 +3338,7 @@
    "score": 55,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "엔에이치엔케이씨피㈜ ",
    "headhunter": false,
@@ -3396,7 +3367,7 @@
    "score": 55,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "엔에이치엔케이씨피㈜",
    "headhunter": false,
@@ -3425,7 +3396,7 @@
    "score": 55,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "엔에이치엔케이씨피㈜",
    "headhunter": false,
@@ -3482,7 +3453,7 @@
    "score": 55,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "엔에이치엔케이씨피",
    "headhunter": false,
@@ -3511,7 +3482,7 @@
    "score": 55,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음",
     "평점 낮음 2"
    ],
@@ -3542,7 +3513,7 @@
    "score": 55,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음",
     "평점 낮음 2"
    ],
@@ -3573,7 +3544,7 @@
    "score": 55,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음",
     "평점 낮음 2"
    ],
@@ -3604,7 +3575,7 @@
    "score": 55,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음",
     "평점 낮음 2"
    ],
@@ -3665,7 +3636,7 @@
    "score": 55,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음",
     "평점 낮음 1.7"
    ],
@@ -3696,7 +3667,7 @@
    "score": 55,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "경력 조건 맞음",
     "평점 낮음 1"
    ],
@@ -4399,7 +4370,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "커넥트웨이브",
    "headhunter": false,
@@ -4430,7 +4401,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "㈜엑심베이",
    "headhunter": false,
@@ -4543,7 +4514,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "한국결제네트웍스유한회사",
    "headhunter": false,
@@ -4572,7 +4543,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "(주)오케이포스",
    "headhunter": false,
@@ -4629,7 +4600,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "트래블월렛",
    "headhunter": false,
@@ -4660,7 +4631,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "㈜멕시카나",
    "headhunter": false,
@@ -4773,7 +4744,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "페이플",
    "headhunter": false,
@@ -4942,7 +4913,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "글로벌메이드컴퍼니",
    "headhunter": false,
@@ -4971,7 +4942,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "㈜비아이컴퍼니씨앤씨",
    "headhunter": false,
@@ -5000,7 +4971,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "㈜링크페이먼트",
    "headhunter": false,
@@ -5029,7 +5000,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "히엘페이",
    "headhunter": false,
@@ -5058,7 +5029,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "프라임레이트",
    "headhunter": false,
@@ -5087,7 +5058,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "나눔동행굿프랜즈",
    "headhunter": false,
@@ -5116,7 +5087,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "나눔동행굿프랜즈",
    "headhunter": false,
@@ -5145,7 +5116,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "㈜브이오지코리아",
    "headhunter": false,
@@ -5169,41 +5140,12 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "가앤|van전산pos장비관리및가맹점대응",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "결제·핀테크 도메인"
-   ],
-   "company": "㈜가앤",
-   "headhunter": false,
-   "location": "서울 성동구",
-   "station": "성수역",
-   "distance_km": 30.2,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/511249",
-   "title": "VAN 전산 / POS 장비 관리 및 가맹점 대응",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/51626849",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/51626849"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "2026-10-16",
-   "due_sort": "2026-10-16",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "동선컴퍼니|가맹점영업관리컨설턴트모집기본급&인센티브신입가능",
    "tier": "추천 직군",
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "(주)동선컴퍼니",
    "headhunter": false,
@@ -5227,12 +5169,41 @@
    "first_seen": "2026-10-10"
   },
   {
+   "key": "가앤|van전산pos장비관리및가맹점대응",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인"
+   ],
+   "company": "㈜가앤",
+   "headhunter": false,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
+   "rating": null,
+   "review_count": 0,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/511249",
+   "title": "VAN 전산 / POS 장비 관리 및 가맹점 대응",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/51626849",
+   "links": {
+    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/51626849"
+   },
+   "sources": [
+    "jobkorea"
+   ],
+   "experience": "경력무관",
+   "due": "2026-10-16",
+   "due_sort": "2026-10-16",
+   "first_seen": "2026-09-26"
+  },
+  {
    "key": "링크|링크주페이코멤버십라이트가맹점영업&관리담당자모집",
    "tier": "추천 직군",
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "링크㈜",
    "headhunter": false,
@@ -5401,7 +5372,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "주식회사쿠로페이",
    "headhunter": false,
@@ -5430,7 +5401,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "주식회사쿠로페이",
    "headhunter": false,
@@ -5459,7 +5430,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "(주)노리앤드",
    "headhunter": false,
@@ -5516,7 +5487,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "링크(주)",
    "headhunter": false,
@@ -5545,7 +5516,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "뉴셀렉트(주)",
    "headhunter": false,
@@ -5574,7 +5545,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "(주)한국모바일결제",
    "headhunter": false,
@@ -5603,7 +5574,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "리드커리어(주)",
    "headhunter": false,
@@ -5632,7 +5603,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "(주)이롬넷",
    "headhunter": false,
@@ -5661,7 +5632,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "주식회사삼신홀딩스",
    "headhunter": false,
@@ -5718,7 +5689,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "(주)바른인사컨설팅",
    "headhunter": false,
@@ -5747,7 +5718,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "(주)씨아이템프러리",
    "headhunter": false,
@@ -5832,7 +5803,7 @@
    "score": 50,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인"
+    "API 서비스 도메인"
    ],
    "company": "(주)페이플",
    "headhunter": false,
@@ -6611,35 +6582,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "글로벌스카우트|it보안솔루션컨설턴트경력직채용",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)글로벌스카우트",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2.6,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/317875",
-   "title": "IT 보안 솔루션 컨설턴트 경력직 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55248983",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55248983"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~20년",
-   "due": "채용시",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-10"
-  },
-  {
    "key": "클로닉스|서비스운영팀장hwsw융합제품",
    "tier": "추천 직군",
    "score": 45,
@@ -7072,35 +7014,6 @@
     "wanted"
    ],
    "experience": "0~10년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "케이투스코리아|서버스토리지프리세일즈presalesengineer기술영업5년이상",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "케이투스코리아",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/440960",
-   "title": "서버 스토리지 프리세일즈(Pre-sales engineer) 기술영업 5년 이상",
-   "url": "https://www.wanted.co.kr/wd/335055",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/335055"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5~11년",
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
@@ -7713,6 +7626,35 @@
    "due": "2026-11-22",
    "due_sort": "2026-11-22",
    "first_seen": "2026-10-05"
+  },
+  {
+   "key": "조슈아트리웍스|미국향스마트오디오토이신제품개발pmprojectmanager",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "조슈아트리웍스주식회사",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "미국향 스마트 오디오 토이 신제품 개발 PM (Project Manager)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55250178",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55250178"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "3년↑",
+   "due": "2026-11-09",
+   "due_sort": "2026-11-09",
+   "first_seen": "2026-10-10"
   },
   {
    "key": "더라이징스타헤딩|epc외국계srsalesengineer",
@@ -9634,7 +9576,7 @@
    "score": 40,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "평점 낮음 1.7"
    ],
    "company": "주식회사 이오스페이먼츠",
@@ -9664,7 +9606,7 @@
    "score": 40,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "평점 낮음 1"
    ],
    "company": "㈜케이더블유네트웍크",
@@ -9694,7 +9636,7 @@
    "score": 40,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "평점 낮음 1"
    ],
    "company": "㈜씨에이치아이포스",
@@ -10909,34 +10851,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "이테크시스템|이테크시스템splunk솔루션엔지니어신입경력",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "㈜이테크시스템",
-   "headhunter": false,
-   "location": "서울 중구",
-   "station": "서울역",
-   "distance_km": 33.3,
-   "rating": 2.6,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/58270",
-   "title": "[이테크시스템] Splunk 솔루션 엔지니어 (신입/경력)",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/51581842",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/51581842"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "2026-11-04",
-   "due_sort": "2026-11-04",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "동훈아이텍|동훈아이텍시스템보안솔루션엔지니어채용신입경력",
    "tier": "추천 직군",
    "score": 30,
@@ -10962,6 +10876,34 @@
    "experience": "경력무관",
    "due": "2026-10-23",
    "due_sort": "2026-10-23",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "이테크시스템|이테크시스템splunk솔루션엔지니어신입경력",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "㈜이테크시스템",
+   "headhunter": false,
+   "location": "서울 중구",
+   "station": "서울역",
+   "distance_km": 33.3,
+   "rating": 2.6,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/58270",
+   "title": "[이테크시스템] Splunk 솔루션 엔지니어 (신입/경력)",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/51581842",
+   "links": {
+    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/51581842"
+   },
+   "sources": [
+    "jobkorea"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-04",
+   "due_sort": "2026-11-04",
    "first_seen": "2026-09-26"
   },
   {
@@ -11309,7 +11251,7 @@
    "score": 30,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "주니어 대상"
    ],
    "company": "한국모바일결제",
@@ -11339,7 +11281,7 @@
    "score": 30,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "주니어 대상"
    ],
    "company": "3030영어",
@@ -12066,34 +12008,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "비전서치|전자부품기술영업",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "비전서치",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "station": "정자역",
-   "distance_km": 10.1,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "전자부품 기술영업",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55248985",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55248985"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "2026-10-13",
-   "due_sort": "2026-10-13",
-   "first_seen": "2026-10-10"
-  },
-  {
    "key": "케이투스코리아|중국어원어민여의도서버기술영업엔지니어신입경력",
    "tier": "추천 직군",
    "score": 30,
@@ -12259,6 +12173,34 @@
    "experience": "경력무관",
    "due": "2026-10-31",
    "due_sort": "2026-10-31",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "비전서치|전자부품기술영업",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "비전서치",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "station": "정자역",
+   "distance_km": 10.1,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "전자부품 기술영업",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55248985",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55248985"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-10-13",
+   "due_sort": "2026-10-13",
    "first_seen": "2026-10-10"
   },
   {
@@ -12430,34 +12372,6 @@
    "first_seen": "2026-10-10"
   },
   {
-   "key": "리텍|장비기술영업팀경력채용공고영어능숙자",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)리텍",
-   "headhunter": false,
-   "location": "경기 화성시 만세구",
-   "station": "병점역",
-   "distance_km": 26.1,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "장비 기술영업팀 경력 채용 공고(영어 능숙자)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55242848",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55242848"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "2026-12-07",
-   "due_sort": "2026-12-07",
-   "first_seen": "2026-10-10"
-  },
-  {
    "key": "케이지파이낸셜|kg파이낸셜mvno제휴및채널마케팅담당자채용",
    "tier": "추천 직군",
    "score": 30,
@@ -12519,7 +12433,7 @@
    "score": 30,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "주니어 대상"
    ],
    "company": "(주)헥토데이터",
@@ -13427,7 +13341,7 @@
    "score": 20,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "신입 전용"
    ],
    "company": "㈜지베이스",
@@ -13486,7 +13400,7 @@
    "score": 20,
    "reasons": [
     "인접 직무",
-    "결제·핀테크 도메인",
+    "API 서비스 도메인",
     "신입 전용"
    ],
    "company": "식신(주)",
