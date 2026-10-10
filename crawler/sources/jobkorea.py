@@ -99,7 +99,9 @@ def parse(d):
     due = (period.get("end") or "")[:10]
     if due.startswith("2070"):
         due = "상시채용"
-    no = d["legacyJobNo"]
+    # id가 현재 상세페이지에 쓰이는 번호. legacyJobNo는 이름 그대로 옛 번호 체계라
+    # GI_Read 링크에 쓰면 404("공고가 존재하지 않습니다")가 떠요.
+    no = d.get("id") or d["legacyJobNo"]
     return {
         "source": "jobkorea",
         "source_id": str(no),
