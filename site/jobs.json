@@ -1,29 +1,33 @@
 {
- "updated_at": "2026-10-10 15:01",
+ "updated_at": "2026-10-11 08:34",
  "sources": {
   "wanted": {
-   "ok": true,
-   "raw": 156,
-   "kept": 103
+   "ok": false,
+   "raw": 0,
+   "error": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))",
+   "kept": 0
   },
   "jobkorea": {
-   "ok": true,
-   "raw": 544,
-   "kept": 154
+   "ok": false,
+   "raw": 0,
+   "error": "('Connection aborted.', TimeoutError(60, 'Operation timed out'))",
+   "kept": 0
   },
   "saramin": {
-   "ok": true,
-   "raw": 1819,
-   "kept": 178
+   "ok": false,
+   "raw": 0,
+   "error": "('Connection aborted.', TimeoutError(60, 'Operation timed out'))",
+   "kept": 0
   },
   "remember": {
-   "ok": true,
-   "raw": 657,
-   "kept": 68
+   "ok": false,
+   "raw": 0,
+   "error": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))",
+   "kept": 0
   }
  },
  "total": 488,
- "new_today": 194,
+ "new_today": 0,
  "jobs": [
   {
    "key": "비바리퍼블리카|토스페이먼츠technicalaccountmanagerglobal",
