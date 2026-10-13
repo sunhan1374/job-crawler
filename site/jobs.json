@@ -1,10 +1,10 @@
 {
- "updated_at": "2026-10-12 08:35",
+ "updated_at": "2026-10-13 08:36",
  "sources": {
   "wanted": {
    "ok": false,
    "raw": 0,
-   "error": "HTTPSConnectionPool(host='www.wanted.co.kr', port=443): Read timed out. (read timeout=20)",
+   "error": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))",
    "kept": 0
   },
   "jobkorea": {
@@ -16,7 +16,7 @@
   "saramin": {
    "ok": false,
    "raw": 0,
-   "error": "HTTPSConnectionPool(host='www.saramin.co.kr', port=443): Read timed out. (read timeout=20)",
+   "error": "('Connection aborted.', TimeoutError(60, 'Operation timed out'))",
    "kept": 0
   },
   "remember": {
