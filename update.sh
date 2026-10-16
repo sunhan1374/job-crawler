@@ -22,7 +22,31 @@ if [ -z "$PY" ]; then
 fi
 echo "사용하는 Python: $PY" | tee -a "$LOG"
 
-"$PY" -u crawler/build.py 2>&1 | tee -a "$LOG"
+# 맥이 잠자기에서 막 깨어난 직후엔 와이파이가 아직 안 붙어 있어서 전부 실패하곤 해요.
+# 인터넷이 연결될 때까지 최대 5분 기다립니다.
+wait_for_network() {
+  for i in $(seq 1 30); do
+    if "$PY" -c "import urllib.request as u; u.urlopen('https://github.com', timeout=8)" >/dev/null 2>&1; then
+      return 0
+    fi
+    [ "$i" = 1 ] && echo "인터넷 연결을 기다리는 중…" | tee -a "$LOG"
+    sleep 10
+  done
+  return 1
+}
+
+# 4개 사이트가 전부 실패하면(= 네트워크 문제) 3분 쉬었다가 최대 3번까지 다시 시도합니다.
+OK=0
+for attempt in 1 2 3; do
+  wait_for_network || echo "(5분 기다렸지만 인터넷이 안 잡혀요. 그래도 시도해 봅니다)" | tee -a "$LOG"
+  if "$PY" -u crawler/build.py 2>&1 | tee -a "$LOG"; then OK=1; break; fi
+  echo "수집 실패 — 시도 $attempt/3" | tee -a "$LOG"
+  [ "$attempt" -lt 3 ] && sleep 180
+done
+if [ "$OK" != 1 ]; then
+  echo "✘ 3번 시도했지만 수집하지 못했어요. 사이트는 직전 공고를 그대로 보여줍니다." | tee -a "$LOG"
+  exit 1
+fi
 
 # GitHub 저장소가 연결되어 있을 때만 올립니다.
 if git remote get-url origin >/dev/null 2>&1; then

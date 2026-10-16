@@ -87,6 +87,10 @@ def load_previous():
 def main():
     now = datetime.now(KST)
     raw, status = collect()
+    if not any(s["ok"] for s in status.values()):
+        # 전부 실패 = 인터넷 문제. 데이터 파일을 건드리지 않고 종료(update.sh가 재시도)
+        print("✘ 4개 사이트 모두 실패 — site/jobs.json은 그대로 둡니다.")
+        sys.exit(3)
     jobs = refine(raw)
     add_ratings(jobs)
 
