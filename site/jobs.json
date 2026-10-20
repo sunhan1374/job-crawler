@@ -1,29 +1,29 @@
 {
- "updated_at": "2026-10-19 08:37",
+ "updated_at": "2026-10-20 21:10",
  "sources": {
   "wanted": {
    "ok": true,
-   "raw": 160,
-   "kept": 103
+   "raw": 166,
+   "kept": 106
   },
   "jobkorea": {
    "ok": true,
    "raw": 543,
-   "kept": 147
+   "kept": 124
   },
   "saramin": {
    "ok": true,
-   "raw": 1817,
-   "kept": 162
+   "raw": 1820,
+   "kept": 141
   },
   "remember": {
    "ok": true,
-   "raw": 670,
-   "kept": 69
+   "raw": 691,
+   "kept": 85
   }
  },
- "total": 464,
- "new_today": 45,
+ "total": 441,
+ "new_today": 117,
  "jobs": [
   {
    "key": "비바리퍼블리카|토스페이먼츠technicalaccountmanagerglobal",
@@ -239,126 +239,6 @@
    "first_seen": "2026-10-16"
   },
   {
-   "key": "에이치알포유|ict통합서비스대기업it인프라x86서버기술지원4~13년",
-   "tier": "기술지원",
-   "score": 80,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음",
-    "평점 4.3"
-   ],
-   "company": "에이치알포유(주)",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": 4.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/425744",
-   "title": "[ICT 통합서비스대기업] IT인프라(x86서버) 기술지원(4~13년)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319401",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319401"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "4~13년",
-   "due": "2026-10-24",
-   "due_sort": "2026-10-24",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "에이치알포유|ict통합서비스대기업arm또는x86서버기술지원",
-   "tier": "기술지원",
-   "score": 80,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음",
-    "평점 4.3"
-   ],
-   "company": "에이치알포유(주)",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": 4.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/425744",
-   "title": "[ICT 통합서비스대기업] ARM 또는 x86서버 기술지원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319407",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319407"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "4~13년",
-   "due": "2026-10-24",
-   "due_sort": "2026-10-24",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "에이치알포유|ict통합서비스대기업gpu또는x86서버기술지원",
-   "tier": "기술지원",
-   "score": 80,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음",
-    "평점 4.3"
-   ],
-   "company": "에이치알포유(주)",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": 4.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/425744",
-   "title": "[ICT 통합서비스대기업] GPU 또는 x86서버 기술지원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319406",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319406"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~13년",
-   "due": "2026-10-24",
-   "due_sort": "2026-10-24",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "에이치알포유|ict통합서비스대기업it보안솔루션기술지원5~13년",
-   "tier": "기술지원",
-   "score": 80,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음",
-    "평점 4.3"
-   ],
-   "company": "에이치알포유(주)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 4.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/425744",
-   "title": "[ICT 통합서비스대기업] IT 보안솔루션 기술지원 (5~13년)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319403",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319403"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~13년",
-   "due": "2026-10-24",
-   "due_sort": "2026-10-24",
-   "first_seen": "2026-10-18"
-  },
-  {
    "key": "에이비일팔공|globaltechnicalsupportmanager",
    "tier": "기술지원",
    "score": 80,
@@ -387,98 +267,6 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
-  },
-  {
-   "key": "에이비일팔공|technicalsupportmanager",
-   "tier": "기술지원",
-   "score": 80,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음",
-    "평점 4"
-   ],
-   "company": "에이비일팔공(AB180)",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": 4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/318620",
-   "title": "Technical Support manager",
-   "url": "https://www.wanted.co.kr/wd/370637",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/370637"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "제이케이서치|이커머스핀테크중견기업cx운영기획매니저근무지:판교",
-   "tier": "추천 직군",
-   "score": 80,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "경력 조건 맞음",
-    "평점 4"
-   ],
-   "company": "제이케이서치 주식회사",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "station": "정자역",
-   "distance_km": 10.1,
-   "rating": 4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/346844",
-   "title": "[이커머스/핀테크 중견기업] CX 운영 기획 매니저(근무지: 판교)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322285",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322285"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~12년",
-   "due": "2026-11-03",
-   "due_sort": "2026-11-03",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "제이케이서치|이커머스핀테크중견기업메이커프로덕트매니저pm판교",
-   "tier": "추천 직군",
-   "score": 80,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "경력 조건 맞음",
-    "평점 4"
-   ],
-   "company": "제이케이서치 주식회사",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "station": "정자역",
-   "distance_km": 10.1,
-   "rating": 4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/346844",
-   "title": "[이커머스/핀테크 중견기업] 메이커 프로덕트 매니저(PM) (판교)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322286",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322286"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~12년",
-   "due": "2026-11-03",
-   "due_sort": "2026-11-03",
-   "first_seen": "2026-10-19"
   },
   {
    "key": "제이케이서치|이커머스핀테크중견기업정산담당자채용근무지:판교",
@@ -510,36 +298,6 @@
    "due": "2026-10-24",
    "due_sort": "2026-10-24",
    "first_seen": "2026-09-26"
-  },
-  {
-   "key": "석세스코리아컨설팅|기술지원엔지니어",
-   "tier": "기술지원",
-   "score": 80,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음",
-    "평점 3.7"
-   ],
-   "company": "주) 석세스코리아컨설팅",
-   "headhunter": false,
-   "location": "경기 하남시",
-   "station": "하남시청역",
-   "distance_km": 30.7,
-   "rating": 3.7,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/318503",
-   "title": "기술지원 엔지니어",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322013",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322013"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "2~10년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-19"
   },
   {
    "key": "유핀테크허브|pg전자지급결제대행서비스기획운영매니저",
@@ -720,34 +478,33 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "참테크놀로지|신사업부이커머스도너츠초기멤버채용모집서비스기획자",
-   "tier": "추천 직군",
+   "key": "브레인즈컴퍼니|통합로그관리sw기술지원엔지니어",
+   "tier": "기술지원",
    "score": 70,
    "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
+    "기술지원 직무",
     "경력 조건 맞음"
    ],
-   "company": "(주)참테크놀로지",
+   "company": "브레인즈컴퍼니",
    "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 3.3,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
+   "rating": 3.2,
    "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/209689",
-   "title": "[신사업부] 이커머스 도너츠 초기멤버 채용모집(서비스기획자)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55296504",
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/31364",
+   "title": "통합로그관리 SW 기술지원 엔지니어",
+   "url": "https://www.wanted.co.kr/wd/393195",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55296504"
+    "wanted": "https://www.wanted.co.kr/wd/393195"
    },
    "sources": [
-    "saramin"
+    "wanted"
    ],
-   "experience": "5년↑",
-   "due": "채용시",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
+   "experience": "5~10년",
+   "due": "2026-11-01",
+   "due_sort": "2026-11-01",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "골프존|가맹점관리담당광주전남",
@@ -778,6 +535,36 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
+  },
+  {
+   "key": "쿠팡|쿠팡이츠서비스가맹점cx운영개선담당자",
+   "tier": "추천 직군",
+   "score": 70,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "쿠팡(주)",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "station": "정자역",
+   "distance_km": 10.1,
+   "rating": 3.2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
+   "title": "[쿠팡이츠서비스] 가맹점 CX 운영 개선 담당자",
+   "url": "https://career.rememberapp.co.kr/job/posting/348234",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348234"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "8년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "쿠팡|쿠팡결제정산운영담당자핀테크",
@@ -929,6 +716,64 @@
    "first_seen": "2026-09-26"
   },
   {
+   "key": "에이비일팔공|technicalsupportmanager",
+   "tier": "기술지원",
+   "score": 65,
+   "reasons": [
+    "기술지원 직무",
+    "평점 4"
+   ],
+   "company": "에이비일팔공(AB180)",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": 4,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/318620",
+   "title": "Technical Support manager",
+   "url": "https://www.wanted.co.kr/wd/370637",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/370637"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "에이비일팔공|technicalsupportmanager3년이상",
+   "tier": "기술지원",
+   "score": 65,
+   "reasons": [
+    "기술지원 직무",
+    "평점 4"
+   ],
+   "company": "(주)에이비일팔공",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 4,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/318620",
+   "title": "Technical Support Manager (3년 이상)",
+   "url": "https://career.rememberapp.co.kr/job/posting/348382",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348382"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~7년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
    "key": "유핀테크허브|pg전자지급결제대행사업기획운영매니저",
    "tier": "추천 직군",
    "score": 65,
@@ -1047,6 +892,35 @@
    "due": "2026-11-09",
    "due_sort": "2026-11-09",
    "first_seen": "2026-09-26"
+  },
+  {
+   "key": "슈프리마|국내기술지원담당자",
+   "tier": "기술지원",
+   "score": 65,
+   "reasons": [
+    "기술지원 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "슈프리마",
+   "headhunter": false,
+   "location": "경기 성남시",
+   "station": "모란역",
+   "distance_km": 17.2,
+   "rating": 2.9,
+   "review_count": 161,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/372894",
+   "title": "국내 기술지원 담당자",
+   "url": "https://www.wanted.co.kr/wd/393551",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/393551"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "2년↑",
+   "due": "2026-12-31",
+   "due_sort": "2026-12-31",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "다날|주다날경력해외결제서비스제휴영업",
@@ -1285,35 +1159,6 @@
    "first_seen": "2026-10-10"
   },
   {
-   "key": "클로닉스|기술지원엔지니어technicalsupportengineer채용",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)클로닉스",
-   "headhunter": false,
-   "location": "경기 안양시 동안구",
-   "station": "안양역",
-   "distance_km": 18.8,
-   "rating": 2.5,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/52218",
-   "title": "기술지원 엔지니어(Technical Support Engineer) 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55086069",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55086069"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "3년↑",
-   "due": "2026-10-21",
-   "due_sort": "2026-10-21",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "우리엔|중견계열사cs기술지원",
    "tier": "기술지원",
    "score": 65,
@@ -1458,151 +1303,6 @@
    "due": "2026-10-28",
    "due_sort": "2026-10-28",
    "first_seen": "2026-10-05"
-  },
-  {
-   "key": "소노인터내셔널|전국사업장경영지원기술지원직군신입경력채용",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "㈜소노인터내셔널",
-   "headhunter": false,
-   "location": "서울 강서구",
-   "station": "까치산역",
-   "distance_km": 36.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[전국사업장] 경영지원/기술지원 직군 신입/경력 채용",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50185677",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50185677"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "3년↑",
-   "due": "2026-10-25",
-   "due_sort": "2026-10-25",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "대원씨티에스|가우시움청소로봇presales기술지원",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "대원씨티에스㈜",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "가우시움 청소로봇pre-sales 기술지원",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50122809",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50122809"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "1년↑",
-   "due": "2026-11-06",
-   "due_sort": "2026-11-06",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "이스트시큐리티|보안솔루션swpm및기술지원경력",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "㈜이스트시큐리티",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "보안 솔루션 S/W PM 및 기술지원 (경력)",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50097807",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50097807"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "5년↑",
-   "due": "2026-11-01",
-   "due_sort": "2026-11-01",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "삼진일렉스|기술지원실전기기술사",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "㈜삼진일렉스",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "기술지원실-전기기술사.",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50042725",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50042725"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "5년↑",
-   "due": "2026-10-23",
-   "due_sort": "2026-10-23",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "인스웨이브|정직원기술지원팀websquare솔루션담당신입경력모집",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "㈜인스웨이브",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[정직원] 기술지원팀 (WebSquare 솔루션 담당) 신입 / 경력 모집",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49948359",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/49948359"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "1년↑",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-19"
   },
   {
    "key": "델테크놀로지스|technicalsupportengineerdellserverstorage",
@@ -1785,45 +1485,14 @@
    "first_seen": "2026-10-10"
   },
   {
-   "key": "내근처팩토리|내근처팩토리가맹점영업담당자신입경력채용",
-   "tier": "추천 직군",
+   "key": "한국굿윌인스트루먼트|기술지원엔지니어fieldapplicationengineer",
+   "tier": "기술지원",
    "score": 65,
    "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
+    "기술지원 직무",
     "경력 조건 맞음"
    ],
-   "company": "주식회사 내근처팩토리",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/523059",
-   "title": "[내근처팩토리] 가맹점 영업 담당자 신입/경력 채용",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49816908",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/49816908"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "3년↑",
-   "due": "2026-10-19",
-   "due_sort": "2026-10-19",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "국민티에스|kb국민카드가맹점심사업무계약직채용대직",
-   "tier": "추천 직군",
-   "score": 65,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)국민티에스",
+   "company": "한국굿윌인스트루먼트(주)",
    "headhunter": false,
    "location": "서울 영등포구",
    "station": "여의도역",
@@ -1831,252 +1500,136 @@
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "KB국민카드 가맹점 심사업무 계약직 채용(대직)",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50126650",
+   "title": "기술지원 엔지니어 (Field Application Engineer)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343341",
    "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50126650"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343341"
    },
    "sources": [
-    "jobkorea"
+    "saramin"
    ],
-   "experience": "1년↑",
-   "due": "2026-11-06",
-   "due_sort": "2026-11-06",
-   "first_seen": "2026-10-19"
+   "experience": "5년↑",
+   "due": "2026-10-30",
+   "due_sort": "2026-10-30",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "시노퓨즈|기술영업프로젝트메니져기술지원경력채용",
+   "key": "파워피플컨설팅|기술지원엔지니어teamviewerdex",
    "tier": "기술지원",
    "score": 65,
    "reasons": [
     "기술지원 직무",
     "경력 조건 맞음"
    ],
-   "company": "시노퓨즈 주식회사",
+   "company": "파워피플컨설팅",
    "headhunter": false,
-   "location": "경기 용인시 기흥구",
-   "station": "기흥역",
-   "distance_km": 0.9,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "기술영업 / 프로젝트메니져 / 기술지원 경력 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321930",
+   "title": "기술지원엔지니어(TeamViewer DEX)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55327383",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321930"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "8~15년",
-   "due": "2026-11-17",
-   "due_sort": "2026-11-17",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "베스트에치알|긴급ㅣfnbㅣ가맹점운영관리과장차장급",
-   "tier": "추천 직군",
-   "score": 65,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)베스트에치알 (Best HR)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/526671",
-   "title": "긴급ㅣFnBㅣ가맹점 운영관리(과장-차장급)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321834",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321834"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "7년↑",
-   "due": "2026-11-02",
-   "due_sort": "2026-11-02",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "한스컨설팅|가산동위치외국계산업용3d카메라회사기술지원대리급",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "한스컨설팅",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/513133",
-   "title": "가산동 위치 외국계 산업용3D 카메라회사 기술지원 대리급",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319654",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319654"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~10년",
-   "due": "2026-11-01",
-   "due_sort": "2026-11-01",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "휴먼인써치|국내이커머스솔루션기업아틀라시안솔루션엔지니어채용",
-   "tier": "추천 직군",
-   "score": 65,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "휴먼인써치",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "station": "잠실역",
-   "distance_km": 26.4,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[국내이커머스솔루션기업] 아틀라시안 솔루션 엔지니어 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55315899",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55315899"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55327383"
    },
    "sources": [
     "saramin"
    ],
    "experience": "3년↑",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-18"
+   "due": "2026-11-03",
+   "due_sort": "2026-11-03",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "캔탑스|글로벌사업본부기술지원팀신입경력인재채용",
+   "key": "인투워크|ithelpdesk운영엔지니어채용",
    "tier": "기술지원",
    "score": 65,
    "reasons": [
     "기술지원 직무",
     "경력 조건 맞음"
    ],
-   "company": "(주)캔탑스",
+   "company": "(주)인투워크",
    "headhunter": false,
-   "location": "경기 수원시 영통구",
-   "station": "수원역",
-   "distance_km": 9.7,
+   "location": "서울 강서구",
+   "station": "까치산역",
+   "distance_km": 36.6,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[글로벌사업본부] 기술지원팀 신입/경력 인재 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55312545",
+   "title": "IT Helpdesk 운영 엔지니어 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55326697",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55312545"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55326697"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "5~10년",
-   "due": "채용시",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-18"
+   "experience": "2년↑",
+   "due": "2026-11-18",
+   "due_sort": "2026-11-18",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "에스오데이타|db접근제어기술지원채용dbsafer",
-   "tier": "기술지원",
+   "key": "비즈마켓|비즈마켓전략기획실b2b커머스서비스기획팀리더채용",
+   "tier": "추천 직군",
    "score": 65,
    "reasons": [
-    "기술지원 직무",
+    "인접 직무",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
-   "company": "(주)에스오데이타",
+   "company": "(주)비즈마켓",
    "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
+   "location": "서울 용산구",
+   "station": "용산역",
+   "distance_km": 31.0,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "DB 접근제어 기술지원 채용 (DBSAFER)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55310786",
+   "title": "[비즈마켓] 전략기획실 B2B 커머스 서비스 기획 팀 리더 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342032",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55310786"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342032"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "4~20년",
-   "due": "2026-11-14",
-   "due_sort": "2026-11-14",
-   "first_seen": "2026-10-16"
+   "experience": "5년↑",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "에스오데이타|db암호화기술지원채용디아모",
-   "tier": "기술지원",
+   "key": "린인파트너스|이커머스신규사업부서비스기획",
+   "tier": "추천 직군",
    "score": 65,
    "reasons": [
-    "기술지원 직무",
+    "인접 직무",
+    "API 서비스 도메인",
     "경력 조건 맞음"
    ],
-   "company": "(주)에스오데이타",
+   "company": "(주)린인파트너스",
    "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
+   "location": "서울 중구",
+   "station": "서울역",
+   "distance_km": 33.3,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "DB 암호화 기술지원 채용 (디아모)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55310638",
+   "title": "[이커머스 신규사업부] 서비스기획",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55340778",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55310638"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55340778"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "4~20년",
-   "due": "2026-11-14",
-   "due_sort": "2026-11-14",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "태스킹코리아|독일계판교fae기술지원엔지니어채용경력3년이상",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "태스킹코리아(주)",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "station": "정자역",
-   "distance_km": 10.1,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[독일계/판교] FAE - 기술지원 엔지니어 채용 (경력 3년이상)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55300974",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55300974"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "3~15년",
-   "due": "2026-11-14",
-   "due_sort": "2026-11-14",
-   "first_seen": "2026-10-16"
+   "experience": "5년↑",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "커리어커넥트|대형저축은행네트워크금융부pg카드결제사제휴업무경력자",
@@ -2229,65 +1782,6 @@
    "first_seen": "2026-10-19"
   },
   {
-   "key": "스타페이먼츠|주스타페이먼츠영업지원팀정산담당자채용",
-   "tier": "추천 직군",
-   "score": 65,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)스타페이먼츠",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "station": "잠실역",
-   "distance_km": 26.4,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "(주)스타페이먼츠 영업지원팀 정산 담당자 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55092220",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55092220"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "2년↑",
-   "due": "2026-10-21",
-   "due_sort": "2026-10-21",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "공이일공|아싸컴기술지원as담당자채용경력",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)공이일공",
-   "headhunter": false,
-   "location": "서울 구로구",
-   "station": "구로디지털단지역",
-   "distance_km": 29.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[아싸컴] 기술지원(A/S) 담당자 채용 (경력)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55314472",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55314472"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "3년↑",
-   "due": "2026-10-23",
-   "due_sort": "2026-10-23",
-   "first_seen": "2026-10-18"
-  },
-  {
    "key": "킹파과학기술코리아|킹파과학기술코리아기술지원엔지니어technicalsupportengineer",
    "tier": "기술지원",
    "score": 65,
@@ -2314,64 +1808,6 @@
    "experience": "3~10년",
    "due": "2026-11-15",
    "due_sort": "2026-11-15",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "피에프씨테크놀로지스|b2btechaccountmanagertam기술지원매니저",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "피에프씨테크놀로지스(주)",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "B2B Tech Account Manager(TAM, 기술 지원 매니저)",
-   "url": "https://career.rememberapp.co.kr/job/posting/322233",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/322233"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3년↑",
-   "due": "2026-11-10",
-   "due_sort": "2026-11-10",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "모니터랩|정보네트워크보안기술지원엔지니어",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)모니터랩",
-   "headhunter": false,
-   "location": "서울 구로구",
-   "station": "구로디지털단지역",
-   "distance_km": 29.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "정보(네트워크) 보안 기술지원 엔지니어",
-   "url": "https://career.rememberapp.co.kr/job/posting/336417",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/336417"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "6~15년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
    "first_seen": "2026-10-16"
   },
   {
@@ -2402,6 +1838,66 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
+  },
+  {
+   "key": "캐치테이블|캐치테이블페이정산운영",
+   "tier": "추천 직군",
+   "score": 65,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "캐치테이블",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "station": "정자역",
+   "distance_km": 10.1,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "캐치테이블페이_정산 운영",
+   "url": "https://career.rememberapp.co.kr/job/posting/348655",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348655"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "신성통상|커머스플랫폼서비스기획자",
+   "tier": "추천 직군",
+   "score": 65,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "신성통상(주)",
+   "headhunter": false,
+   "location": "서울 강동구",
+   "station": "천호역",
+   "distance_km": 29.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "커머스 플랫폼 서비스기획자",
+   "url": "https://career.rememberapp.co.kr/job/posting/348614",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348614"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "8년↑",
+   "due": "2026-10-25",
+   "due_sort": "2026-10-25",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "캐치테이블|캐치테이블페이결제서비스팀pmpo팀장",
@@ -2496,36 +1992,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "피플앤피플|에이전틱aiagenticai솔루션기업솔루션구축개발pmpl",
-   "tier": "추천 직군",
-   "score": 60,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 5"
-   ],
-   "company": "피플앤피플",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 5,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/443828",
-   "title": "[에이전틱 AI(Agentic AI) 솔루션 기업] 솔루션 구축 개발 PM/PL",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55308605",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55308605"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "8~16년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-16"
-  },
-  {
    "key": "인바이트넷|주디케이닥터서비스운영부문담당자채용",
    "tier": "추천 직군",
    "score": 60,
@@ -2551,8 +2017,8 @@
     "jobkorea"
    ],
    "experience": "5년↑",
-   "due": "2026-10-22",
-   "due_sort": "2026-10-22",
+   "due": "2026-11-21",
+   "due_sort": "2026-11-21",
    "first_seen": "2026-10-18"
   },
   {
@@ -2584,66 +2050,6 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
-  },
-  {
-   "key": "에이치알포유|독일계장비한국지사기술영업",
-   "tier": "추천 직군",
-   "score": 60,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 4.3"
-   ],
-   "company": "에이치알포유(주)",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": 4.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/425744",
-   "title": "[독일계 장비 한국지사] 기술영업",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321212",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321212"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "2년↑",
-   "due": "2026-11-02",
-   "due_sort": "2026-11-02",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "에이치알포유|ict통합서비스대기업it보안솔루션프리세일즈5~15년",
-   "tier": "추천 직군",
-   "score": 60,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 4.3"
-   ],
-   "company": "에이치알포유(주)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 4.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/425744",
-   "title": "[ICT 통합서비스대기업] IT 보안솔루션 프리세일즈(5~15년)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319402",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319402"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~15년",
-   "due": "2026-10-24",
-   "due_sort": "2026-10-24",
-   "first_seen": "2026-10-18"
   },
   {
    "key": "유닛블랙|환급서비스운영기획자",
@@ -2706,66 +2112,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "에이치알비즈코리아|퍼블리싱플랫폼퍼블리싱pm세계적게임사판교",
-   "tier": "추천 직군",
-   "score": 60,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 4"
-   ],
-   "company": "(주)에이치알비즈코리아",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "station": "정자역",
-   "distance_km": 10.1,
-   "rating": 4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/311019",
-   "title": "퍼블리싱/플랫폼] 퍼블리싱 PM/세계적 게임사/판교",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321592",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321592"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~12년",
-   "due": "2026-11-02",
-   "due_sort": "2026-11-02",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "에이치알비즈코리아|모바일게임영어권대만담당사업pm세계적게임사",
-   "tier": "추천 직군",
-   "score": 60,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 4"
-   ],
-   "company": "(주)에이치알비즈코리아",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "station": "정자역",
-   "distance_km": 10.1,
-   "rating": 4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/311019",
-   "title": "모바일게임/영어권,  대만 담당 사업 PM/세계적 게임사",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321574",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321574"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~15년",
-   "due": "2026-11-02",
-   "due_sort": "2026-11-02",
-   "first_seen": "2026-10-18"
-  },
-  {
    "key": "어나더컴퍼니그룹|고객경험팀cx매니저",
    "tier": "추천 직군",
    "score": 60,
@@ -2794,36 +2140,6 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
-  },
-  {
-   "key": "석세스코리아컨설팅|외국계계측전문기업기술영업과장~이사",
-   "tier": "추천 직군",
-   "score": 60,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 3.7"
-   ],
-   "company": "주) 석세스코리아컨설팅",
-   "headhunter": false,
-   "location": "서울 구로구",
-   "station": "구로디지털단지역",
-   "distance_km": 29.6,
-   "rating": 3.7,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/318503",
-   "title": "[외국계 계측 전문기업] 기술영업 (과장~이사)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322128",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322128"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "7~20년",
-   "due": "2026-11-02",
-   "due_sort": "2026-11-02",
-   "first_seen": "2026-10-19"
   },
   {
    "key": "현대오토에버|sappresales및모듈컨설팅",
@@ -3006,7 +2322,7 @@
    "first_seen": "2026-10-10"
   },
   {
-   "key": "굿커리어|외국계열교환기컨트롤밸브기술영업대리과장차장초급구함",
+   "key": "맨토스파워|스마트팩토리전문기업기술영업채용",
    "tier": "추천 직군",
    "score": 60,
    "reasons": [
@@ -3014,56 +2330,26 @@
     "경력 조건 맞음",
     "평점 3.5"
    ],
-   "company": "굿커리어",
+   "company": "(주)맨토스파워",
    "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
+   "location": "서울 강서구",
+   "station": "까치산역",
+   "distance_km": 36.6,
    "rating": 3.5,
    "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/319151",
-   "title": "외국계 열교환기,컨트롤밸브 기술영업 대리,과장,차장초급 구함(",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321973",
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/126593",
+   "title": "[스마트 팩토리 전문기업] 기술영업 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341988",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321973"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341988"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "3~15년",
-   "due": "2026-11-02",
-   "due_sort": "2026-11-02",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "굿커리어|제조외국계산업자동화솔루션pm과장차장급구함굿커리어",
-   "tier": "추천 직군",
-   "score": 60,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 3.5"
-   ],
-   "company": "굿커리어",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 3.5,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/319151",
-   "title": "제조외국계 산업자동화솔루션 PM 과장,차장급 구함(굿커리어)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302092",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302092"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "8년↑",
-   "due": "2026-10-30",
-   "due_sort": "2026-10-30",
-   "first_seen": "2026-10-16"
+   "experience": "1년↑",
+   "due": "채용시",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "플라잎|technicalpm",
@@ -3212,34 +2498,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "엔키화이트햇|기술지원팀:보안솔루션엔지니어",
-   "tier": "기술지원",
-   "score": 55,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "㈜엔키화이트햇",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "station": "잠실역",
-   "distance_km": 26.4,
-   "rating": 3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/435290",
-   "title": "기술지원팀 : 보안 솔루션 엔지니어",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49821616",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/49821616"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "엔에이치엔케이씨피|nhnkcp본인확인서비스가맹점운영육아휴직대체",
    "tier": "추천 직군",
    "score": 55,
@@ -3258,12 +2516,10 @@
    "title": "[NHN KCP] 본인확인 서비스 가맹점 운영 (육아휴직대체)",
    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49997823",
    "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/49997823",
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55051120"
+    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/49997823"
    },
    "sources": [
-    "jobkorea",
-    "saramin"
+    "jobkorea"
    ],
    "experience": "경력무관",
    "due": "2026-11-14",
@@ -3357,6 +2613,36 @@
    "first_seen": "2026-10-19"
   },
   {
+   "key": "바텍|바텍cs기술지원",
+   "tier": "기술지원",
+   "score": 55,
+   "reasons": [
+    "기술지원 직무",
+    "경력 조건 맞음",
+    "평점 낮음 2.3"
+   ],
+   "company": "(주)바텍",
+   "headhunter": false,
+   "location": "경기 화성시",
+   "station": "병점역",
+   "distance_km": 26.1,
+   "rating": 2.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/76137",
+   "title": "[바텍] CS 기술지원",
+   "url": "https://career.rememberapp.co.kr/job/posting/348003",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348003"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~10년",
+   "due": "2026-10-30",
+   "due_sort": "2026-10-30",
+   "first_seen": "2026-10-20"
+  },
+  {
    "key": "시큐어포인트|경력시스템db접근제어솔루션엔지니어채용",
    "tier": "추천 직군",
    "score": 55,
@@ -3408,12 +2694,10 @@
    "title": "[(주)씨드페이먼츠] PG/선불 전자결제 서비스 서비스 기획/운영",
    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49993635",
    "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/49993635",
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55039426"
+    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/49993635"
    },
    "sources": [
-    "jobkorea",
-    "saramin"
+    "jobkorea"
    ],
    "experience": "3년↑",
    "due": "2026-11-14",
@@ -3599,6 +2883,64 @@
    "due": "2026-10-22",
    "due_sort": "2026-10-22",
    "first_seen": "2026-10-10"
+  },
+  {
+   "key": "쿠팡|tvod개별구매콘텐츠운영매니저계약직1년",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "쿠팡(주)",
+   "headhunter": false,
+   "location": "서울",
+   "station": null,
+   "distance_km": null,
+   "rating": 3.2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
+   "title": "TVOD (개별구매) 콘텐츠 운영 매니저 (계약직/1년)",
+   "url": "https://career.rememberapp.co.kr/job/posting/348573",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348573"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "8~15년",
+   "due": "2026-11-30",
+   "due_sort": "2026-11-30",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "쿠팡|쿠팡구매시스템운영전문가globalsystems&opsexcellence",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "쿠팡(주)",
+   "headhunter": false,
+   "location": "서울 광진구",
+   "station": "건대입구역",
+   "distance_km": 29.6,
+   "rating": 3.2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
+   "title": "[쿠팡] 구매 시스템 운영 전문가(Global Systems & Ops Excellence)",
+   "url": "https://career.rememberapp.co.kr/job/posting/348338",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348338"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "쿠팡|staffcxresearchercustomerexperience",
@@ -3987,7 +3329,7 @@
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "㈜캐럿글로벌",
+   "company": "캐럿글로벌",
    "headhunter": false,
    "location": "서울 서초구",
    "station": "교대역",
@@ -4121,34 +3463,6 @@
    "experience": "경력무관",
    "due": "2026-10-31",
    "due_sort": "2026-10-31",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "디케이테크인|카카오자회사technicalsupport채용",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "(주)디케이테크인",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "station": "정자역",
-   "distance_km": 10.1,
-   "rating": 2.7,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/311572",
-   "title": "[카카오자회사] Technical Support 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55090808",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55090808"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "2026-11-20",
-   "due_sort": "2026-11-20",
    "first_seen": "2026-09-26"
   },
   {
@@ -4297,35 +3611,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "트래블월렛|트래블월렛pmlead결제스쿼드10년이상",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인"
-   ],
-   "company": "(주)트래블월렛",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2.5,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/382192",
-   "title": "[트래블월렛] PM Lead (결제 스쿼드) - 10년 이상",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55066065",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55066065"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "10년↑",
-   "due": "2026-11-16",
-   "due_sort": "2026-11-16",
-   "first_seen": "2026-10-19"
-  },
-  {
    "key": "카플|기술지원발주팀장급",
    "tier": "기술지원",
    "score": 50,
@@ -4439,34 +3724,6 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "이스트시큐리티|estsecurity보안sw기술지원경력무관",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "㈜이스트시큐리티",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[ESTsecurity] 보안S/W 기술지원 (경력무관)",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50041073",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50041073"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "2026-10-22",
-   "due_sort": "2026-10-22",
-   "first_seen": "2026-10-18"
-  },
-  {
    "key": "티피링크|외국계티피링크코리아기술지원엔지니어채용",
    "tier": "기술지원",
    "score": 50,
@@ -4493,118 +3750,6 @@
    "due": "2026-11-13",
    "due_sort": "2026-11-13",
    "first_seen": "2026-10-16"
-  },
-  {
-   "key": "현대엘리베이터|우수인재pool등록기술지원",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "현대엘리베이터",
-   "headhunter": false,
-   "location": "서울 종로구",
-   "station": "종각역",
-   "distance_km": 34.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "우수 인재 Pool 등록 (기술지원)",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50125488",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50125488"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "이글루코퍼레이션|기술지원센터보안솔루션기술지원엔지니어신입경력채용",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "㈜이글루코퍼레이션",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "station": "잠실역",
-   "distance_km": 26.4,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[기술지원센터] 보안솔루션 기술지원 엔지니어 신입/경력 채용",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50114996",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50114996"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "2026-11-30",
-   "due_sort": "2026-11-30",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "디지캡|autodesk기술지원강남사무실",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "㈜디지캡",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "Autodesk 기술지원 -강남사무실",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50131264",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50131264"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "2026-11-07",
-   "due_sort": "2026-11-07",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "에스디바이오센서|10월신입경력기흥제품기술지원fieldserviceengineer담당자채용",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "에스디바이오센서㈜",
-   "headhunter": false,
-   "location": "경기 용인시 기흥구",
-   "station": "기흥역",
-   "distance_km": 0.9,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[10월/신입경력/기흥] 제품 기술지원(Field Service Engineer) 담당자 채용",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50182916",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50182916"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "2026-10-25",
-   "due_sort": "2026-10-25",
-   "first_seen": "2026-10-19"
   },
   {
    "key": "이즈원소프트|주35시간솔루션엔지니어기술지원신입모집공고",
@@ -4809,35 +3954,6 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "브이오지코리아|voghair본사가맹점운영관리ai마케팅채용",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인"
-   ],
-   "company": "㈜브이오지코리아",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[VOG HAIR 본사] 가맹점 운영관리 · AI 마케팅 채용",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50062221",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50062221"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "2026-10-28",
-   "due_sort": "2026-10-28",
-   "first_seen": "2026-10-05"
-  },
-  {
    "key": "동선컴퍼니|가맹점영업관리컨설턴트모집기본급&인센티브신입가능",
    "tier": "추천 직군",
    "score": 50,
@@ -4865,6 +3981,35 @@
    "due": "2026-11-07",
    "due_sort": "2026-11-07",
    "first_seen": "2026-10-10"
+  },
+  {
+   "key": "브이오지코리아|voghair본사가맹점운영관리ai마케팅채용",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인"
+   ],
+   "company": "㈜브이오지코리아",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[VOG HAIR 본사] 가맹점 운영관리 · AI 마케팅 채용",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50062221",
+   "links": {
+    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50062221"
+   },
+   "sources": [
+    "jobkorea"
+   ],
+   "experience": "경력무관",
+   "due": "2026-10-28",
+   "due_sort": "2026-10-28",
+   "first_seen": "2026-10-05"
   },
   {
    "key": "아팩스시스템|영업지원가맹점카드사가맹및서류검토단순사무직",
@@ -4925,6 +4070,35 @@
    "first_seen": "2026-10-18"
   },
   {
+   "key": "스마트솔루션|신용카드단말기및pos가맹점관리출퇴근차량지원",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인"
+   ],
+   "company": "㈜스마트솔루션",
+   "headhunter": false,
+   "location": "서울 강서구",
+   "station": "까치산역",
+   "distance_km": 36.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "신용카드단말기 및 POS 가맹점관리/출퇴근 차량지원",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50195327",
+   "links": {
+    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50195327"
+   },
+   "sources": [
+    "jobkorea"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-18",
+   "due_sort": "2026-11-18",
+   "first_seen": "2026-10-16"
+  },
+  {
    "key": "링크|링크주페이코멤버십라이트가맹점영업&관리담당자모집",
    "tier": "추천 직군",
    "score": 50,
@@ -4954,62 +4128,89 @@
    "first_seen": "2026-10-10"
   },
   {
-   "key": "스마트솔루션|신용카드단말기및pos가맹점관리출퇴근차량지원",
-   "tier": "추천 직군",
+   "key": "에이치알코어스|it기술지원및운영업무정규직",
+   "tier": "기술지원",
    "score": 50,
    "reasons": [
-    "인접 직무",
-    "API 서비스 도메인"
+    "기술지원 직무"
    ],
-   "company": "㈜스마트솔루션",
+   "company": "에이치알코어스",
    "headhunter": false,
-   "location": "서울 강서구",
-   "station": "까치산역",
-   "distance_km": 36.6,
+   "location": "서울 구로구",
+   "station": "구로디지털단지역",
+   "distance_km": 29.6,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "신용카드단말기 및 POS 가맹점관리/출퇴근 차량지원",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50166280",
+   "title": "IT 기술지원 및 운영업무(정규직)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345861",
    "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50166280"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345861"
    },
    "sources": [
-    "jobkorea"
+    "saramin"
    ],
    "experience": "경력무관",
-   "due": "2026-11-13",
-   "due_sort": "2026-11-13",
-   "first_seen": "2026-10-16"
+   "due": "2026-11-04",
+   "due_sort": "2026-11-04",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "에이피알커뮤니케이션즈|포토그레이본사직영가맹점물류담당자신입및경력채용",
+   "key": "오쎄|오쎄이커머스온라인채널정산담당채용",
    "tier": "추천 직군",
    "score": 50,
    "reasons": [
     "인접 직무",
     "API 서비스 도메인"
    ],
-   "company": "㈜에이피알커뮤니케이션즈",
+   "company": "(주)오쎄",
    "headhunter": false,
-   "location": "서울 마포구",
-   "station": "홍대입구역",
-   "distance_km": 35.2,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[포토그레이] 본사 직영/가맹점 물류담당자 신입 및 경력 채용",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50145847",
+   "title": "[오쎄] 이커머스 온라인 채널 정산 담당 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345067",
    "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50145847"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345067"
    },
    "sources": [
-    "jobkorea"
+    "saramin"
    ],
    "experience": "경력무관",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-19"
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "블루문소프트|하이서울인증기업보안프로그램기술지원모집",
+   "tier": "기술지원",
+   "score": 50,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "(주)블루문소프트",
+   "headhunter": false,
+   "location": "서울 동작구",
+   "station": "사당역",
+   "distance_km": 25.0,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[하이서울인증기업] 보안프로그램 기술지원 모집",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344802",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344802"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-04",
+   "due_sort": "2026-11-04",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "바이오노트|정규직신입경력ts팀고객기술지원인재채용",
@@ -5068,108 +4269,25 @@
    "first_seen": "2026-10-16"
   },
   {
-   "key": "넷킬러|googleworkspace기술지원실무담당자채용",
-   "tier": "기술지원",
+   "key": "보이스페이퍼코리아|voithkorea기술영업&세일즈엔지니어모집신입및경력",
+   "tier": "추천 직군",
    "score": 50,
    "reasons": [
-    "기술지원 직무"
+    "인접 직무",
+    "API 서비스 도메인"
    ],
-   "company": "넷킬러(주)",
+   "company": "(주)보이스페이퍼코리아",
    "headhunter": false,
-   "location": "경기 성남시 수정구",
+   "location": "경기 성남시 중원구",
    "station": "모란역",
    "distance_km": 17.2,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "Google Workspace 기술지원 실무 담당자 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55312763",
+   "title": "VOITH KOREA 기술 영업 & 세일즈 엔지니어 모집 (신입 및 경력)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55332561",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55312763"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "웬델코리아|전자부품기술지원엔지니어fae채용",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "웬델코리아(주)",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "전자부품 기술지원 엔지니어 FAE 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55311566",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55311566"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "2026-11-30",
-   "due_sort": "2026-11-30",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "알체라|계약직fieldengineer기술지원모집",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "(주)알체라",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[계약직] Field Engineer(기술지원) 모집",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55309558",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55309558"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "제이엔테크놀러지|ai센터인프라기술지원엔지니어",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "(주)제이엔테크놀러지",
-   "headhunter": false,
-   "location": "경기 용인시 처인구",
-   "station": "기흥역",
-   "distance_km": 0.9,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "AI 센터 인프라 기술 지원 엔지니어",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302533",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302533"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55332561"
    },
    "sources": [
     "saramin"
@@ -5177,10 +4295,95 @@
    "experience": "경력무관",
    "due": "채용시",
    "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "잡라이프|lg전자서울역연3300만복지우수정산및사무지원담당채용",
+   "key": "어니컴|판교커머스플랫폼qa담당자채용",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인"
+   ],
+   "company": "어니컴(주)",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "station": "정자역",
+   "distance_km": 10.1,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[판교] 커머스 플랫폼 QA 담당자 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55332319",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55332319"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "2~6년",
+   "due": "2026-11-18",
+   "due_sort": "2026-11-18",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "밸류에이치알|성수군포소속전환可유명중견기업기술지원담당자채용",
+   "tier": "기술지원",
+   "score": 50,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "(주)밸류에이치알",
+   "headhunter": false,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[성수,군포/소속전환可] 유명중견기업 기술지원 담당자 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55331102",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55331102"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-03",
+   "due_sort": "2026-11-03",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "피지피넷|주피지피넷기술지원신입&경력사원모집",
+   "tier": "기술지원",
+   "score": 50,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "(주)피지피넷",
+   "headhunter": false,
+   "location": "서울 금천구",
+   "station": "가산디지털단지역",
+   "distance_km": 30.4,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "(주)피지피넷 기술지원 신입 & 경력사원 모집",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55325446",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55325446"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-18",
+   "due_sort": "2026-11-18",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "잡라이프|lg전자서울역복지최상카드사정산및사무보조채용",
    "tier": "추천 직군",
    "score": 50,
    "reasons": [
@@ -5195,108 +4398,50 @@
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[LG전자/서울역/연3300만/복지우수] 정산 및 사무지원 담당 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55310618",
+   "title": "[LG전자/서울역/복지최상] 카드사 정산 및 사무보조 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345175",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55310618"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345175"
    },
    "sources": [
     "saramin"
    ],
    "experience": "경력무관",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-16"
+   "due": "2026-11-04",
+   "due_sort": "2026-11-04",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "조블페이|주조블페이야간고객지원담당자모집",
+   "key": "루쿠쿠|글로벌커머스프로젝트매니저pm채용",
    "tier": "추천 직군",
    "score": 50,
    "reasons": [
     "인접 직무",
     "API 서비스 도메인"
    ],
-   "company": "(주)조블페이",
+   "company": "루쿠쿠(주)",
    "headhunter": false,
-   "location": "경기 안산시 단원구",
-   "station": "중앙역",
-   "distance_km": 25.1,
+   "location": "서울 송파구",
+   "station": "잠실역",
+   "distance_km": 26.4,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "(주)조블페이 야간 고객지원 담당자 모집",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302483",
+   "title": "글로벌 커머스 프로젝트 매니저(PM) 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341848",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302483"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341848"
    },
    "sources": [
     "saramin"
    ],
    "experience": "경력무관",
-   "due": "2026-11-14",
-   "due_sort": "2026-11-14",
-   "first_seen": "2026-10-16"
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "패스트레인|서비스기획자",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인"
-   ],
-   "company": "패스트레인(여신티켓)",
-   "headhunter": false,
-   "location": "서울 강남구 외",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "서비스 기획자",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55298887",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55298887"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~8년",
-   "due": "2026-11-14",
-   "due_sort": "2026-11-14",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "패스트레인|서비스운영cxcs담당자",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인"
-   ],
-   "company": "패스트레인(여신티켓)",
-   "headhunter": false,
-   "location": "서울 강남구 외",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "서비스 운영(CX/CS) 담당자",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55298883",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55298883"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "3~8년",
-   "due": "2026-11-14",
-   "due_sort": "2026-11-14",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "잡라이프|lg전자서울역연3300만복지우수정산및사무지원채용",
+   "key": "잡라이프|lg전자서울역복지최상프로모션비용정산및사무지원",
    "tier": "추천 직군",
    "score": 50,
    "reasons": [
@@ -5311,18 +4456,47 @@
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[LG전자/서울역/연3300만/복지우수] 정산 및 사무지원 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55297237",
+   "title": "[LG전자/서울역/복지최상] 프로모션 비용정산 및 사무지원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55326823",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55297237"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55326823"
    },
    "sources": [
     "saramin"
    ],
    "experience": "경력무관",
-   "due": "2026-10-30",
-   "due_sort": "2026-10-30",
-   "first_seen": "2026-10-16"
+   "due": "2026-11-03",
+   "due_sort": "2026-11-03",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "삼신홀딩스|올록담재무자금정산담당자3~5년차",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인"
+   ],
+   "company": "주식회사삼신홀딩스",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[올록담] 재무 자금정산 담당자(3~5년차)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55331187",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55331187"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "3~5년",
+   "due": "2026-11-18",
+   "due_sort": "2026-11-18",
+   "first_seen": "2026-10-19"
   },
   {
    "key": "비아이컴퍼니씨앤씨|주비아이컴퍼니씨앤씨pg운영정산담당자채용공고",
@@ -5470,35 +4644,6 @@
    "first_seen": "2026-10-19"
   },
   {
-   "key": "삼신홀딩스|올록담재무자금정산담당자3~5년차",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인"
-   ],
-   "company": "주식회사삼신홀딩스",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[올록담] 재무 자금정산 담당자(3~5년차)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55133047",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55133047"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "3~5년",
-   "due": "2026-10-28",
-   "due_sort": "2026-10-28",
-   "first_seen": "2026-10-19"
-  },
-  {
    "key": "먼슬리키친|영업기술지원테이블오더설치상담및현장지원2년이하",
    "tier": "기술지원",
    "score": 50,
@@ -5527,6 +4672,35 @@
    "first_seen": "2026-10-19"
   },
   {
+   "key": "그레이스정보통신|kiosk키오스크및pos포스회사채권관리및가맹점관리",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인"
+   ],
+   "company": "그레이스정보통신",
+   "headhunter": false,
+   "location": "서울 은평구",
+   "station": "연신내역",
+   "distance_km": 41.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "KIOSK(키오스크) 및 POS(포스) 회사 채권관리 및 가맹점 관리",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341280",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341280"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
+  },
+  {
    "key": "대원씨티에스|가우시움gausium상업용청소로봇기술지원엔지니어",
    "tier": "기술지원",
    "score": 50,
@@ -5552,35 +4726,6 @@
    "experience": "3~5년",
    "due": "상시채용",
    "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "한화투자증권|한화투자증권플랫폼서비스팀모바일서비스기획경력채용계약직",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인"
-   ],
-   "company": "한화투자증권(주)",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[한화투자증권] 플랫폼서비스팀 모바일 서비스 기획 경력채용(계약직)",
-   "url": "https://career.rememberapp.co.kr/job/posting/347723",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/347723"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "경력무관",
-   "due": "2026-10-30",
-   "due_sort": "2026-10-30",
    "first_seen": "2026-10-16"
   },
   {
@@ -5670,35 +4815,6 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
-  },
-  {
-   "key": "에이치알비즈코리아|고객지원cs담당모바일mmorpg세계적게임사판교",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "평점 4"
-   ],
-   "company": "(주)에이치알비즈코리아",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "station": "정자역",
-   "distance_km": 10.1,
-   "rating": 4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/311019",
-   "title": "고객지원(CS) 담당/모바일 MMORPG/세계적 게임사/판교",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319655",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319655"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "3~8년",
-   "due": "2026-11-01",
-   "due_sort": "2026-11-01",
-   "first_seen": "2026-10-18"
   },
   {
    "key": "에이비일팔공|globalcustomersuccessmanager",
@@ -5904,35 +5020,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "올거나이즈코리아|presalesmanager제안서포트폴리오필수",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "올거나이즈코리아(주)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2.9,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/415135",
-   "title": "Pre-Sales Manager (제안서 포트폴리오 필수)",
-   "url": "https://career.rememberapp.co.kr/job/posting/347247",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/347247"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~15년",
-   "due": "2026-11-18",
-   "due_sort": "2026-11-18",
-   "first_seen": "2026-10-16"
-  },
-  {
    "key": "톤28|톤28cx고객경험담당자",
    "tier": "추천 직군",
    "score": 45,
@@ -6020,14 +5107,14 @@
    "first_seen": "2026-10-18"
   },
   {
-   "key": "메가존클라우드|it클라우드보안프리세일즈",
+   "key": "메가존클라우드|abspresales및aitransformation컨설턴트채용",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "메가존클라우드(주)",
+   "company": "메가존클라우드㈜",
    "headhunter": false,
    "location": "경기 과천시",
    "station": "과천역",
@@ -6035,18 +5122,20 @@
    "rating": 2.8,
    "review_count": null,
    "jobplanet_url": "https://www.jobplanet.co.kr/companies/339331",
-   "title": "[IT/클라우드] 보안 프리세일즈",
-   "url": "https://career.rememberapp.co.kr/job/posting/347452",
+   "title": "ABS Presales 및 AI Transformation 컨설턴트 채용",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50200307",
    "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/347452"
+    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50200307",
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55332174"
    },
    "sources": [
-    "remember"
+    "jobkorea",
+    "saramin"
    ],
-   "experience": "3~15년",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-16"
+   "experience": "3년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "에버엑스|사업2팀모라케어서비스운영업무",
@@ -6105,6 +5194,35 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
+  },
+  {
+   "key": "데이원컴퍼니|경력교육운영매니저learningexperiencespecialist",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "데이원컴퍼니(주)",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 2.7,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/309654",
+   "title": "[경력]교육 운영 매니저(Learning Experience Specialist)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55333260",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55333260"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "3년↑",
+   "due": "2026-11-18",
+   "due_sort": "2026-11-18",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "위펀|엔지니어링매니저서비스운영보안품질",
@@ -6339,6 +5457,35 @@
    "first_seen": "2026-10-10"
   },
   {
+   "key": "엘케이삼양|카메라이미징장치개발및기술영업과천사무소근무",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "엘케이삼양",
+   "headhunter": false,
+   "location": "경기 과천시",
+   "station": "과천역",
+   "distance_km": 20.1,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "카메라 이미징 장치 개발 및 기술영업(과천사무소 근무)",
+   "url": "https://www.wanted.co.kr/wd/393055",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/393055"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "5~15년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
    "key": "한국딥러닝|엔터프라이즈b2bai솔루션기술영업",
    "tier": "추천 직군",
    "score": 45,
@@ -6357,12 +5504,10 @@
    "title": "엔터프라이즈 B2B AI 솔루션 기술영업",
    "url": "https://www.wanted.co.kr/wd/392848",
    "links": {
-    "wanted": "https://www.wanted.co.kr/wd/392848",
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55312327"
+    "wanted": "https://www.wanted.co.kr/wd/392848"
    },
    "sources": [
-    "wanted",
-    "saramin"
+    "wanted"
    ],
    "experience": "3~10년",
    "due": "2026-10-31",
@@ -6660,35 +5805,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "에이에스엠엘코리아|cshmifieldserviceengineer",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "에이에스엠엘코리아 유한회사",
-   "headhunter": false,
-   "location": "경기 이천시",
-   "station": "이천역",
-   "distance_km": 28.8,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "CS HMI Field Service Engineer",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50151664",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50151664"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "1년↑",
-   "due": "2026-10-19",
-   "due_sort": "2026-10-19",
-   "first_seen": "2026-10-16"
-  },
-  {
    "key": "파크시스템스|cs및영업마케팅담당자채용",
    "tier": "추천 직군",
    "score": 45,
@@ -6981,35 +6097,6 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "오브젠|오브젠microsoft사업기술영업presales채용",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "오브젠㈜",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[오브젠] Microsoft 사업 기술영업(Pre-Sales) 채용",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50018844",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50018844"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "5년↑",
-   "due": "2026-11-17",
-   "due_sort": "2026-11-17",
-   "first_seen": "2026-10-05"
-  },
-  {
    "key": "브리지텍|기술영업경력직모집",
    "tier": "추천 직군",
    "score": 45,
@@ -7095,93 +6182,6 @@
    "due": "2026-11-12",
    "due_sort": "2026-11-12",
    "first_seen": "2026-10-18"
-  },
-  {
-   "key": "옴니시스템|전기차충전기태양광기술영업",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "옴니시스템㈜",
-   "headhunter": false,
-   "location": "서울 성동구",
-   "station": "성수역",
-   "distance_km": 30.2,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "전기차충전기(태양광) 기술영업",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50151177",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50151177"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "3년↑",
-   "due": "2026-11-11",
-   "due_sort": "2026-11-11",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "영인과학|영인과학㈜영업본부기술영업경력직채용공고",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "영인과학㈜",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "영인과학㈜ 영업본부 기술영업 경력직 채용공고",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49998343",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/49998343"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "5년↑",
-   "due": "2026-11-14",
-   "due_sort": "2026-11-14",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "마이나비코리아|일본계한국법인글로벌금형업계기술영업k1709",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)마이나비코리아",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[일본계 한국법인]글로벌금형업계 기술영업 K1709",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50096646",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50096646"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "8년↑",
-   "due": "2026-11-01",
-   "due_sort": "2026-11-01",
-   "first_seen": "2026-10-19"
   },
   {
    "key": "인라이플|모비소프트서비스운영담당자",
@@ -7300,35 +6300,6 @@
    "first_seen": "2026-10-10"
   },
   {
-   "key": "섹타나인|secta9ine딜리버리서비스운영및프로모션담당자채용",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "㈜섹타나인",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[Secta9ine] 딜리버리 서비스 운영 및 프로모션 담당자 채용",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50167258",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50167258"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "1년↑",
-   "due": "2026-10-27",
-   "due_sort": "2026-10-27",
-   "first_seen": "2026-10-18"
-  },
-  {
    "key": "아이샵케어|cx팀cx리스크매니저",
    "tier": "추천 직군",
    "score": 45,
@@ -7358,207 +6329,149 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "휴먼리스펙|엔터프라이즈b2bai솔루션기술영업",
+   "key": "에이치알코어스|it솔루션공공영업기술영업",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "휴먼리스펙",
+   "company": "에이치알코어스",
    "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
+   "location": "서울 구로구",
+   "station": "구로디지털단지역",
+   "distance_km": 29.6,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "엔터프라이즈 B2B AI 솔루션 기술영업",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322407",
+   "title": "IT솔루션  공공영업, 기술영업",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345833",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322407"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345833"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "7~15년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-19"
+   "experience": "2년↑",
+   "due": "2026-11-04",
+   "due_sort": "2026-11-04",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "백그라운드|##코스닥상장전기차충전전문기업서비스기획팀장",
+   "key": "위키에이드|동탄코스닥자동화장비cs엔지니어",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "(주)백그라운드",
+   "company": "위키에이드",
    "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
+   "location": "경기 화성시 동탄구",
+   "station": "동탄역",
+   "distance_km": 8.5,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "## 코스닥 상장 전기차 충전 전문기업 - 서비스기획팀장",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322388",
+   "title": "[동탄/코스닥] 자동화 장비 CS 엔지니어",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345401",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322388"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345401"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "7년↑",
-   "due": "2026-11-03",
-   "due_sort": "2026-11-03",
-   "first_seen": "2026-10-19"
+   "experience": "5년↑",
+   "due": "2026-11-04",
+   "due_sort": "2026-11-04",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "에코바람에너지|기술영업및프로젝트관리자해상풍력에너지인프라",
+   "key": "에이피써치|국내최대크라우드펀딩기업프로덕트매니저pm",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "에코바람에너지(주)",
+   "company": "에이피써치",
    "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
+   "location": "경기 성남시 분당구",
+   "station": "정자역",
+   "distance_km": 10.1,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "기술영업 및 프로젝트 관리자 - 해상풍력, 에너지 인프라",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322152",
+   "title": "[국내 최대 크라우드 펀딩 기업] 프로덕트 매니저 (PM)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345236",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322152"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345236"
    },
    "sources": [
     "saramin"
    ],
    "experience": "5~10년",
-   "due": "2026-11-17",
-   "due_sort": "2026-11-17",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "한스컨설팅|가산동위치외국계산업용3d카메라회사기술영업대리급",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "한스컨설팅",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/513133",
-   "title": "가산동 위치 외국계 산업용3D 카메라회사 기술영업 대리급",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322071",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322071"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~10년",
-   "due": "2026-11-02",
-   "due_sort": "2026-11-02",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "hr컨설팅그룹|색조odm용인또는강서구국내기술영업각팀원1명",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)HR컨설팅그룹",
-   "headhunter": false,
-   "location": "서울 강서구",
-   "station": "까치산역",
-   "distance_km": 36.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[색조 ODM, 용인 또는 강서구 ] 국내 기술영업 (각 팀원 1명)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322014",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322014"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "2~10년",
    "due": "채용시",
    "due_sort": "9999-99-99",
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "에임즈인터내셔널코리아|생명과학기업기술영업salesrep",
+   "key": "미스터픽|첫차와함께할cxcs매니저를찾습니다",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "(주)에임즈인터내셔널코리아",
+   "company": "(주)미스터픽",
    "headhunter": false,
-   "location": "서울 강남구",
+   "location": "서울 강남구 외",
    "station": "강남역",
    "distance_km": 25.7,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "생명과학 기업 기술영업 (Sales Rep)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321864",
+   "title": "[첫차]와 함께 할 CX/CS매니저를 찾습니다.",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344946",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321864"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344946"
    },
    "sources": [
     "saramin"
    ],
    "experience": "3년↑",
-   "due": "2026-11-02",
-   "due_sort": "2026-11-02",
-   "first_seen": "2026-10-19"
+   "due": "2026-11-29",
+   "due_sort": "2026-11-29",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "아미노로직스|제약중간체비천연아미노산기술영업팀장모집경력",
+   "key": "엘티씨에이엠|엘티씨에이엠주안성기술영업담당자모집",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "(주)아미노로직스",
+   "company": "엘티씨에이엠(주)",
    "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
+   "location": "경기 안성시",
+   "station": "안성시청",
+   "distance_km": 33.4,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "제약중간체(비천연아미노산) 기술영업 팀장 모집(경력)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55309898",
+   "title": "엘티씨에이엠(주)안성 기술영업 담당자 모집",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344842",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55309898"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344842"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "8~15년",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-16"
+   "experience": "3년↑",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "제트에프씨브이에스코리아|기술영업technicalfieldsales",
@@ -7764,43 +6677,72 @@
    "first_seen": "2026-10-10"
   },
   {
-   "key": "에이치쓰리씨테크놀로지스코리아|솔루션엔지니어중국어or영어가능자우대",
+   "key": "비투넷|정규직채용개발pmpl경력직si프로젝트구축과장~차장",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "에이치쓰리씨테크놀로지스코리아유한회사",
+   "company": "주식회사 비투넷",
    "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
+   "location": "서울 금천구",
+   "station": "가산디지털단지역",
+   "distance_km": 30.4,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "솔루션 엔지니어  (중국어 or 영어 가능자 우대)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55065322",
+   "title": "[정규직 채용] 개발 PM.PL(경력직), SI프로젝트 구축/ 과장~차장",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55338063",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55065322"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55338063"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "3년↑",
-   "due": "2026-11-16",
-   "due_sort": "2026-11-16",
-   "first_seen": "2026-10-18"
+   "experience": "5년↑",
+   "due": "2026-10-27",
+   "due_sort": "2026-10-27",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "파워에이치알|주요si업체globalcorebankingpmpmo서울싱가폴",
+   "key": "바인컨설팅|외국계글로벌기업regionalsales매니저기술영업",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "파워에이치알",
+   "company": "(주)바인컨설팅",
+   "headhunter": false,
+   "location": "경기 안양시 동안구",
+   "station": "안양역",
+   "distance_km": 18.8,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[외국계]글로벌 기업 Regional Sales매니저(기술영업)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55333179",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55333179"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "5~13년",
+   "due": "2026-10-25",
+   "due_sort": "2026-10-25",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "가온데이터|강서구가양시스템운영관리serveradminlinux",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)가온데이터",
    "headhunter": false,
    "location": "서울 강서구",
    "station": "까치산역",
@@ -7808,57 +6750,28 @@
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[주요SI업체] Global Core Banking PM/PMO(서울/싱가폴)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321250",
+   "title": "[강서구/가양] 시스템 운영 관리 (Server Admin-Linux)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55332594",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321250"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55332594"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "5~20년",
-   "due": "2026-11-02",
-   "due_sort": "2026-11-02",
-   "first_seen": "2026-10-18"
+   "experience": "5년↑",
+   "due": "2026-11-18",
+   "due_sort": "2026-11-18",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "리앤파트너|중견코스메틱odm제조기업시스템운영개발ax개발운영경력",
+   "key": "콜로세움코퍼레이션|qaengineer5년이상",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "(주)리앤파트너",
-   "headhunter": false,
-   "location": "경기 오산시",
-   "station": "오산역",
-   "distance_km": 14.3,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[중견 코스메틱 ODM제조기업]시스템 운영개발/AX 개발운영 경력",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55310269",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55310269"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~15년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "소프트넷|기술영업경력직채용3년이상",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)소프트넷",
+   "company": "(주)콜로세움코퍼레이션",
    "headhunter": false,
    "location": "서울 강남구",
    "station": "강남역",
@@ -7866,28 +6779,173 @@
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "기술영업 경력직 채용(3년 이상)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55309380",
+   "title": "QA Engineer (5년이상)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55326633",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55309380"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55326633"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "5년↑",
+   "due": "2026-11-17",
+   "due_sort": "2026-11-17",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "썬더소프트코리아|thundersoftkoreasw개발pm경력직모집영어가능자",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)썬더소프트코리아",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "station": "정자역",
+   "distance_km": 10.1,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[Thundersoft Korea] SW 개발 PM 경력직 모집(영어 가능자)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344368",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344368"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "4~10년",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "시노펙스|시노펙스기술영업팀인재영입",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "㈜시노펙스",
+   "headhunter": false,
+   "location": "경기 화성시 동탄구",
+   "station": "동탄역",
+   "distance_km": 8.5,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[시노펙스] 기술영업팀 인재영입",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343724",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343724"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "2년↑",
+   "due": "2026-11-09",
+   "due_sort": "2026-11-09",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "테크밸리|중국기술영업담당자모집",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "테크밸리(주)",
+   "headhunter": false,
+   "location": "경기 성남시 중원구",
+   "station": "모란역",
+   "distance_km": 17.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "중국 기술영업 담당자 모집",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343506",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343506"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "5년↑",
+   "due": "2026-11-08",
+   "due_sort": "2026-11-08",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "소프트웨어원코리아|cloud기술영업m365azureaws",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "소프트웨어원코리아(유)",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "Cloud 기술영업 (M365, Azure, AWS)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342477",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342477"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "2~10년",
+   "due": "2026-12-19",
+   "due_sort": "2026-12-19",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "모나|사업개발및기술영업책임급채용",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "모나(주)",
+   "headhunter": false,
+   "location": "경기 광명시",
+   "station": "철산역",
+   "distance_km": 29.4,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "사업개발 및 기술 영업 책임급 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342381",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342381"
    },
    "sources": [
     "saramin"
    ],
    "experience": "3년↑",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-16"
+   "due": "2026-12-19",
+   "due_sort": "2026-12-19",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "에이피써치|글로벌보안솔루션테크니컬프리세일즈",
+   "key": "라피치|네트워크기술영업경력",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "에이피써치",
+   "company": "(주)라피치",
    "headhunter": false,
    "location": "서울 강남구",
    "station": "강남역",
@@ -7895,108 +6953,21 @@
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[글로벌 보안 솔루션] 테크니컬 프리세일즈",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55309113",
+   "title": "네트워크 기술영업(경력)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342359",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55309113"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342359"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "5년↑",
-   "due": "채용시",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
+   "experience": "7년↑",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "소프트위드솔루션|자사보안솔루션엔지니어차장부장급연봉협상",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)소프트위드솔루션",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "자사 보안솔루션  엔지니어 (차장.부장급) - 연봉 협상",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302904",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302904"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "6~13년",
-   "due": "2026-11-14",
-   "due_sort": "2026-11-14",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "포커스에이치알|미국계화장품qaengineer",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "포커스에이치알",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "미국계 화장품, QA Engineer",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55301960",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55301960"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "7~12년",
-   "due": "2026-10-30",
-   "due_sort": "2026-10-30",
-   "first_seen": "2026-10-10"
-  },
-  {
-   "key": "네이트커뮤니케이션즈|네이트커뮤니케이션즈시스템운영경력직채용",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "네이트커뮤니케이션즈(주)",
-   "headhunter": false,
-   "location": "서울 성동구",
-   "station": "성수역",
-   "distance_km": 30.2,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "네이트커뮤니케이션즈 시스템 운영 경력직 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55300831",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55300831"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5년↑",
-   "due": "2026-10-29",
-   "due_sort": "2026-10-29",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "백그라운드|스마트물류솔루션전문기업기술영업",
+   "key": "백그라운드|#공공웹서비스구축전문it기업웹기획pm채용",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
@@ -8005,227 +6976,82 @@
    ],
    "company": "(주)백그라운드",
    "headhunter": false,
-   "location": "서울 마포구",
-   "station": "홍대입구역",
-   "distance_km": 35.2,
+   "location": "서울 송파구",
+   "station": "잠실역",
+   "distance_km": 26.4,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[스마트 물류 솔루션 전문기업 - 기술영업]",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321382",
+   "title": "#[공공 웹서비스 구축 전문 IT기업] 웹기획 PM 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345842",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321382"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345842"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "3년↑",
-   "due": "2026-11-02",
-   "due_sort": "2026-11-02",
-   "first_seen": "2026-10-18"
+   "experience": "8년↑",
+   "due": "2026-11-04",
+   "due_sort": "2026-11-04",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "티앤아이테크트레이드|중화권전자부품기술영업프로젝트관리경력직채용",
+   "key": "백그라운드|#공공웹서비스구축전문it기업웹기획pm",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "(주)티앤아이테크트레이드",
+   "company": "(주)백그라운드",
    "headhunter": false,
-   "location": "경기 수원시 장안구",
-   "station": "수원역",
-   "distance_km": 9.7,
+   "location": "서울 송파구",
+   "station": "잠실역",
+   "distance_km": 26.4,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "중화권 전자부품 기술영업·프로젝트 관리 경력직 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321310",
+   "title": "#[공공 웹서비스 구축 전문 IT기업] 웹기획 PM",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345834",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321310"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345834"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "4년↑",
-   "due": "2026-11-17",
-   "due_sort": "2026-11-17",
-   "first_seen": "2026-10-18"
+   "experience": "8년↑",
+   "due": "2026-11-04",
+   "due_sort": "2026-11-04",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "라온서치|펌프기술영업경력자모집펌프제조기업대리과장급",
+   "key": "이비즈네트웍스|웹콘텐츠디자이너서비스기획uxui가능자경력5년이상",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "(주)라온서치",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "펌프 기술영업 경력자 모집 ( 펌프 제조기업 / 대리,과장급 )",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55320661",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55320661"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~20년",
-   "due": "2026-10-22",
-   "due_sort": "2026-10-22",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "라온서치|펌프기술영업경력자채용펌프제조기업과차장급",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)라온서치",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "펌프 기술영업 경력자 채용( 펌프 제조기업 / 과,차장급 )",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55320143",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55320143"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "6~20년",
-   "due": "2026-10-23",
-   "due_sort": "2026-10-23",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "엔엠에스컨설팅|기술영업담당글로벌수처리환경솔루션회사",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)엔엠에스컨설팅",
-   "headhunter": false,
-   "location": "서울 중구",
-   "station": "서울역",
-   "distance_km": 33.3,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "기술영업 담당(글로벌 수처리/환경솔루션 회사)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319431",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319431"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~17년",
-   "due": "2026-11-01",
-   "due_sort": "2026-11-01",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "스카우트플랜|모바일게임출시및서비스운영영어필수",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)스카우트플랜",
+   "company": "(주)이비즈네트웍스",
    "headhunter": false,
    "location": "서울 강남구",
    "station": "강남역",
    "distance_km": 25.7,
    "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/89398",
-   "title": "모바일 게임 출시 및 서비스 운영(영어 필수)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321871",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321871"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "3년↑",
-   "due": "2026-11-13",
-   "due_sort": "2026-11-13",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "비트컴퓨터|비트컴퓨터헬스케어신사업기획pm병의원소프트웨어",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)비트컴퓨터",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[비트컴퓨터] 헬스케어 신사업 기획·PM (병·의원 소프트웨어)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321685",
+   "title": "웹/콘텐츠 디자이너 (서비스 기획,UX/UI 가능자 / 경력 5년이상)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342393",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321685"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342393"
    },
    "sources": [
     "saramin"
    ],
    "experience": "5년↑",
-   "due": "2026-11-17",
-   "due_sort": "2026-11-17",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "니즈|니즈미리miri서비스기획자채용",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)니즈",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[니즈] 미리(MIRI) 서비스 기획자 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55312699",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55312699"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "3년↑",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-18"
+   "due": "채용시",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "비토즈|beatozweb3서비스기획및운영담당자채용",
@@ -8244,17 +7070,75 @@
    "review_count": null,
    "jobplanet_url": null,
    "title": "[BEATOZ] Web3 서비스 기획 및 운영 담당자 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55300251",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55331657",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55300251"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55331657"
    },
    "sources": [
     "saramin"
    ],
    "experience": "2년↑",
-   "due": "2026-11-14",
-   "due_sort": "2026-11-14",
+   "due": "2026-11-18",
+   "due_sort": "2026-11-18",
    "first_seen": "2026-10-16"
+  },
+  {
+   "key": "문피아|문피아서비스qa담당자",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)문피아",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[문피아] 서비스 QA 담당자",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55331194",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55331194"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "3년↑",
+   "due": "2026-11-22",
+   "due_sort": "2026-11-22",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "아이스크림미디어|아이스크림미디어서비스기획및운영자모집",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)아이스크림미디어",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "station": "정자역",
+   "distance_km": 10.1,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[아이스크림미디어] 서비스 기획 및 운영자 모집",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55327900",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55327900"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "4년↑",
+   "due": "채용시",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "이투스에듀서초지점|이투스에듀온라인사업본부서비스기획po채용",
@@ -8283,35 +7167,6 @@
    "experience": "5년↑",
    "due": "2026-12-14",
    "due_sort": "2026-12-14",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "올가홀푸드|풀무원orgait시스템운영관리",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)올가홀푸드",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "station": "잠실역",
-   "distance_km": 26.4,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[풀무원ORGA] IT 시스템 운영 관리",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55260214",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55260214"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "2년↑",
-   "due": "2026-10-19",
-   "due_sort": "2026-10-19",
    "first_seen": "2026-10-16"
   },
   {
@@ -8431,14 +7286,14 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "닥터파인드|it솔루션saasb2bai솔루션기술영업과차장급문서ai플랫",
+   "key": "도구모음|리퍼연구소cscx담당자채용",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "닥터파인드",
+   "company": "(주)도구모음",
    "headhunter": false,
    "location": "서울 서초구",
    "station": "교대역",
@@ -8446,134 +7301,221 @@
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "IT 솔루션 SaaS B2B AI 솔루션 기술영업 과차장급 문서 AI 플랫",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55315407",
+   "title": "[리퍼연구소] CS/CX 담당자 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55339623",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55315407"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "3~15년",
-   "due": "2026-10-23",
-   "due_sort": "2026-10-23",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "탑커리어인사이트|ai솔루션엔터프라이즈기술영업과차장급스타트업",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "탑커리어인사이트",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "AI 솔루션 엔터프라이즈 기술영업 / 과,차장급 [스타트업]",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55314361",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55314361"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "5~15년",
-   "due": "2026-10-30",
-   "due_sort": "2026-10-30",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "시라노|cxcs고객상담관리시라노소개팅",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)시라노",
-   "headhunter": false,
-   "location": "서울 구로구",
-   "station": "구로디지털단지역",
-   "distance_km": 29.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "CX/CS(고객상담,관리) [시라노소개팅]",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55309415",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55309415"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55339623"
    },
    "sources": [
     "saramin"
    ],
    "experience": "2년↑",
-   "due": "2026-11-17",
-   "due_sort": "2026-11-17",
-   "first_seen": "2026-10-19"
+   "due": "2026-10-31",
+   "due_sort": "2026-10-31",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "네이버웹툰|네이버웹툰웹툰콘텐츠제휴소싱담당경력",
+   "key": "에이치알글로벌네트워크|han중소ai컴퓨터비전강남구deeai기술영업",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "네이버웹툰(유)",
+   "company": "(주)에이치알글로벌네트워크",
    "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "station": "정자역",
-   "distance_km": 10.1,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
    "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[네이버웹툰] 웹툰 콘텐츠 제휴·소싱 담당 (경력)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55308546",
+   "review_count": 0,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/518736",
+   "title": "han[중소/AI/컴퓨터비전/강남구]dee AI 기술영업",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55333549",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55308546"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55333549"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "3년↑",
-   "due": "2026-10-25",
-   "due_sort": "2026-10-25",
-   "first_seen": "2026-10-16"
+   "experience": "3~15년",
+   "due": "2026-10-31",
+   "due_sort": "2026-10-31",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "미소|o2o홈서비스플랫폼misocx책임상담원",
+   "key": "디스럽트|projectmanager프로젝트매니저pm",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "유한회사 미소",
+   "company": "(주)디스럽트",
    "headhunter": false,
-   "location": "서울 종로구",
-   "station": "종각역",
-   "distance_km": 34.6,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[O2O 홈서비스 플랫폼 miso] CX 책임 상담원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302328",
+   "title": "Project Manager (프로젝트 매니저/PM)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55327240",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302328"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55327240"
    },
    "sources": [
     "saramin"
    ],
    "experience": "1년↑",
+   "due": "2026-11-24",
+   "due_sort": "2026-11-24",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "프로써치코리아|기술영업중국어혹은일본어능통",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)프로써치코리아",
+   "headhunter": true,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "기술영업(중국어 혹은 일본어 능통)",
+   "url": "https://career.rememberapp.co.kr/job/posting/287732",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/287732"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~16년",
+   "due": "2026-11-03",
+   "due_sort": "2026-11-03",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "플랜트코퍼레이션|자연물질연구소고객지원cs팀장7년이상",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)플랜트코퍼레이션",
+   "headhunter": false,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[자연물질연구소]고객지원(CS) 팀장 (7년 이상)",
+   "url": "https://career.rememberapp.co.kr/job/posting/348125",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348125"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "7~10년",
    "due": "상시채용",
    "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "이니노스|led전광판b2b기술영업및현장관리",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)이니노스",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "station": "여의도역",
+   "distance_km": 31.8,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "LED전광판 B2B 기술영업 및 현장관리",
+   "url": "https://career.rememberapp.co.kr/job/posting/348150",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348150"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~15년",
+   "due": "2026-11-30",
+   "due_sort": "2026-11-30",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "밥코리아|기술영업경력",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)밥코리아",
+   "headhunter": false,
+   "location": "서울 송파구",
+   "station": "잠실역",
+   "distance_km": 26.4,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "기술영업 경력",
+   "url": "https://career.rememberapp.co.kr/job/posting/348058",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348058"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~15년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "프로써치코리아|자동차부품기술영업",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)프로써치코리아",
+   "headhunter": true,
+   "location": "경기 화성시",
+   "station": "병점역",
+   "distance_km": 26.1,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "자동차부품 기술영업",
+   "url": "https://career.rememberapp.co.kr/job/posting/348033",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348033"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "7~12년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "프로써치코리아|기술영업",
@@ -8603,151 +7545,6 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-10-18"
-  },
-  {
-   "key": "에버브레인써치|기술영업",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)에버브레인써치",
-   "headhunter": true,
-   "location": "서울 구로구",
-   "station": "구로디지털단지역",
-   "distance_km": 29.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "기술영업",
-   "url": "https://career.rememberapp.co.kr/job/posting/340408",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/340408"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~15년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "피에프씨테크놀로지스|b2baiproductownerpo프로덕트오너",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "피에프씨테크놀로지스(주)",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "B2B AI Product Owner(PO, 프로덕트 오너)",
-   "url": "https://career.rememberapp.co.kr/job/posting/280620",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/280620"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3년↑",
-   "due": "2026-11-10",
-   "due_sort": "2026-11-10",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "프로써치코리아|산업용밸브기술영업사원팀원",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)프로써치코리아",
-   "headhunter": true,
-   "location": "경기 시흥시",
-   "station": "소사역",
-   "distance_km": 29.4,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[산업용 밸브] 기술영업사원(팀원)",
-   "url": "https://career.rememberapp.co.kr/job/posting/128525",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/128525"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "1~10년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "누비랩|정부지원사업운영매니저",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)누비랩",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "정부지원사업 운영 매니저",
-   "url": "https://career.rememberapp.co.kr/job/posting/346964",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/346964"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "4년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "맨파워써치|it기술영업",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)맨파워써치",
-   "headhunter": true,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "IT기술영업",
-   "url": "https://career.rememberapp.co.kr/job/posting/346914",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/346914"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
   },
   {
    "key": "맨파워써치|air&dtechnicalpm",
@@ -8866,62 +7663,207 @@
    "first_seen": "2026-10-18"
   },
   {
-   "key": "헤딩써치|발전기업지주회사pm계약구매",
+   "key": "엔에이치엔|nhnenterpriseagenticai서비스기획",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "(주)헤딩써치",
-   "headhunter": true,
-   "location": "서울",
-   "station": null,
-   "distance_km": null,
+   "company": "엔에이치엔(주)",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "station": "정자역",
+   "distance_km": 10.1,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[발전기업 지주회사] PM (계약, 구매)",
-   "url": "https://career.rememberapp.co.kr/job/posting/347752",
+   "title": "[NHN Enterprise] AgenticAI 서비스 기획",
+   "url": "https://career.rememberapp.co.kr/job/posting/348453",
    "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/347752"
+    "remember": "https://career.rememberapp.co.kr/job/posting/348453"
    },
    "sources": [
     "remember"
    ],
-   "experience": "5~10년",
+   "experience": "7년↑",
    "due": "상시채용",
    "due_sort": "9999-99-99",
-   "first_seen": "2026-10-18"
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "당근서비스|cxprofessional분쟁조정팀",
+   "key": "이공이공|브랜드기획본부틱톡샵운영매니저",
    "tier": "추천 직군",
    "score": 45,
    "reasons": [
     "인접 직무",
     "경력 조건 맞음"
    ],
-   "company": "(주)당근서비스",
+   "company": "(주)이공이공",
    "headhunter": false,
-   "location": "서울 구로구",
-   "station": "구로디지털단지역",
-   "distance_km": 29.6,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "CX Professional, 분쟁조정팀",
-   "url": "https://career.rememberapp.co.kr/job/posting/347718",
+   "title": "[브랜드기획본부] 틱톡샵 운영 매니저",
+   "url": "https://career.rememberapp.co.kr/job/posting/347659",
    "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/347718"
+    "remember": "https://career.rememberapp.co.kr/job/posting/347659"
    },
    "sources": [
     "remember"
    ],
-   "experience": "2년↑",
+   "experience": "1년↑",
+   "due": "2026-11-24",
+   "due_sort": "2026-11-24",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "케이디엑스|kdxkoreadigitalexchange모바일앱서비스기획lead",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)케이디엑스",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "station": "여의도역",
+   "distance_km": 31.8,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[KDX(Korea Digital eXchange)] 모바일 앱 서비스 기획 Lead",
+   "url": "https://career.rememberapp.co.kr/job/posting/346335",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/346335"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "8~15년",
+   "due": "2026-11-01",
+   "due_sort": "2026-11-01",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "그린재킷|서비스기획자productmanager",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)그린재킷",
+   "headhunter": false,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "서비스기획자/Product Manager",
+   "url": "https://career.rememberapp.co.kr/job/posting/335374",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/335374"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~10년",
    "due": "상시채용",
    "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "워트인텔리전스|ip교육기획운영매니저",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)워트인텔리전스",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "IP 교육 기획/운영 매니저",
+   "url": "https://career.rememberapp.co.kr/job/posting/348239",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348239"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3년↑",
+   "due": "2026-10-31",
+   "due_sort": "2026-10-31",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "하이브|hybe보안서비스기획pm",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)하이브",
+   "headhunter": false,
+   "location": "서울 용산구",
+   "station": "용산역",
+   "distance_km": 31.0,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[HYBE] 보안 서비스기획(PM)",
+   "url": "https://career.rememberapp.co.kr/job/posting/348185",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348185"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "한국네트웍스|그룹사sap시스템운영hr모듈",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)한국네트웍스",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "station": "정자역",
+   "distance_km": 10.1,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "그룹사 SAP 시스템 운영(HR모듈)",
+   "url": "https://career.rememberapp.co.kr/job/posting/348172",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348172"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5~15년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "리멤버헤드헌팅서비스|f&b직영점운영매니저",
@@ -8951,6 +7893,35 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
+  },
+  {
+   "key": "비브라토|csm고객성공매니저경력",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)비브라토",
+   "headhunter": false,
+   "location": "서울 서대문구",
+   "station": "신촌역",
+   "distance_km": 34.6,
+   "rating": null,
+   "review_count": 0,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/523870",
+   "title": "CSM(고객 성공 매니저) 경력",
+   "url": "https://career.rememberapp.co.kr/job/posting/348618",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348618"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~10년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "유니코써치|글로벌양자컴퓨팅사customersuccessmanager",
@@ -9276,32 +8247,32 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "링네트|주링네트cisco네트워크기술영업채용",
+   "key": "빅크|공연파트기획운영pm경력3~7년",
    "tier": "추천 직군",
    "score": 35,
    "reasons": [
     "인접 직무"
    ],
-   "company": "㈜링네트",
+   "company": "(주)빅크",
    "headhunter": false,
-   "location": "서울 구로구",
-   "station": "구로디지털단지역",
-   "distance_km": 29.6,
-   "rating": 3.2,
-   "review_count": 224,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/78213",
-   "title": "(주)링네트 Cisco 네트워크 기술영업 채용",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50099695",
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 3.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/392944",
+   "title": "공연파트 기획/운영 PM (경력 3~7년)",
+   "url": "https://career.rememberapp.co.kr/job/posting/346706",
    "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50099695"
+    "remember": "https://career.rememberapp.co.kr/job/posting/346706"
    },
    "sources": [
-    "jobkorea"
+    "remember"
    ],
-   "experience": "경력무관",
-   "due": "2026-11-01",
-   "due_sort": "2026-11-01",
-   "first_seen": "2026-10-19"
+   "experience": "3~7년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "헥토파이낸셜|헥토파이낸셜서비스기획",
@@ -9330,34 +8301,6 @@
    "due": "2026-11-15",
    "due_sort": "2026-11-15",
    "first_seen": "2026-10-18"
-  },
-  {
-   "key": "쿠팡|쿠팡cs이슈대응및운영담당자야간",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "쿠팡(주)",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "station": "잠실역",
-   "distance_km": 26.4,
-   "rating": 3.2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
-   "title": "[쿠팡] CS 이슈 대응 및 운영 담당자 (야간)",
-   "url": "https://career.rememberapp.co.kr/job/posting/347424",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/347424"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "2~7년",
-   "due": "2026-11-06",
-   "due_sort": "2026-11-06",
-   "first_seen": "2026-10-16"
   },
   {
    "key": "쿠팡|쿠팡고객경험개선pm주니어",
@@ -9444,34 +8387,6 @@
    "due": "2026-11-20",
    "due_sort": "2026-11-20",
    "first_seen": "2026-09-26"
-  },
-  {
-   "key": "제이투이|기획si서울역pg서비스기획7",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)제이투이",
-   "headhunter": false,
-   "location": "서울 용산구",
-   "station": "용산역",
-   "distance_km": 31.0,
-   "rating": 3.1,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/224940",
-   "title": "[기획 SI 서울역] PG서비스 기획 (7)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302833",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302833"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "10년↑",
-   "due": "2026-11-14",
-   "due_sort": "2026-11-14",
-   "first_seen": "2026-10-16"
   },
   {
    "key": "데이터얼라이언스|gpu클라우드기술영업&bd채널영업&영업관리",
@@ -9584,34 +8499,6 @@
    "due": "2026-12-11",
    "due_sort": "2026-12-11",
    "first_seen": "2026-10-16"
-  },
-  {
-   "key": "맨파워써치앤컨설팅|cybersecurity:technicalsales기술영업",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)맨파워써치앤컨설팅",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/479699",
-   "title": "Cyber Security : Technical Sales  (기술영업)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321755",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321755"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-19"
   },
   {
    "key": "바이다|바이다기술영업technicalsales경력직채용",
@@ -9914,36 +8801,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "이지서티|이지서티솔루션엔지니어경력경력",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 낮음 2.1"
-   ],
-   "company": "(주)이지서티",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": 2.1,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/58388",
-   "title": "[이지서티]  솔루션 엔지니어 경력(경력)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55311665",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55311665"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "3년↑",
-   "due": "채용시",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-18"
-  },
-  {
    "key": "이노튜브|기술영업b2b산업용iot기기기술영업납품제안조달",
    "tier": "추천 직군",
    "score": 35,
@@ -10145,8 +9002,8 @@
     "wanted"
    ],
    "experience": "3~7년",
-   "due": "2026-10-21",
-   "due_sort": "2026-10-21",
+   "due": "2026-10-23",
+   "due_sort": "2026-10-23",
    "first_seen": "2026-09-26"
   },
   {
@@ -10262,34 +9119,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "이테크시스템|이테크시스템splunk솔루션엔지니어신입경력",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "㈜이테크시스템",
-   "headhunter": false,
-   "location": "서울 중구",
-   "station": "서울역",
-   "distance_km": 33.3,
-   "rating": 2.6,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/58270",
-   "title": "[이테크시스템] Splunk 솔루션 엔지니어 (신입/경력)",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49949410",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/49949410"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "2026-11-04",
-   "due_sort": "2026-11-04",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "동훈아이텍|동훈아이텍시스템보안솔루션엔지니어채용신입경력",
    "tier": "추천 직군",
    "score": 30,
@@ -10315,6 +9144,34 @@
    "experience": "경력무관",
    "due": "2026-10-23",
    "due_sort": "2026-10-23",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "이테크시스템|이테크시스템splunk솔루션엔지니어신입경력",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "㈜이테크시스템",
+   "headhunter": false,
+   "location": "서울 중구",
+   "station": "서울역",
+   "distance_km": 33.3,
+   "rating": 2.6,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/58270",
+   "title": "[이테크시스템] Splunk 솔루션 엔지니어 (신입/경력)",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49949410",
+   "links": {
+    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/49949410"
+   },
+   "sources": [
+    "jobkorea"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-04",
+   "due_sort": "2026-11-04",
    "first_seen": "2026-09-26"
   },
   {
@@ -10573,6 +9430,34 @@
    "first_seen": "2026-09-26"
   },
   {
+   "key": "솜씨당컴퍼니|서비스운영md",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "솜씨당컴퍼니",
+   "headhunter": false,
+   "location": "서울 마포구",
+   "station": "홍대입구역",
+   "distance_km": 35.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "서비스 운영 MD",
+   "url": "https://www.wanted.co.kr/wd/393384",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/393384"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
    "key": "아파트아이|서비스운영담당자3년이상",
    "tier": "추천 직군",
    "score": 30,
@@ -10790,10 +9675,12 @@
    "title": "CSM (고객성공매니저, 7년 미만)",
    "url": "https://www.wanted.co.kr/wd/391891",
    "links": {
-    "wanted": "https://www.wanted.co.kr/wd/391891"
+    "wanted": "https://www.wanted.co.kr/wd/391891",
+    "remember": "https://career.rememberapp.co.kr/job/posting/348478"
    },
    "sources": [
-    "wanted"
+    "wanted",
+    "remember"
    ],
    "experience": "0~6년",
    "due": "상시채용",
@@ -10971,34 +9858,6 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "미래아이엔텍|itsm솔루션엔지니어채용",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "㈜미래아이엔텍",
-   "headhunter": false,
-   "location": "서울 중구",
-   "station": "서울역",
-   "distance_km": 33.3,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "ITSM 솔루션 엔지니어 채용",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50061516",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50061516"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "2026-10-28",
-   "due_sort": "2026-10-28",
-   "first_seen": "2026-10-10"
-  },
-  {
    "key": "인프라닉스|인프라닉스㈜솔루션엔지니어it인프라채용신입경력",
    "tier": "추천 직군",
    "score": 30,
@@ -11024,6 +9883,34 @@
    "experience": "경력무관",
    "due": "2026-11-06",
    "due_sort": "2026-11-06",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "미래아이엔텍|itsm솔루션엔지니어채용",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "㈜미래아이엔텍",
+   "headhunter": false,
+   "location": "서울 중구",
+   "station": "서울역",
+   "distance_km": 33.3,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "ITSM 솔루션 엔지니어 채용",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50061516",
+   "links": {
+    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50061516"
+   },
+   "sources": [
+    "jobkorea"
+   ],
+   "experience": "경력무관",
+   "due": "2026-10-28",
+   "due_sort": "2026-10-28",
    "first_seen": "2026-10-10"
   },
   {
@@ -11111,34 +9998,6 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "tpc로보틱스|기술영업담당정규직모집평택대전",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "㈜TPC로보틱스",
-   "headhunter": false,
-   "location": "경기 안성시",
-   "station": "안성시청",
-   "distance_km": 33.4,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "기술영업 담당 정규직 모집 (평택, 대전)",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50093163",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50093163"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-05"
-  },
-  {
    "key": "드림|베트남근무디스펜서산업용로봇기술영업정규직",
    "tier": "추천 직군",
    "score": 30,
@@ -11164,6 +10023,34 @@
    "experience": "경력무관",
    "due": "상시채용",
    "due_sort": "9999-99-99",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "tpc로보틱스|기술영업담당정규직모집평택대전",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "㈜TPC로보틱스",
+   "headhunter": false,
+   "location": "경기 안성시",
+   "station": "안성시청",
+   "distance_km": 33.4,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "기술영업 담당 정규직 모집 (평택, 대전)",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50093163",
+   "links": {
+    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50093163"
+   },
+   "sources": [
+    "jobkorea"
+   ],
+   "experience": "경력무관",
+   "due": "2026-10-31",
+   "due_sort": "2026-10-31",
    "first_seen": "2026-10-05"
   },
   {
@@ -11248,62 +10135,6 @@
    "experience": "경력무관",
    "due": "2026-11-12",
    "due_sort": "2026-11-12",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "sk텔레콤|에이닷음악추천서비스운영담당자",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "SK텔레콤",
-   "headhunter": false,
-   "location": "서울 중구",
-   "station": "서울역",
-   "distance_km": 33.3,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "에이닷 음악 추천 서비스 운영 담당자",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50185507",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50185507"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "2026-10-22",
-   "due_sort": "2026-10-22",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "sk텔레콤|에이닷검색추천서비스운영담당자",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "SK텔레콤",
-   "headhunter": false,
-   "location": "서울 중구",
-   "station": "서울역",
-   "distance_km": 33.3,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "에이닷 검색 추천 서비스 운영 담당자",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50185420",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50185420"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "경력무관",
-   "due": "2026-10-23",
-   "due_sort": "2026-10-23",
    "first_seen": "2026-10-16"
   },
   {
@@ -11475,69 +10306,181 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "다산이엔지|cs구인",
+   "key": "에이치알코어스|techcompany서비스기획정규직",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
     "인접 직무"
    ],
-   "company": "(주)다산이엔지",
+   "company": "에이치알코어스",
    "headhunter": false,
-   "location": "경기 화성시",
-   "station": "병점역",
-   "distance_km": 26.1,
+   "location": "서울 구로구",
+   "station": "구로디지털단지역",
+   "distance_km": 29.6,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "CS 구인",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322661",
+   "title": "Tech Company 서비스 기획(정규직)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345828",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322661"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345828"
    },
    "sources": [
     "saramin"
    ],
    "experience": "경력무관",
-   "due": "2026-11-18",
-   "due_sort": "2026-11-18",
-   "first_seen": "2026-10-19"
+   "due": "2026-11-04",
+   "due_sort": "2026-11-04",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "피플즈|ai교육소셜벤처교육운영매니저채용",
+   "key": "한국딥러닝|기술영업오퍼레이션담당자",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
     "인접 직무"
    ],
-   "company": "(주)피플즈",
+   "company": "한국딥러닝(주)",
    "headhunter": false,
-   "location": "서울 노원구",
-   "station": "노원역",
-   "distance_km": 42.2,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "AI 교육 소셜벤처 - 교육운영매니저 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322354",
+   "title": "기술 영업 오퍼레이션 담당자",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345613",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322354"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345613"
    },
    "sources": [
     "saramin"
    ],
    "experience": "경력무관",
-   "due": "2026-12-18",
-   "due_sort": "2026-12-18",
-   "first_seen": "2026-10-19"
+   "due": "2026-10-31",
+   "due_sort": "2026-10-31",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "넷플렉스|사업본부네트워크보안부문기술영업마케팅주니어채용",
+   "key": "에이피써치|글로벌씰링솔루션기업salesengineer",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
     "인접 직무"
    ],
-   "company": "(주)넷플렉스",
+   "company": "에이피써치",
+   "headhunter": false,
+   "location": "경기 용인시 기흥구",
+   "station": "기흥역",
+   "distance_km": 0.9,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[글로벌 씰링 솔루션 기업] Sales Engineer",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345198",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345198"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "3~8년",
+   "due": "채용시",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "디리아|디리아솔루션프리세일즈컨설턴트채용",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)디리아",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[디리아] 솔루션 프리세일즈 컨설턴트 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345182",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345182"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "채용시",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "퀄리스포츠코리아|퀄리스포츠cs담당자모집오전10시~오후6시",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "퀄리스포츠코리아",
+   "headhunter": false,
+   "location": "경기 의왕시",
+   "station": "의왕역",
+   "distance_km": 14.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[퀄리스포츠] CS 담당자 모집 (오전10시~오후6시)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345009",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345009"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "코인트래빗|무인환전키오스크서비스운영매니저",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)코인트래빗",
+   "headhunter": false,
+   "location": "경기 성남시",
+   "station": "모란역",
+   "distance_km": 17.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "무인환전 키오스크 서비스 운영 매니저",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344878",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344878"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-10-31",
+   "due_sort": "2026-10-31",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "씨앤케이템프|가산디지털단지역외국계기술영업지원채용",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "주식회사씨앤케이템프",
    "headhunter": false,
    "location": "서울 금천구",
    "station": "가산디지털단지역",
@@ -11545,74 +10488,18 @@
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[사업본부] 네트워크/보안 부문 기술영업(마케팅) 주니어 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322274",
+   "title": "[가산디지털단지역/외국계] 기술 영업 지원 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343761",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322274"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343761"
    },
    "sources": [
     "saramin"
    ],
    "experience": "경력무관",
-   "due": "2026-11-17",
-   "due_sort": "2026-11-17",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "넷플렉스|사업본부네트워크보안부문기술영업마케팅채용",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)넷플렉스",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[사업본부] 네트워크/보안 부문 기술영업(마케팅) 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322194",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322194"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "2026-11-17",
-   "due_sort": "2026-11-17",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "팀플백|주팀플백교육ai플랫폼운영고객지원담당서울",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)팀플백",
-   "headhunter": false,
-   "location": "서울 용산구",
-   "station": "용산역",
-   "distance_km": 31.0,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "(주)팀플백 교육 AI 플랫폼 운영·고객지원 담당 (서울)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321821",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321821"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "2026-11-17",
-   "due_sort": "2026-11-17",
-   "first_seen": "2026-10-19"
+   "due": "2026-11-04",
+   "due_sort": "2026-11-04",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "노박앤드파트너|유럽광학부품및솔루션기술영업직무채용",
@@ -11623,9 +10510,9 @@
    ],
    "company": "유한회사 노박앤드파트너",
    "headhunter": false,
-   "location": "경기 광명시",
-   "station": "철산역",
-   "distance_km": 29.4,
+   "location": "서울 용산구",
+   "station": "용산역",
+   "distance_km": 31.0,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
@@ -11641,34 +10528,6 @@
    "due": "2026-10-31",
    "due_sort": "2026-10-31",
    "first_seen": "2026-10-18"
-  },
-  {
-   "key": "아미노로직스|제약중간체비천연아미노산기술영업팀원모집경력",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)아미노로직스",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "제약중간체(비천연아미노산) 기술영업 팀원 모집(경력)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55309766",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55309766"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-16"
   },
   {
    "key": "씽크엠|씽크엠it솔루션엔지니어채용정규직",
@@ -11755,91 +10614,7 @@
    "first_seen": "2026-10-16"
   },
   {
-   "key": "에이아이딥|주에이아이딥솔루션엔지니어경력채용",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)에이아이딥",
-   "headhunter": false,
-   "location": "경기 과천시",
-   "station": "과천역",
-   "distance_km": 20.1,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "(주)에이아이딥 솔루션 엔지니어 경력 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55311236",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55311236"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "2~5년",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "인라이플|주45일qa엔지니어채용",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)인라이플",
-   "headhunter": false,
-   "location": "서울 관악구 외",
-   "station": "서울대입구역",
-   "distance_km": 26.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[주4.5일] QA 엔지니어 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55308516",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55308516"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "10년↑",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "에이아이웍스|ai데이터셋구축프로젝트pm",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)에이아이웍스",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "station": "잠실역",
-   "distance_km": 26.4,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "AI 데이터 셋 구축 프로젝트 PM",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55301157",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55301157"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "2~6년",
-   "due": "2026-12-14",
-   "due_sort": "2026-12-14",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "인피닉|오산sw테스트엔지니어qa신입및경력채용",
+   "key": "인피닉|가산판교sw테스트엔지니어qa경력채용",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
@@ -11847,33 +10622,90 @@
    ],
    "company": "(주)인피닉",
    "headhunter": false,
-   "location": "경기 오산시",
-   "station": "오산역",
-   "distance_km": 14.3,
+   "location": "경기 성남시 수정구",
+   "station": "모란역",
+   "distance_km": 17.2,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[오산] SW 테스트 엔지니어 (QA) 신입 및 경력 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55301053",
+   "title": "[가산/판교] SW 테스트 엔지니어 (QA) 경력 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345386",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55301053"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345386"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "경력무관",
-   "due": "2026-10-19",
-   "due_sort": "2026-10-19",
-   "first_seen": "2026-10-16"
+   "experience": "3~7년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "스텝씨|우주항공우주위성분야기술영업및사업개발",
+   "key": "테르텐|windows보안및sw개발기술지원모집",
+   "tier": "기술지원",
+   "score": 30,
+   "reasons": [
+    "기술지원 직무",
+    "주니어 대상"
+   ],
+   "company": "㈜테르텐",
+   "headhunter": false,
+   "location": "서울 구로구",
+   "station": "구로디지털단지역",
+   "distance_km": 29.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "Windows 보안 및  S/W 개발 기술지원 모집",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344216",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344216"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "3~3년",
+   "due": "2026-12-19",
+   "due_sort": "2026-12-19",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "엔플럭스|projectmanagerpm채용공고",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
     "인접 직무"
    ],
-   "company": "(주)스텝씨",
+   "company": "(주)엔플럭스",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "station": "정자역",
+   "distance_km": 10.1,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "Project Manager (PM) 채용 공고",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342792",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342792"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "10년↑",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "마음건강케이유|ai데이터기반서비스기획및개발신입",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "마음건강케이유(주)",
    "headhunter": false,
    "location": "서울 강남구",
    "station": "강남역",
@@ -11881,66 +10713,234 @@
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[우주항공] 우주/위성 분야 기술영업 및 사업개발",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321168",
+   "title": "AI·데이터 기반 서비스 기획 및 개발 (신입)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55333259",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55321168"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55333259"
    },
    "sources": [
     "saramin"
    ],
    "experience": "경력무관",
-   "due": "2026-10-24",
-   "due_sort": "2026-10-24",
-   "first_seen": "2026-10-18"
+   "due": "2026-10-25",
+   "due_sort": "2026-10-25",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "파워피플컨설팅|f5기술영업saascloud",
+   "key": "투비소프트|투비소프트자사웹개발플랫폼기술영업엔지니어경력직채용",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
     "인접 직무"
    ],
-   "company": "파워피플컨설팅",
+   "company": "(주)투비소프트",
    "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "F5기술영업(SaaS,Cloud)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319985",
+   "title": "[투비소프트] 자사 웹개발 플랫폼 기술영업 엔지니어 경력직채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55328472",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55319985"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55328472"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "10년↑",
-   "due": "2026-11-01",
-   "due_sort": "2026-11-01",
-   "first_seen": "2026-10-18"
+   "experience": "3~7년",
+   "due": "2026-11-02",
+   "due_sort": "2026-11-02",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "에이치알서비스|중구재단법인실업급여o서비스운영팀고객응대담당자채용",
+   "key": "sk에코플랜트머티리얼즈|sk머티리얼즈cmpslurry기술영업및사업개발",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
     "인접 직무"
    ],
-   "company": "에이치알서비스(주)",
+   "company": "SK에코플랜트 머티리얼즈",
    "headhunter": false,
-   "location": "서울 중구",
-   "station": "서울역",
-   "distance_km": 33.3,
+   "location": "경기 성남시 분당구",
+   "station": "정자역",
+   "distance_km": 10.1,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[중구/재단법인/실업급여O] 서비스운영팀 고객 응대 담당자 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55314921",
+   "title": "[SK머티리얼즈] CMP Slurry 기술영업 및 사업 개발",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345263",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55314921"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345263"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-08",
+   "due_sort": "2026-11-08",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "키밸브기술|기술영업팀mro신입및경력직채용",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "키밸브기술(주)",
+   "headhunter": false,
+   "location": "경기 시흥시",
+   "station": "소사역",
+   "distance_km": 29.4,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "기술영업팀(MRO) 신입 및 경력직 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344413",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344413"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "자연과학|자연과학생명과학연구용시약및장비기술영업pm",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "자연과학(주)",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[자연과학] 생명과학 연구용 시약 및 장비 기술영업 (PM)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343376",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343376"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-01",
+   "due_sort": "2026-11-01",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "리드넘버|신입경력cx영업담당자채용신입기준3800",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)리드넘버",
+   "headhunter": false,
+   "location": "서울 구로구",
+   "station": "구로디지털단지역",
+   "distance_km": 29.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[신입/경력] CX 영업 담당자 채용(신입 기준 3,800)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343354",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343354"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "비엠에스|비엠에스생명과학연구용장비및시약진단영업pm",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)비엠에스",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[비엠에스] 생명과학 연구용 장비 및 시약 진단영업(PM)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343265",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343265"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-01",
+   "due_sort": "2026-11-01",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "비엠에스|비엠에스생명과학연구용장비및시약기술영업pm",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)비엠에스",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[비엠에스] 생명과학 연구용 장비 및 시약 기술영업(PM)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343243",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55343243"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-01",
+   "due_sort": "2026-11-01",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "영인랩플러스|기술영업서울신입경력직원채용",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "영인랩플러스(주)",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "기술영업(서울) 신입 · 경력 직원 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342612",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342612"
    },
    "sources": [
     "saramin"
@@ -11948,16 +10948,16 @@
    "experience": "경력무관",
    "due": "채용시",
    "due_sort": "9999-99-99",
-   "first_seen": "2026-10-18"
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "닥터포헤어케어랩강남|닥터포헤어carelab강남운영매니저고객응대두피관리",
+   "key": "소프트웨어원코리아|customersuccessmanageroperationmanager영업지원",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
     "인접 직무"
    ],
-   "company": "닥터포헤어케어랩강남",
+   "company": "소프트웨어원코리아(유)",
    "headhunter": false,
    "location": "서울 강남구",
    "station": "강남역",
@@ -11965,55 +10965,169 @@
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "닥터포헤어 Care Lab 강남- 운영매니저 · 고객응대 · 두피관리",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55314762",
+   "title": "Customer Success Manager / Operation Manager / 영업지원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342429",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55314762"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55342429"
    },
    "sources": [
     "saramin"
    ],
    "experience": "경력무관",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-18"
+   "due": "2026-12-19",
+   "due_sort": "2026-12-19",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "텔레퍼포먼스코리아|202611월입사재택근무부킹닷컴csspecialist영어가능자",
+   "key": "에이포하우스|기술영업경력&신입정규직모집공고",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
     "인접 직무"
    ],
-   "company": "텔레퍼포먼스코리아주식회사",
+   "company": "에이포하우스(주)",
    "headhunter": false,
-   "location": "서울 중구",
-   "station": "서울역",
-   "distance_km": 33.3,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[2026 11월 입사] 재택근무 부킹닷컴 CS Specialist(영어가능자)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55312404",
+   "title": "기술 영업 경력&신입 정규직 모집 공고",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341989",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55312404"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341989"
    },
    "sources": [
     "saramin"
    ],
    "experience": "경력무관",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-18"
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "스마일툰|글로벌웹서비스운영담당자채용영어필수신입가능",
+   "key": "링크프라이스|링크프라이스제휴마케팅본부어필리에이트팀채용신입경력",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
     "인접 직무"
    ],
-   "company": "(주)스마일툰",
+   "company": "(주)링크프라이스",
+   "headhunter": false,
+   "location": "서울 금천구",
+   "station": "가산디지털단지역",
+   "distance_km": 30.4,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[링크프라이스] 제휴마케팅본부 어필리에이트팀 채용(신입/경력)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344834",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344834"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "리드워크|리드워크정규직교육도메인qa엔지니어채용",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)리드워크",
+   "headhunter": false,
+   "location": "서울 금천구",
+   "station": "가산디지털단지역",
+   "distance_km": 30.4,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[리드워크/정규직] 교육 도메인 QA 엔지니어 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344261",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344261"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "1~5년",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "핀샷|글로벌핀테크금융핀테크서비스기획경력직채용1~3년",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "주니어 대상"
+   ],
+   "company": "(주)핀샷",
+   "headhunter": false,
+   "location": "서울 마포구",
+   "station": "홍대입구역",
+   "distance_km": 35.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[글로벌 핀테크] 금융 핀테크 서비스기획 경력직 채용 (1~3년)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341128",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341128"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "1~3년",
+   "due": "2026-11-01",
+   "due_sort": "2026-11-01",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "리메이드서울본사|cs스케줄및운영지원담당자채용",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "리메이드서울본사",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "station": "여의도역",
+   "distance_km": 31.8,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "CS · 스케줄 및 운영지원 담당자 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55339028",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55339028"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "펄스코퍼레이션|뷰티플랫폼cs운영지원물류고객경험채용신입가능",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)펄스코퍼레이션",
    "headhunter": false,
    "location": "서울 강남구",
    "station": "강남역",
@@ -12021,18 +11135,18 @@
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "글로벌 웹서비스 운영 담당자 채용(영어필수 / 신입가능)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55300904",
+   "title": "뷰티 플랫폼 CS ( 운영지원, 물류, 고객 경험) 채용-신입가능",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55333269",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55300904"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55333269"
    },
    "sources": [
     "saramin"
    ],
    "experience": "경력무관",
-   "due": "2026-11-14",
-   "due_sort": "2026-11-14",
-   "first_seen": "2026-10-16"
+   "due": "채용시",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "헥토데이터|헥토데이터커머스운영지원cxcs담당자경력직채용",
@@ -12093,116 +11207,200 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "경원코퍼레이션|국내영업경력자채용기술영업우대",
+   "key": "싸이노스|싸이노스자회사b2b기술영업영업지원정규직채용",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
     "인접 직무"
    ],
-   "company": "경원코퍼레이션",
+   "company": "(주)싸이노스",
    "headhunter": false,
-   "location": "서울 성동구",
-   "station": "성수역",
-   "distance_km": 30.2,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "국내영업 경력자 채용 (기술영업 우대)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55314848",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55314848"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "경원코퍼레이션|도어락국내영업경력자채용기술영업우대",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "경원코퍼레이션",
-   "headhunter": false,
-   "location": "서울 성동구",
-   "station": "성수역",
-   "distance_km": 30.2,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "도어락 국내영업 경력자 채용(기술영업 우대)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55314817",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55314817"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "에이치알브로스|코스닥상장사검사장비cs경력자모집근무지경기수원",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "에이치알브로스",
-   "headhunter": false,
-   "location": "경기 수원시 권선구",
+   "location": "경기 수원시 외",
    "station": "수원역",
    "distance_km": 9.7,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "코스닥상장사 검사장비 CS 경력자 모집 - 근무지 경기수원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55306415",
+   "title": "[싸이노스 자회사] B2B기술영업, 영업지원 정규직 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341500",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55306415"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341500"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "3~6년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-16"
+   "experience": "경력무관",
+   "due": "2026-11-02",
+   "due_sort": "2026-11-02",
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "파웰코퍼레이션|정전척esc영업마케팅팀기술영업팀원과장급",
+   "key": "에이원트|주에이원트영업및제휴업체관리사원채용공고",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
     "인접 직무"
    ],
-   "company": "(주)파웰코퍼레이션",
+   "company": "(주)에이원트",
    "headhunter": false,
-   "location": "경기 과천시",
-   "station": "과천역",
-   "distance_km": 20.1,
+   "location": "서울 관악구 외",
+   "station": "서울대입구역",
+   "distance_km": 26.7,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "정전척(ESC) 영업마케팅팀 기술영업 팀원 (과장급)",
-   "url": "https://career.rememberapp.co.kr/job/posting/345964",
+   "title": "(주)에이원트 영업 및 제휴업체 관리 사원 채용 공고",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55330938",
    "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/345964"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55330938"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-10-26",
+   "due_sort": "2026-10-26",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "에이원트|주에이원트자사플랫폼cs서비스운영팀모집",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)에이원트",
+   "headhunter": false,
+   "location": "서울 관악구 외",
+   "station": "서울대입구역",
+   "distance_km": 26.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "(주)에이원트 자사 플랫폼 CS 서비스 운영팀 모집",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55330927",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55330927"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-10-26",
+   "due_sort": "2026-10-26",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "베스트에이전트|대만중국어피부과마케팅마케팅cs통번역비자스폰서가능",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "주식회사 베스트에이전트",
+   "headhunter": false,
+   "location": "서울 마포구",
+   "station": "홍대입구역",
+   "distance_km": 35.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "대만 중국어 피부과 마케팅-마케팅 CS 통번역(비자스폰서 가능)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341934",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341934"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "크레이버코퍼레이션|cravercs운영담당자계약직",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)크레이버코퍼레이션",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[Craver] CS 운영 담당자(계약직)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55332116",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55332116"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "2~5년",
+   "due": "채용시",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "뉴스젤리|주뉴스젤리총괄프로젝트매니저pm경력채용공고",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)뉴스젤리",
+   "headhunter": false,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "(주)뉴스젤리 총괄 프로젝트 매니저(PM) 경력 채용 공고",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55329905",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55329905"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "10년↑",
+   "due": "채용시",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "맨파워써치|ai로보틱스기술영업팀장2명채용차부장급",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)맨파워써치",
+   "headhunter": true,
+   "location": "서울 동대문구",
+   "station": "신설동역",
+   "distance_km": 34.1,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "AI로보틱스 기술영업팀장 2명채용 차부장급",
+   "url": "https://career.rememberapp.co.kr/job/posting/348190",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348190"
    },
    "sources": [
     "remember"
    ],
-   "experience": "5~7년",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-16"
+   "experience": "10~25년",
+   "due": "2026-11-01",
+   "due_sort": "2026-11-01",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "쿼시|cs매니저customersupportmanager",
@@ -12345,24 +11543,24 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "에버브레인써치|비큐ai데이터제휴사업공공영업총괄",
+   "key": "인라이플|qaengineer",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
     "인접 직무"
    ],
-   "company": "(주)에버브레인써치",
-   "headhunter": true,
-   "location": "서울 중구",
-   "station": "서울역",
-   "distance_km": 33.3,
+   "company": "(주)인라이플",
+   "headhunter": false,
+   "location": "서울",
+   "station": null,
+   "distance_km": null,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[비큐AI] 데이터제휴사업 공공영업 총괄",
-   "url": "https://career.rememberapp.co.kr/job/posting/347283",
+   "title": "QA Engineer",
+   "url": "https://career.rememberapp.co.kr/job/posting/348693",
    "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/347283"
+    "remember": "https://career.rememberapp.co.kr/job/posting/348693"
    },
    "sources": [
     "remember"
@@ -12370,10 +11568,206 @@
    "experience": "10~20년",
    "due": "상시채용",
    "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
+   "first_seen": "2026-10-20"
   },
   {
-   "key": "홈핏|b2b운영매니저운영매칭경험관리",
+   "key": "휴머스온|csbackendengineer파트장",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)휴머스온",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "CS Backend Engineer (파트장)",
+   "url": "https://career.rememberapp.co.kr/job/posting/348429",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348429"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "10~20년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "의식주컴퍼니|런드리24드라이스테이션b2b제휴영업담당자",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)의식주컴퍼니",
+   "headhunter": false,
+   "location": "경기 군포시",
+   "station": "금정역",
+   "distance_km": 18.1,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "런드리24 드라이스테이션 B2B 제휴영업 담당자",
+   "url": "https://career.rememberapp.co.kr/job/posting/348363",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348363"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "두핸즈|poomgovise서비스기획자",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)두핸즈",
+   "headhunter": false,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "Poomgo VISE 서비스 기획자",
+   "url": "https://career.rememberapp.co.kr/job/posting/348602",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348602"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~6년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "이노션|웹서비스기획상시인재풀",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)이노션",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "웹 서비스 기획 (상시 인재풀)",
+   "url": "https://career.rememberapp.co.kr/job/posting/328667",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/328667"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "경력무관",
+   "due": "2026-12-31",
+   "due_sort": "2026-12-31",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "이노션|앱서비스기획상시인재풀",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)이노션",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "앱 서비스 기획 (상시 인재풀)",
+   "url": "https://career.rememberapp.co.kr/job/posting/328666",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/328666"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "경력무관",
+   "due": "2026-12-31",
+   "due_sort": "2026-12-31",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "헤렌|공비서b2b운영매니저",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)헤렌",
+   "headhunter": false,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[공비서] B2B 운영 매니저",
+   "url": "https://career.rememberapp.co.kr/job/posting/348284",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348284"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "경력무관",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "농심|농심서비스기획자사몰",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "(주)농심",
+   "headhunter": false,
+   "location": "서울 동작구",
+   "station": "사당역",
+   "distance_km": 25.0,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[농심] 서비스기획(자사몰)",
+   "url": "https://career.rememberapp.co.kr/job/posting/348161",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348161"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "3~5년",
+   "due": "2026-11-02",
+   "due_sort": "2026-11-02",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "홈핏|b2b운영매니저웰니스프로그램운영",
    "tier": "추천 직군",
    "score": 30,
    "reasons": [
@@ -12387,7 +11781,7 @@
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "B2B 운영 매니저 (운영/매칭,경험관리)",
+   "title": "B2B 운영 매니저 (웰니스 프로그램 운영)",
    "url": "https://career.rememberapp.co.kr/job/posting/331768",
    "links": {
     "remember": "https://career.rememberapp.co.kr/job/posting/331768"
@@ -12398,63 +11792,7 @@
    "experience": "경력무관",
    "due": "상시채용",
    "due_sort": "9999-99-99",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "비나우|경력it총무사내it운영",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)비나우",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[경력] IT 총무 (사내 IT 운영)",
-   "url": "https://career.rememberapp.co.kr/job/posting/347940",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/347940"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~5년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "프로써치코리아|탑티어엔터사응원봉연출운영pm3~8년",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "(주)프로써치코리아",
-   "headhunter": true,
-   "location": "서울 강동구",
-   "station": "천호역",
-   "distance_km": 29.2,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[탑티어-엔터사] 응원봉 연출 운영 PM (3~8년)",
-   "url": "https://career.rememberapp.co.kr/job/posting/320881",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/320881"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "3~8년",
-   "due": "2026-10-20",
-   "due_sort": "2026-10-20",
-   "first_seen": "2026-10-10"
+   "first_seen": "2026-10-20"
   },
   {
    "key": "코리아포트원|customersuccessmanager",
@@ -12543,6 +11881,36 @@
    "first_seen": "2026-09-26"
   },
   {
+   "key": "오케이포스|nice그룹오케이포스사업관리실정산팀신입채용",
+   "tier": "추천 직군",
+   "score": 20,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "신입 전용"
+   ],
+   "company": "(주)오케이포스",
+   "headhunter": false,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
+   "rating": 2.6,
+   "review_count": 304,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/62343",
+   "title": "[NICE그룹/오케이포스]사업관리실 정산팀 신입 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55328176",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55328176"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "신입",
+   "due": "2026-11-18",
+   "due_sort": "2026-11-18",
+   "first_seen": "2026-10-20"
+  },
+  {
    "key": "모인|서비스운영신입가능",
    "tier": "추천 직군",
    "score": 20,
@@ -12570,6 +11938,93 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
+  },
+  {
+   "key": "가제트코리아|고객지원팀고객경험담당매니저2년↑",
+   "tier": "추천 직군",
+   "score": 20,
+   "reasons": [
+    "인접 직무",
+    "평점 낮음 2.3"
+   ],
+   "company": "가제트코리아(주)",
+   "headhunter": false,
+   "location": "서울 강서구",
+   "station": "까치산역",
+   "distance_km": 36.6,
+   "rating": 2.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/396249",
+   "title": "[고객지원팀]고객 경험 담당 매니저(2년↑)",
+   "url": "https://career.rememberapp.co.kr/job/posting/348406",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348406"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "2~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "가제트코리아|고객지원팀주간담당매니저신입경력",
+   "tier": "추천 직군",
+   "score": 20,
+   "reasons": [
+    "인접 직무",
+    "평점 낮음 2.3"
+   ],
+   "company": "가제트코리아(주)",
+   "headhunter": false,
+   "location": "서울 강서구",
+   "station": "까치산역",
+   "distance_km": 36.6,
+   "rating": 2.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/396249",
+   "title": "[고객지원팀] 주간 담당 매니저(신입.경력)",
+   "url": "https://career.rememberapp.co.kr/job/posting/348405",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348405"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "2~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "바텍|바텍서비스기획리더급",
+   "tier": "추천 직군",
+   "score": 20,
+   "reasons": [
+    "인접 직무",
+    "평점 낮음 2.3"
+   ],
+   "company": "(주)바텍",
+   "headhunter": false,
+   "location": "경기 화성시",
+   "station": "병점역",
+   "distance_km": 26.1,
+   "rating": 2.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/76137",
+   "title": "[바텍] 서비스 기획(리더급)",
+   "url": "https://career.rememberapp.co.kr/job/posting/348004",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348004"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "12~20년",
+   "due": "2026-10-30",
+   "due_sort": "2026-10-30",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "마인드허브|서비스운영담당자",
@@ -12648,12 +12103,10 @@
    "title": "[써니즈] SW(공급망/소스) 보안 분석 솔루션 엔지니어/컨설턴트",
    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50182185",
    "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50182185",
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55308626"
+    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50182185"
    },
    "sources": [
-    "jobkorea",
-    "saramin"
+    "jobkorea"
    ],
    "experience": "경력무관",
    "due": "2026-11-13",
@@ -12677,16 +12130,16 @@
    "review_count": null,
    "jobplanet_url": "https://www.jobplanet.co.kr/companies/330256",
    "title": "선불사업팀 서비스 운영 담당자 모집",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55076869",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55338004",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55076869"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55338004"
    },
    "sources": [
     "saramin"
    ],
    "experience": "경력무관",
-   "due": "2026-10-19",
-   "due_sort": "2026-10-19",
+   "due": "2026-11-18",
+   "due_sort": "2026-11-18",
    "first_seen": "2026-10-19"
   },
   {
@@ -12717,35 +12170,6 @@
    "due": "2026-10-31",
    "due_sort": "2026-10-31",
    "first_seen": "2026-09-26"
-  },
-  {
-   "key": "에이린텍|에이린텍기술팀신입사원채용r&d실험기술지원엔지니어",
-   "tier": "기술지원",
-   "score": 20,
-   "reasons": [
-    "기술지원 직무",
-    "신입 전용"
-   ],
-   "company": "㈜에이린텍",
-   "headhunter": false,
-   "location": "서울 성동구",
-   "station": "성수역",
-   "distance_km": 30.2,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "에이린텍 기술팀 신입사원 채용 (R&D실험/기술지원 엔지니어)",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50147791",
-   "links": {
-    "jobkorea": "https://www.jobkorea.co.kr/Recruit/GI_Read/50147791"
-   },
-   "sources": [
-    "jobkorea"
-   ],
-   "experience": "신입",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-18"
   },
   {
    "key": "델테크놀로지스|사원급채용seniortechniciantechnicalsupportinfrastructurepart",
@@ -12807,93 +12231,6 @@
    "first_seen": "2026-10-16"
   },
   {
-   "key": "비전서치|레이저업계top5기술영업",
-   "tier": "추천 직군",
-   "score": 20,
-   "reasons": [
-    "인접 직무",
-    "요구 경력 높음"
-   ],
-   "company": "비전서치",
-   "headhunter": false,
-   "location": "경기 수원시 권선구",
-   "station": "수원역",
-   "distance_km": 9.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[레이저업계 TOP5] 기술영업",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322782",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322782"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "13년↑",
-   "due": "2026-10-25",
-   "due_sort": "2026-10-25",
-   "first_seen": "2026-10-19"
-  },
-  {
-   "key": "에이스파트너스서치펌|정부r&d과제기획&관리pm경력5년이상",
-   "tier": "추천 직군",
-   "score": 20,
-   "reasons": [
-    "인접 직무",
-    "요구 경력 높음"
-   ],
-   "company": "(주)에이스파트너스서치펌",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "station": "정자역",
-   "distance_km": 10.1,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "정부 R&D 과제 기획&관리(PM), 경력 5년이상",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55315512",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55315512"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "15년↑",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "네이트커뮤니케이션즈|네이트커뮤니케이션즈서비스기획팀장포지션채용",
-   "tier": "추천 직군",
-   "score": 20,
-   "reasons": [
-    "인접 직무",
-    "요구 경력 높음"
-   ],
-   "company": "네이트커뮤니케이션즈(주)",
-   "headhunter": false,
-   "location": "서울 중구",
-   "station": "서울역",
-   "distance_km": 33.3,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "네이트커뮤니케이션즈 서비스기획(팀장) 포지션 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302549",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302549"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "15년↑",
-   "due": "2026-10-29",
-   "due_sort": "2026-10-29",
-   "first_seen": "2026-10-16"
-  },
-  {
    "key": "쿠팡|쿠팡고객경험개선pm경력2년이상주니어",
    "tier": "추천 직군",
    "score": 15,
@@ -12947,8 +12284,8 @@
     "wanted"
    ],
    "experience": "0~4년",
-   "due": "2026-10-19",
-   "due_sort": "2026-10-19",
+   "due": "2026-10-26",
+   "due_sort": "2026-10-26",
    "first_seen": "2026-09-26"
   },
   {
@@ -13097,35 +12434,6 @@
    "first_seen": "2026-10-18"
   },
   {
-   "key": "버블탭|ai캐릭터챗봇플랫폼대만어서비스운영자",
-   "tier": "추천 직군",
-   "score": 10,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상"
-   ],
-   "company": "버블탭",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "AI캐릭터 챗봇 플랫폼 대만어 서비스 운영자",
-   "url": "https://www.wanted.co.kr/wd/389556",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/389556"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~3년",
-   "due": "2026-10-19",
-   "due_sort": "2026-10-19",
-   "first_seen": "2026-10-05"
-  },
-  {
    "key": "티엠씨케이|geo서비스운영및데이터분석신입~3년",
    "tier": "추천 직군",
    "score": 10,
@@ -13184,43 +12492,14 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "어니컴|수원영통용인흥덕경력직내비게이션버티컬서비스qa채용",
+   "key": "매드업|csm팀글로벌솔루션운영매니저채용",
    "tier": "추천 직군",
    "score": 10,
    "reasons": [
     "인접 직무",
     "주니어 대상"
    ],
-   "company": "어니컴(주)",
-   "headhunter": false,
-   "location": "경기 용인시 기흥구",
-   "station": "기흥역",
-   "distance_km": 0.9,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[수원영통/용인흥덕][경력직] 내비게이션/버티컬 서비스 QA 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55307239",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55307239"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "1~4년",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "굿닥|굿닥서비스운영담당자1년계약직",
-   "tier": "추천 직군",
-   "score": 10,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상"
-   ],
-   "company": "(주)굿닥",
+   "company": "매드업",
    "headhunter": false,
    "location": "서울 강남구",
    "station": "강남역",
@@ -13228,18 +12507,18 @@
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "[굿닥] 서비스 운영 담당자 (1년 계약직)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302006",
+   "title": "[CSM팀] 글로벌 솔루션 운영 매니저 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55333589",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55302006"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55333589"
    },
    "sources": [
     "saramin"
    ],
-   "experience": "1~4년",
-   "due": "채용시",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
+   "experience": "2~4년",
+   "due": "2026-11-30",
+   "due_sort": "2026-11-30",
+   "first_seen": "2026-10-20"
   },
   {
    "key": "메디플렉서스|기술영업사업개발",
@@ -13268,35 +12547,6 @@
    "experience": "1~3년",
    "due": "2026-11-26",
    "due_sort": "2026-11-26",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "파웰코퍼레이션|정전척esc영업마케팅팀기술영업팀원사원대리급",
-   "tier": "추천 직군",
-   "score": 10,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상"
-   ],
-   "company": "(주)파웰코퍼레이션",
-   "headhunter": false,
-   "location": "경기 과천시",
-   "station": "과천역",
-   "distance_km": 20.1,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "정전척(ESC) 영업마케팅팀 기술영업 팀원 (사원·대리급)",
-   "url": "https://career.rememberapp.co.kr/job/posting/345966",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/345966"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "1~4년",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
    "first_seen": "2026-10-16"
   },
   {
@@ -13477,33 +12727,91 @@
    "first_seen": "2026-10-18"
   },
   {
-   "key": "에이아이딥|주에이아이딥솔루션엔지니어신입채용",
+   "key": "엠티씨에스|기술영업사원채용",
    "tier": "추천 직군",
    "score": 0,
    "reasons": [
     "인접 직무",
     "신입 전용"
    ],
-   "company": "(주)에이아이딥",
+   "company": "(주)엠티씨에스",
    "headhunter": false,
-   "location": "경기 과천시",
-   "station": "과천역",
-   "distance_km": 20.1,
+   "location": "경기 광명시",
+   "station": "철산역",
+   "distance_km": 29.4,
    "rating": null,
    "review_count": null,
    "jobplanet_url": null,
-   "title": "(주)에이아이딥 솔루션 엔지니어 신입 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55311225",
+   "title": "기술영업 사원 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344955",
    "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55311225"
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344955"
    },
    "sources": [
     "saramin"
    ],
    "experience": "신입",
-   "due": "2026-11-15",
-   "due_sort": "2026-11-15",
-   "first_seen": "2026-10-16"
+   "due": "2026-11-19",
+   "due_sort": "2026-11-19",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "그린중전기|기술영업부신입사원모집",
+   "tier": "추천 직군",
+   "score": 0,
+   "reasons": [
+    "인접 직무",
+    "신입 전용"
+   ],
+   "company": "(주)그린중전기",
+   "headhunter": false,
+   "location": "서울 마포구",
+   "station": "홍대입구역",
+   "distance_km": 35.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "기술영업부 신입사원 모집",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344011",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55344011"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "신입",
+   "due": "2026-11-18",
+   "due_sort": "2026-11-18",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "와이드넷엔지니어링|it신입소프트웨어테스트엔지니어qa채용",
+   "tier": "추천 직군",
+   "score": 0,
+   "reasons": [
+    "인접 직무",
+    "신입 전용"
+   ],
+   "company": "㈜와이드넷엔지니어링",
+   "headhunter": false,
+   "location": "서울 구로구",
+   "station": "구로디지털단지역",
+   "distance_km": 29.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[IT/신입] 소프트웨어 테스트엔지니어(QA) 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55331343",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55331343"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "신입",
+   "due": "2026-11-18",
+   "due_sort": "2026-11-18",
+   "first_seen": "2026-10-20"
   }
  ]
 }
