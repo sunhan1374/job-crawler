@@ -1,30 +1,32 @@
 {
- "updated_at": "2026-10-23 14:24",
+ "updated_at": "2026-10-27 06:29",
  "sources": {
   "wanted": {
    "ok": true,
-   "raw": 170,
-   "kept": 114
+   "raw": 166,
+   "kept": 111
   },
   "jobkorea": {
    "ok": false,
    "raw": 0,
-   "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "error": "HTTPSConnectionPool(host='www.jobkorea.co.kr', port=443): Read timed out. (read timeout=20)",
    "kept": 0
   },
   "saramin": {
-   "ok": true,
-   "raw": 1819,
-   "kept": 142
+   "ok": false,
+   "raw": 0,
+   "error": "HTTPSConnectionPool(host='www.saramin.co.kr', port=443): Read timed out. (read timeout=20)",
+   "kept": 0
   },
   "remember": {
-   "ok": true,
-   "raw": 688,
-   "kept": 90
+   "ok": false,
+   "raw": 0,
+   "error": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))",
+   "kept": 0
   }
  },
- "total": 458,
- "new_today": 141,
+ "total": 456,
+ "new_today": 4,
  "jobs": [
   {
    "key": "티맵모빌리티|apisdk상품운영및기술지원담당자",
@@ -55,36 +57,6 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
-  },
-  {
-   "key": "비바리퍼블리카|토스플레이스technicalaccountmanager결제플랫폼",
-   "tier": "기술지원",
-   "score": 85,
-   "reasons": [
-    "기술지원 직무",
-    "API 서비스 도메인",
-    "평점 3.6"
-   ],
-   "company": "(주)비바리퍼블리카",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": 3.6,
-   "review_count": 541,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/309507",
-   "title": "[토스플레이스] Technical Account Manager (결제/플랫폼)",
-   "url": "https://career.rememberapp.co.kr/job/posting/346548",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/346548"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "경력무관",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
   },
   {
    "key": "토스플레이스|technicalaccountmanager결제플랫폼",
@@ -145,126 +117,6 @@
    "due": "2026-10-31",
    "due_sort": "2026-10-31",
    "first_seen": "2026-10-10"
-  },
-  {
-   "key": "에이치알포유|기술지원엔지니어",
-   "tier": "기술지원",
-   "score": 80,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음",
-    "평점 4.3"
-   ],
-   "company": "에이치알포유(주)",
-   "headhunter": false,
-   "location": "경기 시흥시",
-   "station": "소사역",
-   "distance_km": 29.4,
-   "rating": 4.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/425744",
-   "title": "기술지원 엔지니어",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55251243",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55251243"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "6~15년",
-   "due": "2026-11-10",
-   "due_sort": "2026-11-10",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "에이비일팔공|globaltechnicalsupportmanager",
-   "tier": "기술지원",
-   "score": 80,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음",
-    "평점 4"
-   ],
-   "company": "에이비일팔공(AB180)",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": 4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/318620",
-   "title": "Global Technical Support Manager",
-   "url": "https://www.wanted.co.kr/wd/371210",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/371210"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "제이케이서치|이커머스핀테크중견기업정산담당자채용근무지:판교",
-   "tier": "추천 직군",
-   "score": 80,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "경력 조건 맞음",
-    "평점 4"
-   ],
-   "company": "제이케이서치 주식회사",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "station": "정자역",
-   "distance_km": 10.1,
-   "rating": 4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/346844",
-   "title": "[이커머스/핀테크 중견기업] 정산 담당자 채용 (근무지 : 판교)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55247945",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55247945"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "2~10년",
-   "due": "2026-10-24",
-   "due_sort": "2026-10-24",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "엔에이치엔케이씨피|nhnkcppayco기술지원육아휴직대체",
-   "tier": "기술지원",
-   "score": 75,
-   "reasons": [
-    "기술지원 직무",
-    "API 서비스 도메인"
-   ],
-   "company": "엔에이치엔케이씨피",
-   "headhunter": false,
-   "location": "서울 구로구",
-   "station": "구로디지털단지역",
-   "distance_km": 29.6,
-   "rating": 3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/48785",
-   "title": "[NHN KCP] PAYCO 기술지원(육아휴직대체)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55263479",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55263479"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "채용시",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
   },
   {
    "key": "이스트소프트|estsecurity보안sw기술지원",
@@ -383,156 +235,6 @@
    "first_seen": "2026-10-20"
   },
   {
-   "key": "골프존|가맹점관리담당광주전남",
-   "tier": "추천 직군",
-   "score": 70,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "골프존",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 3.2,
-   "review_count": 398,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/85411",
-   "title": "가맹점 관리 담당 (광주/전남)",
-   "url": "https://www.wanted.co.kr/wd/384543",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/384543"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5~15년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "쿠팡|쿠팡이츠서비스가맹점cx운영pm",
-   "tier": "추천 직군",
-   "score": 70,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "쿠팡(주)",
-   "headhunter": false,
-   "location": "경기 성남시 분당구",
-   "station": "정자역",
-   "distance_km": 10.1,
-   "rating": 3.2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
-   "title": "[쿠팡이츠서비스] 가맹점 CX 운영 PM",
-   "url": "https://career.rememberapp.co.kr/job/posting/348931",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/348931"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "8년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-23"
-  },
-  {
-   "key": "쿠팡|쿠팡결제정산운영담당자핀테크",
-   "tier": "추천 직군",
-   "score": 70,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "쿠팡(주)",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "station": "잠실역",
-   "distance_km": 26.4,
-   "rating": 3.2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
-   "title": "[쿠팡] 결제/정산 운영 담당자 (핀테크)",
-   "url": "https://career.rememberapp.co.kr/job/posting/307097",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/307097"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "8~15년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "제이투이|devopssm여의도생명보험사시스템운영9",
-   "tier": "추천 직군",
-   "score": 70,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)제이투이",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": 3.1,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/224940",
-   "title": "[DevOps SM 여의도] 생명보험사 시스템 운영 (9)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55363755",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55363755"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "6년↑",
-   "due": "2026-11-21",
-   "due_sort": "2026-11-21",
-   "first_seen": "2026-10-23"
-  },
-  {
-   "key": "한국신용데이터|한국결제네트웍스kpn결제승인시스템운영엔지니어경력3년이상",
-   "tier": "추천 직군",
-   "score": 70,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)한국신용데이터",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 3.1,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/322151",
-   "title": "[한국결제네트웍스 - KPN] 결제 승인 시스템 운영 엔지니어 (경력 3년 이상)",
-   "url": "https://career.rememberapp.co.kr/job/posting/339046",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/339046"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5~12년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "오픈베이스|기술지원운영매니저",
    "tier": "기술지원",
    "score": 70,
@@ -610,12 +312,10 @@
    "title": "Technical Support manager",
    "url": "https://www.wanted.co.kr/wd/370637",
    "links": {
-    "wanted": "https://www.wanted.co.kr/wd/370637",
-    "remember": "https://career.rememberapp.co.kr/job/posting/348382"
+    "wanted": "https://www.wanted.co.kr/wd/370637"
    },
    "sources": [
-    "wanted",
-    "remember"
+    "wanted"
    ],
    "experience": "3~8년",
    "due": "상시채용",
@@ -653,35 +353,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "비바리퍼블리카|토스플레이스technicalaccountmanagerpos",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "평점 3.6"
-   ],
-   "company": "(주)비바리퍼블리카",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": 3.6,
-   "review_count": 541,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/309507",
-   "title": "[토스플레이스] Technical Account Manager (POS)",
-   "url": "https://career.rememberapp.co.kr/job/posting/346848",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/346848"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "경력무관",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
-  },
-  {
    "key": "엔베이스코리아|트립톡cs기술지원담당자팀장급",
    "tier": "기술지원",
    "score": 65,
@@ -709,35 +380,6 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
-  },
-  {
-   "key": "영사이언스|fagfas팀lonzaqctesting관련제품기술지원담당채용",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "평점 3.5"
-   ],
-   "company": "(주)영사이언스",
-   "headhunter": false,
-   "location": "서울 강서구",
-   "station": "까치산역",
-   "distance_km": 36.6,
-   "rating": 3.5,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/176476",
-   "title": "FAG FAS팀(Lonza QC testing 관련 제품 기술지원 담당) 채용",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55354049",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55354049"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "경력무관",
-   "due": "2026-11-20",
-   "due_sort": "2026-11-20",
-   "first_seen": "2026-10-23"
   },
   {
    "key": "슈프리마|국내기술지원담당자",
@@ -769,35 +411,6 @@
    "first_seen": "2026-10-20"
   },
   {
-   "key": "올거나이즈코리아|technicalaccountmanager5년이상",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "올거나이즈코리아(주)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2.9,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/415135",
-   "title": "Technical Account Manager (5년 이상)",
-   "url": "https://career.rememberapp.co.kr/job/posting/347249",
-   "links": {
-    "remember": "https://career.rememberapp.co.kr/job/posting/347249"
-   },
-   "sources": [
-    "remember"
-   ],
-   "experience": "5~20년",
-   "due": "2026-11-17",
-   "due_sort": "2026-11-17",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "두꺼비세상|아파트너기술지원교육관리",
    "tier": "기술지원",
    "score": 65,
@@ -825,35 +438,6 @@
    "due": "2026-10-31",
    "due_sort": "2026-10-31",
    "first_seen": "2026-09-26"
-  },
-  {
-   "key": "클로닉스|technicalsupportengineerfieldengineer",
-   "tier": "기술지원",
-   "score": 65,
-   "reasons": [
-    "기술지원 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "(주)클로닉스",
-   "headhunter": false,
-   "location": "경기 안양시 동안구",
-   "station": "안양역",
-   "distance_km": 18.8,
-   "rating": 2.5,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/52218",
-   "title": "Technical Support Engineer (Field Engineer)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55210598",
-   "links": {
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55210598"
-   },
-   "sources": [
-    "saramin"
-   ],
-   "experience": "3년↑",
-   "due": "2026-11-05",
-   "due_sort": "2026-11-05",
-   "first_seen": "2026-10-10"
   },
   {
    "key": "우리엔|중견계열사cs기술지원",
@@ -1000,6 +584,3014 @@
    "due": "2026-10-28",
    "due_sort": "2026-10-28",
    "first_seen": "2026-10-05"
+  },
+  {
+   "key": "유닛블랙|환급서비스운영기획자",
+   "tier": "추천 직군",
+   "score": 60,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 4"
+   ],
+   "company": "유닛블랙",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 4,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/388795",
+   "title": "환급 서비스 운영 기획자",
+   "url": "https://www.wanted.co.kr/wd/383852",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/383852"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~10년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "싸이버로지텍|기술지원팀tatechnicalarchitect",
+   "tier": "기술지원",
+   "score": 55,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "싸이버로지텍",
+   "headhunter": false,
+   "location": "서울 마포구",
+   "station": "홍대입구역",
+   "distance_km": 35.2,
+   "rating": 3.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/69533",
+   "title": "기술지원팀 TA (Technical Architect)",
+   "url": "https://www.wanted.co.kr/wd/296646",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/296646"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "아이씨티케이|기술지원담당자sw",
+   "tier": "기술지원",
+   "score": 55,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "아이씨티케이",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 3.1,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/339045",
+   "title": "기술지원 담당자(SW)",
+   "url": "https://www.wanted.co.kr/wd/383186",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/383186"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "10~15년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "참테크놀로지|기술영업2년이상~10년이하",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "참테크놀로지",
+   "headhunter": false,
+   "location": "경기 광명시",
+   "station": "철산역",
+   "distance_km": 29.4,
+   "rating": 3.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/209689",
+   "title": "기술영업(2년이상~10년이하)",
+   "url": "https://www.wanted.co.kr/wd/386009",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/386009"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "2~10년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "플래티어|idt사업부문아틀라시안솔루션엔지니어",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "플래티어",
+   "headhunter": false,
+   "location": "서울 송파구",
+   "station": "잠실역",
+   "distance_km": 26.4,
+   "rating": 3.1,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/70379",
+   "title": "[IDT 사업부문] 아틀라시안 솔루션 엔지니어",
+   "url": "https://www.wanted.co.kr/wd/391404",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/391404"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "2~10년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "쏘카|차량서비스운영매니저",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "쏘카(SOCAR)",
+   "headhunter": false,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
+   "rating": 3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/88335",
+   "title": "차량 서비스 운영 매니저",
+   "url": "https://www.wanted.co.kr/wd/384200",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/384200"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "5년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "알서포트|기술지원엔지니어3년이상",
+   "tier": "기술지원",
+   "score": 50,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "알서포트(Rsupport)",
+   "headhunter": false,
+   "location": "서울 강동구",
+   "station": "천호역",
+   "distance_km": 29.2,
+   "rating": 2.9,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/21724",
+   "title": "기술지원 엔지니어 (3년 이상)",
+   "url": "https://www.wanted.co.kr/wd/370273",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/370273"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "커넥트웨이브|consumercommerce제휴영업기획결제커머스",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인"
+   ],
+   "company": "커넥트웨이브",
+   "headhunter": false,
+   "location": "서울 금천구",
+   "station": "가산디지털단지역",
+   "distance_km": 30.4,
+   "rating": 2.9,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/82999",
+   "title": "[Consumer Commerce] 제휴 영업기획(결제/커머스)",
+   "url": "https://www.wanted.co.kr/wd/380246",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/380246"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~7년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "인투씨엔에스|기술지원담당자",
+   "tier": "기술지원",
+   "score": 50,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "인투씨엔에스",
+   "headhunter": false,
+   "location": "경기 용인시",
+   "station": "기흥역",
+   "distance_km": 0.9,
+   "rating": 2.6,
+   "review_count": 58,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/57780",
+   "title": "기술지원 담당자",
+   "url": "https://www.wanted.co.kr/wd/393720",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/393720"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "key": "디지시스|로봇기술지원담당자1~5년",
+   "tier": "기술지원",
+   "score": 50,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "디지시스",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "station": "여의도역",
+   "distance_km": 31.8,
+   "rating": 2.6,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/259739",
+   "title": "로봇 기술지원 담당자 (1~5년)",
+   "url": "https://www.wanted.co.kr/wd/377559",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/377559"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "한국결제네트웍스|kpn결제승인시스템운영엔지니어3년이상",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인"
+   ],
+   "company": "한국결제네트웍스유한회사",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 2.6,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/365858",
+   "title": "[KPN] 결제 승인 시스템 운영 엔지니어 (3년 이상)",
+   "url": "https://www.wanted.co.kr/wd/384803",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/384803"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "클로닉스|technicalsupportengineer",
+   "tier": "기술지원",
+   "score": 50,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "클로닉스",
+   "headhunter": false,
+   "location": "경기 안양시",
+   "station": "안양역",
+   "distance_km": 18.8,
+   "rating": 2.5,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/52218",
+   "title": "Technical Support Engineer",
+   "url": "https://www.wanted.co.kr/wd/388255",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/388255"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "2026-10-30",
+   "due_sort": "2026-10-30",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "카플|기술지원발주팀장급",
+   "tier": "기술지원",
+   "score": 50,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "카플",
+   "headhunter": false,
+   "location": "경기 성남시",
+   "station": "모란역",
+   "distance_km": 17.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "기술지원 발주 팀장급",
+   "url": "https://www.wanted.co.kr/wd/379782",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/379782"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~6년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "델|seniortechniciantechnicalsupport",
+   "tier": "기술지원",
+   "score": 50,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "델(Dell)",
+   "headhunter": false,
+   "location": "서울",
+   "station": null,
+   "distance_km": null,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "Senior Technician, Technical Support",
+   "url": "https://www.wanted.co.kr/wd/392578",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/392578"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "경력무관",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "key": "델|technicalsupportengineerdellserverstorage",
+   "tier": "기술지원",
+   "score": 50,
+   "reasons": [
+    "기술지원 직무"
+   ],
+   "company": "델(Dell)",
+   "headhunter": false,
+   "location": "서울",
+   "station": null,
+   "distance_km": null,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "Technical Support Engineer - Dell Server, Storage",
+   "url": "https://www.wanted.co.kr/wd/386498",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/386498"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~6년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "페이플|pg가맹점영업salesmanager",
+   "tier": "추천 직군",
+   "score": 50,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인"
+   ],
+   "company": "페이플",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "PG 가맹점 영업(Sales Manager)",
+   "url": "https://www.wanted.co.kr/wd/390112",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/390112"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~5년",
+   "due": "2026-10-31",
+   "due_sort": "2026-10-31",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "벳칭|고객성공매니저csm주니어미드레벨",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "평점 4.8"
+   ],
+   "company": "벳칭",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": 4.8,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/394436",
+   "title": "고객성공매니저(CSM)(주니어/미드레벨)",
+   "url": "https://www.wanted.co.kr/wd/380906",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/380906"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~5년",
+   "due": "2026-11-15",
+   "due_sort": "2026-11-15",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "key": "로그프레소|기술지원엔지니어",
+   "tier": "기술지원",
+   "score": 45,
+   "reasons": [
+    "기술지원 직무",
+    "주니어 대상",
+    "평점 4.5"
+   ],
+   "company": "로그프레소",
+   "headhunter": false,
+   "location": "서울 마포구",
+   "station": "홍대입구역",
+   "distance_km": 35.2,
+   "rating": 4.5,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/88639",
+   "title": "기술지원 엔지니어",
+   "url": "https://www.wanted.co.kr/wd/386521",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/386521"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~4년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "이씨에스텔레콤|video&dw기술영업3~7년",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "평점 4"
+   ],
+   "company": "이씨에스텔레콤",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": 4,
+   "review_count": 79,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/97088",
+   "title": "Video & DW 기술영업(3~7년)",
+   "url": "https://www.wanted.co.kr/wd/376580",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/376580"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~7년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "딥브레인에이아이|it솔루션기술영업7년이상",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "딥브레인에이아이",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 2.9,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/335613",
+   "title": "IT 솔루션 기술영업 7년 이상",
+   "url": "https://www.wanted.co.kr/wd/382438",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/382438"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "7년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "알서포트|onpremise솔루션기술영업3년이상",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "알서포트(Rsupport)",
+   "headhunter": false,
+   "location": "서울 강동구",
+   "station": "천호역",
+   "distance_km": 29.2,
+   "rating": 2.9,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/21724",
+   "title": "On-Premise 솔루션 기술영업 (3년 이상)",
+   "url": "https://www.wanted.co.kr/wd/341217",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/341217"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "에버엑스|사업2팀모라케어서비스운영업무",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "에버엑스",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": 2.7,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/402224",
+   "title": "[사업 2팀] 모라케어 서비스 운영 업무",
+   "url": "https://www.wanted.co.kr/wd/384305",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/384305"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "2년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "위펀|엔지니어링매니저서비스운영보안품질",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "위펀(스낵24)",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": 2.6,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/352285",
+   "title": "엔지니어링 매니저 (서비스 운영, 보안, 품질)",
+   "url": "https://www.wanted.co.kr/wd/385835",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/385835"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "8~16년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "클로닉스|서비스운영팀장hwsw융합제품",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "클로닉스",
+   "headhunter": false,
+   "location": "경기 안양시",
+   "station": "안양역",
+   "distance_km": 18.8,
+   "rating": 2.5,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/52218",
+   "title": "서비스 운영 팀장(HW/SW 융합 제품)",
+   "url": "https://www.wanted.co.kr/wd/388253",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/388253"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "5~11년",
+   "due": "2026-12-21",
+   "due_sort": "2026-12-21",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "이파피루스|판교글로벌솔루션엔지니어",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "이파피루스",
+   "headhunter": false,
+   "location": "경기 성남시",
+   "station": "모란역",
+   "distance_km": 17.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[판교/글로벌] 솔루션 엔지니어",
+   "url": "https://www.wanted.co.kr/wd/389904",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/389904"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "5년↑",
+   "due": "2026-10-30",
+   "due_sort": "2026-10-30",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "엘리스|인프라솔루션엔지니어",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "엘리스",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "인프라 솔루션 엔지니어",
+   "url": "https://www.wanted.co.kr/wd/364839",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/364839"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "4~10년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "엘리스|클라우드솔루션엔지니어",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "엘리스",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "클라우드 솔루션 엔지니어",
+   "url": "https://www.wanted.co.kr/wd/358336",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/358336"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "5~12년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "key": "매니코어소프트|기술영업",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "매니코어소프트",
+   "headhunter": false,
+   "location": "서울 구로구",
+   "station": "구로디지털단지역",
+   "distance_km": 29.6,
+   "rating": null,
+   "review_count": 0,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/299619",
+   "title": "기술영업",
+   "url": "https://www.wanted.co.kr/wd/394173",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/394173"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~20년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "key": "미켈로로보틱스|technicalsales기술영업",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "미켈로로보틱스",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "station": "여의도역",
+   "distance_km": 31.8,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "Technical Sales (기술영업)",
+   "url": "https://www.wanted.co.kr/wd/394160",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/394160"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "5년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "key": "마드라스체크|aiworkagent플로우엔터프라이즈기술영업담당자",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "마드라스체크(플로우)",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "station": "여의도역",
+   "distance_km": 31.8,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[AI Work Agent 플로우] 엔터프라이즈 기술영업 담당자",
+   "url": "https://www.wanted.co.kr/wd/393970",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/393970"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "5~15년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "key": "엘케이삼양|카메라이미징장치개발및기술영업과천사무소근무",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "엘케이삼양",
+   "headhunter": false,
+   "location": "경기 과천시",
+   "station": "과천역",
+   "distance_km": 20.1,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "카메라 이미징 장치 개발 및 기술영업(과천사무소 근무)",
+   "url": "https://www.wanted.co.kr/wd/393055",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/393055"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "5~15년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "한국딥러닝|엔터프라이즈b2bai솔루션기술영업",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "한국딥러닝",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "엔터프라이즈 B2B AI 솔루션 기술영업",
+   "url": "https://www.wanted.co.kr/wd/392848",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/392848"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~10년",
+   "due": "2026-11-15",
+   "due_sort": "2026-11-15",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "key": "컴트루테크놀로지|정보보안솔루션it기술영업팀장",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "컴트루테크놀로지",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "정보보안솔루션 IT기술영업 팀장",
+   "url": "https://www.wanted.co.kr/wd/392404",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/392404"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "5~10년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "에이아이스타|기술영업사업개발bd",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "에이아이스타",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "기술영업·사업개발(BD)",
+   "url": "https://www.wanted.co.kr/wd/391528",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/391528"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~15년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "key": "럭스로보|기술영업4년이상",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "럭스로보(LUXROBO)",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "기술영업(4년이상)",
+   "url": "https://www.wanted.co.kr/wd/390115",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/390115"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "4년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "빅웨이브로보틱스|로봇자동화솔루션기술영업3년이상",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "빅웨이브로보틱스",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "로봇 자동화 솔루션 기술영업 (3년 이상)",
+   "url": "https://www.wanted.co.kr/wd/389914",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/389914"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~10년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "라피치|네트워크기술영업hpejuniperㆍaruba",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "라피치",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "네트워크 기술영업(HPE JuniperㆍAruba)",
+   "url": "https://www.wanted.co.kr/wd/389842",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/389842"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "7년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "포르텍|it솔루션기술영업",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "포르텍",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "station": "여의도역",
+   "distance_km": 31.8,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "IT 솔루션 기술영업",
+   "url": "https://www.wanted.co.kr/wd/388856",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/388856"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~10년",
+   "due": "2026-10-28",
+   "due_sort": "2026-10-28",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "한스네트워크|기술영업리드technicalsaleslead",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "한스네트워크",
+   "headhunter": false,
+   "location": "서울 중구",
+   "station": "서울역",
+   "distance_km": 33.3,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "기술영업 리드(Technical Sales Lead)",
+   "url": "https://www.wanted.co.kr/wd/387867",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/387867"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "5~11년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "에스케이그룹|sksignet충방전기기술영업및사업개발",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "에스케이그룹 (SK)",
+   "headhunter": false,
+   "location": "서울 종로구",
+   "station": "종각역",
+   "distance_km": 34.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[SK signet] 충방전기 기술영업 및 사업개발",
+   "url": "https://www.wanted.co.kr/wd/387342",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/387342"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "5년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "쓰리더블유|서비스운영담당자",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "쓰리더블유",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "station": "여의도역",
+   "distance_km": 31.8,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "서비스 운영 담당자",
+   "url": "https://www.wanted.co.kr/wd/394362",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/394362"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "key": "스토어링크|체험단서비스운영매니저일본어가능자",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "스토어링크",
+   "headhunter": false,
+   "location": "서울 중구",
+   "station": "서울역",
+   "distance_km": 33.3,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "체험단서비스 운영 매니저 (일본어 가능자)",
+   "url": "https://www.wanted.co.kr/wd/392243",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/392243"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "2년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "key": "현대자동차그룹|avp모빌리티플랫폼서비스운영기획및관리",
+   "tier": "추천 직군",
+   "score": 45,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "현대자동차그룹 (HYUNDAI)",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[AVP] 모빌리티 플랫폼 서비스 운영 기획 및 관리",
+   "url": "https://www.wanted.co.kr/wd/387537",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/387537"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "7년↑",
+   "due": "2026-12-31",
+   "due_sort": "2026-12-31",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "유비쿼스|기술팀기술지원엔지니어",
+   "tier": "기술지원",
+   "score": 40,
+   "reasons": [
+    "기술지원 직무",
+    "평점 낮음 2.1"
+   ],
+   "company": "유비쿼스",
+   "headhunter": false,
+   "location": "경기 성남시",
+   "station": "모란역",
+   "distance_km": 17.2,
+   "rating": 2.1,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/385314",
+   "title": "기술팀 기술지원 엔지니어",
+   "url": "https://www.wanted.co.kr/wd/382972",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/382972"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "시큐어포인트|보안솔루션엔지니어db데이터플랫폼",
+   "tier": "추천 직군",
+   "score": 40,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "평점 낮음 2"
+   ],
+   "company": "시큐어포인트",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/403296",
+   "title": "보안 솔루션 엔지니어(DB·데이터 플랫폼)",
+   "url": "https://www.wanted.co.kr/wd/394132",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/394132"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "key": "시큐어포인트|보안솔루션엔지니어인증암호화보안",
+   "tier": "추천 직군",
+   "score": 40,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "평점 낮음 2"
+   ],
+   "company": "시큐어포인트",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/403296",
+   "title": "보안 솔루션 엔지니어(인증·암호화 보안)",
+   "url": "https://www.wanted.co.kr/wd/394033",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/394033"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "key": "시큐어포인트|보안솔루션엔지니어시스템접근통제보안",
+   "tier": "추천 직군",
+   "score": 40,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "평점 낮음 2"
+   ],
+   "company": "시큐어포인트",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/403296",
+   "title": "보안 솔루션 엔지니어(시스템·접근통제 보안)",
+   "url": "https://www.wanted.co.kr/wd/394030",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/394030"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "key": "시큐어포인트|시스템db접근제어솔루션엔지니어",
+   "tier": "추천 직군",
+   "score": 40,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "평점 낮음 2"
+   ],
+   "company": "시큐어포인트",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/403296",
+   "title": "시스템/DB 접근제어 솔루션 엔지니어",
+   "url": "https://www.wanted.co.kr/wd/393964",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/393964"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "key": "마티니아이오|고객성공매니저customersuccessmanager",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "마티니아이오",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": 3.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/422455",
+   "title": "고객성공매니저 (Customer Success Manager)",
+   "url": "https://www.wanted.co.kr/wd/349956",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/349956"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "데이터얼라이언스|gpu클라우드기술영업&bd채널영업&영업관리",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "데이터얼라이언스",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": 3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/325212",
+   "title": "[GPU클라우드] 기술영업 & BD, 채널 영업 & 영업 관리",
+   "url": "https://www.wanted.co.kr/wd/323923",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/323923"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "2~7년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "기웅정보통신|케이어카운팅서비스운영담당자3년이상",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "기웅정보통신",
+   "headhunter": false,
+   "location": "서울 금천구",
+   "station": "가산디지털단지역",
+   "distance_km": 30.4,
+   "rating": 3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/43232",
+   "title": "[케이어카운팅] 서비스 운영 담당자 (3년 이상)",
+   "url": "https://www.wanted.co.kr/wd/386924",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/386924"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "2026-10-31",
+   "due_sort": "2026-10-31",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "와따에이아이|사업전략부국내기술영업담당자판교",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 낮음 2.3"
+   ],
+   "company": "와따에이아이",
+   "headhunter": false,
+   "location": "경기 성남시",
+   "station": "모란역",
+   "distance_km": 17.2,
+   "rating": 2.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/407851",
+   "title": "사업전략부 국내 기술영업 담당자 (판교)",
+   "url": "https://www.wanted.co.kr/wd/340641",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/340641"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "5~15년",
+   "due": "2026-10-31",
+   "due_sort": "2026-10-31",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "와따에이아이|사업전략부해외사업및해외기술영업실무판교",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 낮음 2.3"
+   ],
+   "company": "와따에이아이",
+   "headhunter": false,
+   "location": "경기 성남시",
+   "station": "모란역",
+   "distance_km": 17.2,
+   "rating": 2.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/407851",
+   "title": "사업전략부 해외사업 및 해외 기술영업 실무 (판교)",
+   "url": "https://www.wanted.co.kr/wd/340636",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/340636"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "4~10년",
+   "due": "2026-10-31",
+   "due_sort": "2026-10-31",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "비케이엠|기술영업담당자",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 낮음 2.1"
+   ],
+   "company": "비케이엠",
+   "headhunter": false,
+   "location": "경기 수원시",
+   "station": "수원역",
+   "distance_km": 9.7,
+   "rating": 2.1,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/241180",
+   "title": "기술영업 담당자",
+   "url": "https://www.wanted.co.kr/wd/336351",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/336351"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~10년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "유비쿼스|pi팀it인프라서비스운영엔지니어",
+   "tier": "추천 직군",
+   "score": 35,
+   "reasons": [
+    "인접 직무",
+    "경력 조건 맞음",
+    "평점 낮음 2.1"
+   ],
+   "company": "유비쿼스",
+   "headhunter": false,
+   "location": "경기 성남시",
+   "station": "모란역",
+   "distance_km": 17.2,
+   "rating": 2.1,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/385314",
+   "title": "PI팀 IT 인프라·서비스 운영 엔지니어",
+   "url": "https://www.wanted.co.kr/wd/385404",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/385404"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "화승엔지니어링|전화사주전문가유입응대및서비스운영관리",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "화승엔지니어링",
+   "headhunter": false,
+   "location": "서울 구로구",
+   "station": "구로디지털단지역",
+   "distance_km": 29.6,
+   "rating": 2.9,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87540",
+   "title": "전화사주 전문가 유입, 응대 및 서비스 운영 관리",
+   "url": "https://www.wanted.co.kr/wd/335954",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/335954"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "2~7년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "센트비|서비스운영전략기획자",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "센트비(Sentbe)",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "station": "여의도역",
+   "distance_km": 31.8,
+   "rating": 2.8,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/321550",
+   "title": "서비스 운영 전략 기획자",
+   "url": "https://www.wanted.co.kr/wd/388226",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/388226"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~7년",
+   "due": "2026-10-28",
+   "due_sort": "2026-10-28",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "스카이랩스|국내기술영업마케터영업지원담당",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "스카이랩스(SkyLabs)",
+   "headhunter": false,
+   "location": "경기 성남시",
+   "station": "모란역",
+   "distance_km": 17.2,
+   "rating": 2.7,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/360248",
+   "title": "국내 기술영업 마케터 (영업지원 담당)",
+   "url": "https://www.wanted.co.kr/wd/374760",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/374760"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~7년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "브이디크럭스|serviceoperator서비스운영담당&cx",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "브이디크럭스",
+   "headhunter": false,
+   "location": "서울 구로구",
+   "station": "구로디지털단지역",
+   "distance_km": 29.6,
+   "rating": 2.7,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/437339",
+   "title": "Service Operator(서비스 운영 담당 & CX)",
+   "url": "https://www.wanted.co.kr/wd/358139",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/358139"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "디지시스|로봇기술영업담당자1~5년",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "디지시스",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "station": "여의도역",
+   "distance_km": 31.8,
+   "rating": 2.6,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/259739",
+   "title": "로봇 기술영업 담당자 (1~5년)",
+   "url": "https://www.wanted.co.kr/wd/377562",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/377562"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "두꺼비세상|아파트너기술지원사무관리",
+   "tier": "기술지원",
+   "score": 30,
+   "reasons": [
+    "기술지원 직무",
+    "주니어 대상"
+   ],
+   "company": "두꺼비세상",
+   "headhunter": false,
+   "location": "서울 구로구",
+   "station": "구로디지털단지역",
+   "distance_km": 29.6,
+   "rating": 2.5,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/309099",
+   "title": "[아파트너] 기술지원/사무관리",
+   "url": "https://www.wanted.co.kr/wd/387781",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/387781"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~1년",
+   "due": "2026-10-31",
+   "due_sort": "2026-10-31",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "카본식스코리아|applicationengineer기술지원",
+   "tier": "기술지원",
+   "score": 30,
+   "reasons": [
+    "기술지원 직무",
+    "주니어 대상"
+   ],
+   "company": "카본식스코리아",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "Application Engineer (기술지원)",
+   "url": "https://www.wanted.co.kr/wd/382525",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/382525"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~4년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "이글로벌시스템|소프트웨어기술지원담당자0~3년",
+   "tier": "기술지원",
+   "score": 30,
+   "reasons": [
+    "기술지원 직무",
+    "주니어 대상"
+   ],
+   "company": "이글로벌시스템",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": 0,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/59377",
+   "title": "소프트웨어 기술지원 담당자 (0~3년)",
+   "url": "https://www.wanted.co.kr/wd/376630",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/376630"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~3년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "비앤브이솔루션|ai솔루션엔지니어",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "비앤브이솔루션",
+   "headhunter": false,
+   "location": "서울 금천구",
+   "station": "가산디지털단지역",
+   "distance_km": 30.4,
+   "rating": null,
+   "review_count": 0,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/473279",
+   "title": "AI 솔루션 엔지니어",
+   "url": "https://www.wanted.co.kr/wd/383666",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/383666"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "본시스템즈|로봇감속기액추에이터기술영업",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "본시스템즈",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "로봇·감속기·액추에이터 기술영업",
+   "url": "https://www.wanted.co.kr/wd/394306",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/394306"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "key": "본시스템즈|로봇감속기액추에이터기술영업팀장급",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "본시스템즈",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "로봇·감속기·액추에이터 기술영업(팀장급)",
+   "url": "https://www.wanted.co.kr/wd/394304",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/394304"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "key": "비에이피|자동화제어기기술영업직plc기반차장",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "비에이피",
+   "headhunter": false,
+   "location": "경기 수원시",
+   "station": "수원역",
+   "distance_km": 9.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "자동화 제어기 기술영업직 (PLC 기반 / 차장)",
+   "url": "https://www.wanted.co.kr/wd/376640",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/376640"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "이투비비|gpsgnss제품b2bb2g기술영업담당자",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "이투비비",
+   "headhunter": false,
+   "location": "서울 금천구",
+   "station": "가산디지털단지역",
+   "distance_km": 30.4,
+   "rating": null,
+   "review_count": 0,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/374141",
+   "title": "GPS/GNSS 제품 B2B/B2G 기술영업 담당자",
+   "url": "https://www.wanted.co.kr/wd/333199",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/333199"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "10~19년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "엔엠에스글로벌|기술영업총괄",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "엔엠에스글로벌",
+   "headhunter": false,
+   "location": "경기 성남시",
+   "station": "모란역",
+   "distance_km": 17.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "기술영업총괄",
+   "url": "https://www.wanted.co.kr/wd/286554",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/286554"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "솜씨당컴퍼니|서비스운영md",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "솜씨당컴퍼니",
+   "headhunter": false,
+   "location": "서울 마포구",
+   "station": "홍대입구역",
+   "distance_km": 35.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "서비스 운영 MD",
+   "url": "https://www.wanted.co.kr/wd/393384",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/393384"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "key": "아파트아이|서비스운영담당자3년이상",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "아파트아이",
+   "headhunter": false,
+   "location": "서울 금천구",
+   "station": "가산디지털단지역",
+   "distance_km": 30.4,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "서비스 운영 담당자 (3년 이상)",
+   "url": "https://www.wanted.co.kr/wd/391796",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/391796"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~8년",
+   "due": "2026-11-30",
+   "due_sort": "2026-11-30",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "key": "와트니|대만서비스운영pm",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "와트니",
+   "headhunter": false,
+   "location": "경기 용인시",
+   "station": "기흥역",
+   "distance_km": 0.9,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "대만 서비스 운영 PM",
+   "url": "https://www.wanted.co.kr/wd/391308",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/391308"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~7년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "key": "무사퇴근|산업안전b2bsaas서비스운영기획담당자",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "무사퇴근",
+   "headhunter": false,
+   "location": "서울 금천구",
+   "station": "가산디지털단지역",
+   "distance_km": 30.4,
+   "rating": null,
+   "review_count": 0,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/539765",
+   "title": "산업안전 B2B SaaS 서비스 운영·기획 담당자",
+   "url": "https://www.wanted.co.kr/wd/387855",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/387855"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "쓰리에이치더블유이엔씨|사내스타트업축제플랫폼서비스운영매니저",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "쓰리에이치더블유이엔씨",
+   "headhunter": false,
+   "location": "서울 강동구",
+   "station": "천호역",
+   "distance_km": 29.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[사내 스타트업] 축제 플랫폼 서비스 운영 매니저",
+   "url": "https://www.wanted.co.kr/wd/386169",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/386169"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "브레이크앤컴퍼니|서비스운영매니저",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "브레이크앤컴퍼니",
+   "headhunter": false,
+   "location": "서울 성동구",
+   "station": "성수역",
+   "distance_km": 30.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "서비스 운영 매니저",
+   "url": "https://www.wanted.co.kr/wd/234192",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/234192"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "key": "한국모바일결제|cs및점주지원매니저고객문의점주관리신규서비스안내",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "주니어 대상"
+   ],
+   "company": "한국모바일결제",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "CS 및 점주지원 매니저 (고객문의 · 점주관리 · 신규서비스안내)",
+   "url": "https://www.wanted.co.kr/wd/389051",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/389051"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~3년",
+   "due": "2026-10-31",
+   "due_sort": "2026-10-31",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "3030영어|본사사무직｜가맹점문의접수운영지원",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "주니어 대상"
+   ],
+   "company": "3030영어",
+   "headhunter": false,
+   "location": "경기 성남시",
+   "station": "모란역",
+   "distance_km": 17.2,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "본사 사무직｜가맹점 문의 접수·운영지원",
+   "url": "https://www.wanted.co.kr/wd/389794",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/389794"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~1년",
+   "due": "2026-10-30",
+   "due_sort": "2026-10-30",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "에이비제트|csm고객성공매니저7년미만",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "에이비제트",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "CSM (고객성공매니저, 7년 미만)",
+   "url": "https://www.wanted.co.kr/wd/391891",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/391891"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~6년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "key": "피처링|프로덕트csm고객성공매니저",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "피처링(FeaturingCorp.)",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[프로덕트] CSM 고객성공매니저",
+   "url": "https://www.wanted.co.kr/wd/389851",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/389851"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "2~7년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "비브라토|고객성공매니저csm—온보딩고객관리",
+   "tier": "추천 직군",
+   "score": 30,
+   "reasons": [
+    "인접 직무"
+   ],
+   "company": "비브라토",
+   "headhunter": false,
+   "location": "서울 서대문구",
+   "station": "신촌역",
+   "distance_km": 34.6,
+   "rating": null,
+   "review_count": 0,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/523870",
+   "title": "고객성공 매니저 (CSM) — 온보딩·고객 관리",
+   "url": "https://www.wanted.co.kr/wd/382137",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/382137"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "3~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "김캐디|서비스운영담당자cs",
+   "tier": "추천 직군",
+   "score": 25,
+   "reasons": [
+    "인접 직무",
+    "주니어 대상",
+    "평점 4.6"
+   ],
+   "company": "김캐디",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": 4.6,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/364369",
+   "title": "서비스 운영담당자(CS)",
+   "url": "https://www.wanted.co.kr/wd/382230",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/382230"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~3년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "모인|서비스운영신입가능",
+   "tier": "추천 직군",
+   "score": 20,
+   "reasons": [
+    "인접 직무",
+    "평점 낮음 2.4"
+   ],
+   "company": "모인(MOIN)",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 2.4,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/327157",
+   "title": "서비스 운영 (신입 가능)",
+   "url": "https://www.wanted.co.kr/wd/190682",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/190682"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~5년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "마인드허브|서비스운영담당자",
+   "tier": "추천 직군",
+   "score": 20,
+   "reasons": [
+    "인접 직무",
+    "평점 낮음 2.2"
+   ],
+   "company": "마인드허브",
+   "headhunter": false,
+   "location": "경기 안양시",
+   "station": "안양역",
+   "distance_km": 18.8,
+   "rating": 2.2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/369347",
+   "title": "서비스 운영 담당자",
+   "url": "https://www.wanted.co.kr/wd/211504",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/211504"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~8년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "문토|서비스운영기획매니저",
+   "tier": "추천 직군",
+   "score": 10,
+   "reasons": [
+    "인접 직무",
+    "주니어 대상"
+   ],
+   "company": "문토",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 2.6,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/379420",
+   "title": "서비스 운영·기획 매니저",
+   "url": "https://www.wanted.co.kr/wd/388988",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/388988"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~4년",
+   "due": "2026-11-02",
+   "due_sort": "2026-11-02",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "컨포트랩|제조ai솔루션기술영업technicalsalesmanager",
+   "tier": "추천 직군",
+   "score": 10,
+   "reasons": [
+    "인접 직무",
+    "주니어 대상"
+   ],
+   "company": "컨포트랩",
+   "headhunter": false,
+   "location": "서울 송파구",
+   "station": "잠실역",
+   "distance_km": 26.4,
+   "rating": null,
+   "review_count": 0,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/532369",
+   "title": "제조 AI 솔루션 기술영업 (Technical Sales Manager)",
+   "url": "https://www.wanted.co.kr/wd/386309",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/386309"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~1년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "비에이피|자동화제어기기술영업직plc기반과장",
+   "tier": "추천 직군",
+   "score": 10,
+   "reasons": [
+    "인접 직무",
+    "주니어 대상"
+   ],
+   "company": "비에이피",
+   "headhunter": false,
+   "location": "경기 수원시",
+   "station": "수원역",
+   "distance_km": 9.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "자동화 제어기 기술영업직 (PLC 기반 / 과장)",
+   "url": "https://www.wanted.co.kr/wd/376644",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/376644"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~3년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "디플라이어|서비스운영매니저",
+   "tier": "추천 직군",
+   "score": 10,
+   "reasons": [
+    "인접 직무",
+    "주니어 대상"
+   ],
+   "company": "디플라이어",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "서비스 운영 매니저",
+   "url": "https://www.wanted.co.kr/wd/393581",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/393581"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~3년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "key": "화이트큐브|압축ㅡ성장챌린지서비스운영인증샷검수&검수자동화",
+   "tier": "추천 직군",
+   "score": 10,
+   "reasons": [
+    "인접 직무",
+    "주니어 대상"
+   ],
+   "company": "화이트큐브",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "[압축 ㅡ 성장] 챌린지 서비스 운영 (인증샷 검수 & 검수 자동화)",
+   "url": "https://www.wanted.co.kr/wd/392900",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/392900"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~3년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-18"
+  },
+  {
+   "key": "티엠씨케이|geo서비스운영및데이터분석신입~3년",
+   "tier": "추천 직군",
+   "score": 10,
+   "reasons": [
+    "인접 직무",
+    "주니어 대상"
+   ],
+   "company": "티엠씨케이",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": null,
+   "review_count": null,
+   "jobplanet_url": null,
+   "title": "GEO 서비스 운영 및 데이터 분석 (신입~3년)",
+   "url": "https://www.wanted.co.kr/wd/389275",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/389275"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "1~3년",
+   "due": "2026-10-31",
+   "due_sort": "2026-10-31",
+   "first_seen": "2026-10-05"
+  },
+  {
+   "key": "제이씨바이오|기술영업학술지원석사",
+   "tier": "추천 직군",
+   "score": 0,
+   "reasons": [
+    "인접 직무",
+    "주니어 대상",
+    "평점 낮음 2.4"
+   ],
+   "company": "제이씨바이오",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": 2.4,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/121122",
+   "title": "기술영업/학술지원 (석사)",
+   "url": "https://www.wanted.co.kr/wd/361128",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/361128"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~1년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "제이씨바이오|기술영업학술지원담당자박사",
+   "tier": "추천 직군",
+   "score": 0,
+   "reasons": [
+    "인접 직무",
+    "주니어 대상",
+    "평점 낮음 2.4"
+   ],
+   "company": "제이씨바이오",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": 2.4,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/121122",
+   "title": "기술영업/학술지원 담당자 (박사)",
+   "url": "https://www.wanted.co.kr/wd/360975",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/360975"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~1년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "케어네이션|서비스운영기획",
+   "tier": "추천 직군",
+   "score": 0,
+   "reasons": [
+    "인접 직무",
+    "주니어 대상",
+    "평점 낮음 2.4"
+   ],
+   "company": "케어네이션",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 2.4,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/321865",
+   "title": "서비스 운영 기획",
+   "url": "https://www.wanted.co.kr/wd/296593",
+   "links": {
+    "wanted": "https://www.wanted.co.kr/wd/296593"
+   },
+   "sources": [
+    "wanted"
+   ],
+   "experience": "0~1년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "비바리퍼블리카|토스플레이스technicalaccountmanager결제플랫폼",
+   "tier": "기술지원",
+   "score": 85,
+   "reasons": [
+    "기술지원 직무",
+    "API 서비스 도메인",
+    "평점 3.6"
+   ],
+   "company": "(주)비바리퍼블리카",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": 3.6,
+   "review_count": 541,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/309507",
+   "title": "[토스플레이스] Technical Account Manager (결제/플랫폼)",
+   "url": "https://career.rememberapp.co.kr/job/posting/346548",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/346548"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "경력무관",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "key": "에이치알포유|기술지원엔지니어",
+   "tier": "기술지원",
+   "score": 80,
+   "reasons": [
+    "기술지원 직무",
+    "경력 조건 맞음",
+    "평점 4.3"
+   ],
+   "company": "에이치알포유(주)",
+   "headhunter": false,
+   "location": "경기 시흥시",
+   "station": "소사역",
+   "distance_km": 29.4,
+   "rating": 4.3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/425744",
+   "title": "기술지원 엔지니어",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55251243",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55251243"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "6~15년",
+   "due": "2026-11-10",
+   "due_sort": "2026-11-10",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "key": "제이케이서치|이커머스핀테크중견기업정산담당자채용근무지:판교",
+   "tier": "추천 직군",
+   "score": 80,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "경력 조건 맞음",
+    "평점 4"
+   ],
+   "company": "제이케이서치 주식회사",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "station": "정자역",
+   "distance_km": 10.1,
+   "rating": 4,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/346844",
+   "title": "[이커머스/핀테크 중견기업] 정산 담당자 채용 (근무지 : 판교)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55247945",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55247945"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "2~10년",
+   "due": "2026-10-24",
+   "due_sort": "2026-10-24",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "엔에이치엔케이씨피|nhnkcppayco기술지원육아휴직대체",
+   "tier": "기술지원",
+   "score": 75,
+   "reasons": [
+    "기술지원 직무",
+    "API 서비스 도메인"
+   ],
+   "company": "엔에이치엔케이씨피",
+   "headhunter": false,
+   "location": "서울 구로구",
+   "station": "구로디지털단지역",
+   "distance_km": 29.6,
+   "rating": 3,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/48785",
+   "title": "[NHN KCP] PAYCO 기술지원(육아휴직대체)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55263479",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55263479"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "채용시",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "key": "쿠팡|쿠팡이츠서비스가맹점cx운영pm",
+   "tier": "추천 직군",
+   "score": 70,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "쿠팡(주)",
+   "headhunter": false,
+   "location": "경기 성남시 분당구",
+   "station": "정자역",
+   "distance_km": 10.1,
+   "rating": 3.2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
+   "title": "[쿠팡이츠서비스] 가맹점 CX 운영 PM",
+   "url": "https://career.rememberapp.co.kr/job/posting/348931",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/348931"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "8년↑",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "key": "쿠팡|쿠팡결제정산운영담당자핀테크",
+   "tier": "추천 직군",
+   "score": 70,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "쿠팡(주)",
+   "headhunter": false,
+   "location": "서울 송파구",
+   "station": "잠실역",
+   "distance_km": 26.4,
+   "rating": 3.2,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87444",
+   "title": "[쿠팡] 결제/정산 운영 담당자 (핀테크)",
+   "url": "https://career.rememberapp.co.kr/job/posting/307097",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/307097"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "8~15년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "제이투이|devopssm여의도생명보험사시스템운영9",
+   "tier": "추천 직군",
+   "score": 70,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)제이투이",
+   "headhunter": false,
+   "location": "서울 영등포구",
+   "station": "여의도역",
+   "distance_km": 31.8,
+   "rating": 3.1,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/224940",
+   "title": "[DevOps SM 여의도] 생명보험사 시스템 운영 (9)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55363755",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55363755"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "6년↑",
+   "due": "2026-11-21",
+   "due_sort": "2026-11-21",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "key": "한국신용데이터|한국결제네트웍스kpn결제승인시스템운영엔지니어경력3년이상",
+   "tier": "추천 직군",
+   "score": 70,
+   "reasons": [
+    "인접 직무",
+    "API 서비스 도메인",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)한국신용데이터",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 3.1,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/322151",
+   "title": "[한국결제네트웍스 - KPN] 결제 승인 시스템 운영 엔지니어 (경력 3년 이상)",
+   "url": "https://career.rememberapp.co.kr/job/posting/339046",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/339046"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5~12년",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "비바리퍼블리카|토스플레이스technicalaccountmanagerpos",
+   "tier": "기술지원",
+   "score": 65,
+   "reasons": [
+    "기술지원 직무",
+    "평점 3.6"
+   ],
+   "company": "(주)비바리퍼블리카",
+   "headhunter": false,
+   "location": "서울 서초구",
+   "station": "교대역",
+   "distance_km": 25.6,
+   "rating": 3.6,
+   "review_count": 541,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/309507",
+   "title": "[토스플레이스] Technical Account Manager (POS)",
+   "url": "https://career.rememberapp.co.kr/job/posting/346848",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/346848"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "경력무관",
+   "due": "상시채용",
+   "due_sort": "9999-99-99",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "key": "영사이언스|fagfas팀lonzaqctesting관련제품기술지원담당채용",
+   "tier": "기술지원",
+   "score": 65,
+   "reasons": [
+    "기술지원 직무",
+    "평점 3.5"
+   ],
+   "company": "(주)영사이언스",
+   "headhunter": false,
+   "location": "서울 강서구",
+   "station": "까치산역",
+   "distance_km": 36.6,
+   "rating": 3.5,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/176476",
+   "title": "FAG FAS팀(Lonza QC testing 관련 제품 기술지원 담당) 채용",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55354049",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55354049"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "경력무관",
+   "due": "2026-11-20",
+   "due_sort": "2026-11-20",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "key": "올거나이즈코리아|technicalaccountmanager5년이상",
+   "tier": "기술지원",
+   "score": 65,
+   "reasons": [
+    "기술지원 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "올거나이즈코리아(주)",
+   "headhunter": false,
+   "location": "서울 강남구",
+   "station": "강남역",
+   "distance_km": 25.7,
+   "rating": 2.9,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/415135",
+   "title": "Technical Account Manager (5년 이상)",
+   "url": "https://career.rememberapp.co.kr/job/posting/347249",
+   "links": {
+    "remember": "https://career.rememberapp.co.kr/job/posting/347249"
+   },
+   "sources": [
+    "remember"
+   ],
+   "experience": "5~20년",
+   "due": "2026-11-17",
+   "due_sort": "2026-11-17",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "key": "클로닉스|technicalsupportengineerfieldengineer",
+   "tier": "기술지원",
+   "score": 65,
+   "reasons": [
+    "기술지원 직무",
+    "경력 조건 맞음"
+   ],
+   "company": "(주)클로닉스",
+   "headhunter": false,
+   "location": "경기 안양시 동안구",
+   "station": "안양역",
+   "distance_km": 18.8,
+   "rating": 2.5,
+   "review_count": null,
+   "jobplanet_url": "https://www.jobplanet.co.kr/companies/52218",
+   "title": "Technical Support Engineer (Field Engineer)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55210598",
+   "links": {
+    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55210598"
+   },
+   "sources": [
+    "saramin"
+   ],
+   "experience": "3년↑",
+   "due": "2026-11-05",
+   "due_sort": "2026-11-05",
+   "first_seen": "2026-10-10"
   },
   {
    "key": "에이치나인랩|에이치나인랩주보안솔루션구축운영및기술지원",
@@ -1503,36 +4095,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "유닛블랙|환급서비스운영기획자",
-   "tier": "추천 직군",
-   "score": 60,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 4"
-   ],
-   "company": "유닛블랙",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/388795",
-   "title": "환급 서비스 운영 기획자",
-   "url": "https://www.wanted.co.kr/wd/383852",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/383852"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~10년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "어나더컴퍼니그룹|고객경험팀cx매니저",
    "tier": "추천 직군",
    "score": 60,
@@ -1620,62 +4182,6 @@
    "experience": "5년↑",
    "due": "2026-10-31",
    "due_sort": "2026-10-31",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "싸이버로지텍|기술지원팀tatechnicalarchitect",
-   "tier": "기술지원",
-   "score": 55,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "싸이버로지텍",
-   "headhunter": false,
-   "location": "서울 마포구",
-   "station": "홍대입구역",
-   "distance_km": 35.2,
-   "rating": 3.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/69533",
-   "title": "기술지원팀 TA (Technical Architect)",
-   "url": "https://www.wanted.co.kr/wd/296646",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/296646"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~8년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "아이씨티케이|기술지원담당자sw",
-   "tier": "기술지원",
-   "score": 55,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "아이씨티케이",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 3.1,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/339045",
-   "title": "기술지원 담당자(SW)",
-   "url": "https://www.wanted.co.kr/wd/383186",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/383186"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "10~15년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
   },
   {
@@ -1768,35 +4274,6 @@
    "first_seen": "2026-10-23"
   },
   {
-   "key": "참테크놀로지|기술영업2년이상~10년이하",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "참테크놀로지",
-   "headhunter": false,
-   "location": "경기 광명시",
-   "station": "철산역",
-   "distance_km": 29.4,
-   "rating": 3.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/209689",
-   "title": "기술영업(2년이상~10년이하)",
-   "url": "https://www.wanted.co.kr/wd/386009",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/386009"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "2~10년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "제이엠씨컨설팅|sap솔루션구축프로젝트매니저pm",
    "tier": "추천 직군",
    "score": 50,
@@ -1884,35 +4361,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "플래티어|idt사업부문아틀라시안솔루션엔지니어",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "플래티어",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "station": "잠실역",
-   "distance_km": 26.4,
-   "rating": 3.1,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/70379",
-   "title": "[IDT 사업부문] 아틀라시안 솔루션 엔지니어",
-   "url": "https://www.wanted.co.kr/wd/391404",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/391404"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "2~10년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "댄포스코리아|danfosskoreaseniorsalesengineer",
    "tier": "추천 직군",
    "score": 50,
@@ -1939,35 +4387,6 @@
    "experience": "5년↑",
    "due": "2026-11-15",
    "due_sort": "2026-11-15",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "쏘카|차량서비스운영매니저",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "쏘카(SOCAR)",
-   "headhunter": false,
-   "location": "서울 성동구",
-   "station": "성수역",
-   "distance_km": 30.2,
-   "rating": 3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/88335",
-   "title": "차량 서비스 운영 매니저",
-   "url": "https://www.wanted.co.kr/wd/384200",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/384200"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
   },
   {
@@ -2000,63 +4419,6 @@
    "first_seen": "2026-10-16"
   },
   {
-   "key": "알서포트|기술지원엔지니어3년이상",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "알서포트(Rsupport)",
-   "headhunter": false,
-   "location": "서울 강동구",
-   "station": "천호역",
-   "distance_km": 29.2,
-   "rating": 2.9,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/21724",
-   "title": "기술지원 엔지니어 (3년 이상)",
-   "url": "https://www.wanted.co.kr/wd/370273",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/370273"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~8년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "커넥트웨이브|consumercommerce제휴영업기획결제커머스",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인"
-   ],
-   "company": "커넥트웨이브",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": 2.9,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/82999",
-   "title": "[Consumer Commerce] 제휴 영업기획(결제/커머스)",
-   "url": "https://www.wanted.co.kr/wd/380246",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/380246"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~7년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "파이퍼베큠코리아|파이퍼베큠코리아technicalsupportengineer경력직채용",
    "tier": "기술지원",
    "score": 50,
@@ -2082,91 +4444,6 @@
    "experience": "2~5년",
    "due": "2026-10-30",
    "due_sort": "2026-10-30",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "인투씨엔에스|기술지원담당자",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "인투씨엔에스",
-   "headhunter": false,
-   "location": "경기 용인시",
-   "station": "기흥역",
-   "distance_km": 0.9,
-   "rating": 2.6,
-   "review_count": 58,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/57780",
-   "title": "기술지원 담당자",
-   "url": "https://www.wanted.co.kr/wd/393720",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/393720"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~5년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-23"
-  },
-  {
-   "key": "디지시스|로봇기술지원담당자1~5년",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "디지시스",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": 2.6,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/259739",
-   "title": "로봇 기술지원 담당자 (1~5년)",
-   "url": "https://www.wanted.co.kr/wd/377559",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/377559"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~5년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "한국결제네트웍스|kpn결제승인시스템운영엔지니어3년이상",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인"
-   ],
-   "company": "한국결제네트웍스유한회사",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2.6,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/365858",
-   "title": "[KPN] 결제 승인 시스템 운영 엔지니어 (3년 이상)",
-   "url": "https://www.wanted.co.kr/wd/384803",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/384803"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~8년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
   },
   {
@@ -2199,34 +4476,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "클로닉스|technicalsupportengineer",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "클로닉스",
-   "headhunter": false,
-   "location": "경기 안양시",
-   "station": "안양역",
-   "distance_km": 18.8,
-   "rating": 2.5,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/52218",
-   "title": "Technical Support Engineer",
-   "url": "https://www.wanted.co.kr/wd/388255",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/388255"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~8년",
-   "due": "2026-10-30",
-   "due_sort": "2026-10-30",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "트래블월렛|pmlead결제스쿼드10년이상",
    "tier": "추천 직군",
    "score": 50,
@@ -2256,119 +4505,6 @@
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
-  },
-  {
-   "key": "카플|기술지원발주팀장급",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "카플",
-   "headhunter": false,
-   "location": "경기 성남시",
-   "station": "모란역",
-   "distance_km": 17.2,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "기술지원 발주 팀장급",
-   "url": "https://www.wanted.co.kr/wd/379782",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/379782"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~6년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "델|seniortechniciantechnicalsupport",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "델(Dell)",
-   "headhunter": false,
-   "location": "서울",
-   "station": null,
-   "distance_km": null,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "Senior Technician, Technical Support",
-   "url": "https://www.wanted.co.kr/wd/392578",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/392578"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "경력무관",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "델|technicalsupportengineerdellserverstorage",
-   "tier": "기술지원",
-   "score": 50,
-   "reasons": [
-    "기술지원 직무"
-   ],
-   "company": "델(Dell)",
-   "headhunter": false,
-   "location": "서울",
-   "station": null,
-   "distance_km": null,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "Technical Support Engineer - Dell Server, Storage",
-   "url": "https://www.wanted.co.kr/wd/386498",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/386498"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~6년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "페이플|pg가맹점영업salesmanager",
-   "tier": "추천 직군",
-   "score": 50,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인"
-   ],
-   "company": "페이플",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "PG 가맹점 영업(Sales Manager)",
-   "url": "https://www.wanted.co.kr/wd/390112",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/390112"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~5년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-05"
   },
   {
    "key": "두루랩|쿠팡사내오피스사내it헬프데스크및자산관리담당자채용",
@@ -3113,65 +5249,6 @@
    "first_seen": "2026-10-05"
   },
   {
-   "key": "로그프레소|기술지원엔지니어",
-   "tier": "기술지원",
-   "score": 45,
-   "reasons": [
-    "기술지원 직무",
-    "주니어 대상",
-    "평점 4.5"
-   ],
-   "company": "로그프레소",
-   "headhunter": false,
-   "location": "서울 마포구",
-   "station": "홍대입구역",
-   "distance_km": 35.2,
-   "rating": 4.5,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/88639",
-   "title": "기술지원 엔지니어",
-   "url": "https://www.wanted.co.kr/wd/386521",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/386521"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~4년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "이씨에스텔레콤|video&dw기술영업3~7년",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "평점 4"
-   ],
-   "company": "이씨에스텔레콤",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": 4,
-   "review_count": 79,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/97088",
-   "title": "Video & DW 기술영업(3~7년)",
-   "url": "https://www.wanted.co.kr/wd/376580",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/376580"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~7년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "주만사|스타트업공유주차app고객관리cs매니저채용",
    "tier": "추천 직군",
    "score": 45,
@@ -3346,64 +5423,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "딥브레인에이아이|it솔루션기술영업7년이상",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "딥브레인에이아이",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2.9,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/335613",
-   "title": "IT 솔루션 기술영업 7년 이상",
-   "url": "https://www.wanted.co.kr/wd/382438",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/382438"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "7년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "알서포트|onpremise솔루션기술영업3년이상",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "알서포트(Rsupport)",
-   "headhunter": false,
-   "location": "서울 강동구",
-   "station": "천호역",
-   "distance_km": 29.2,
-   "rating": 2.9,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/21724",
-   "title": "On-Premise 솔루션 기술영업 (3년 이상)",
-   "url": "https://www.wanted.co.kr/wd/341217",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/341217"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "딥브레인에이아이|딥브레인aisaas서비스프로덕트오너po경력직",
    "tier": "추천 직군",
    "score": 45,
@@ -3517,646 +5536,6 @@
    "experience": "7~10년",
    "due": "2026-11-03",
    "due_sort": "2026-11-03",
-   "first_seen": "2026-10-23"
-  },
-  {
-   "key": "에버엑스|사업2팀모라케어서비스운영업무",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "에버엑스",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": 2.7,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/402224",
-   "title": "[사업 2팀] 모라케어 서비스 운영 업무",
-   "url": "https://www.wanted.co.kr/wd/384305",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/384305"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "2년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "위펀|엔지니어링매니저서비스운영보안품질",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "위펀(스낵24)",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": 2.6,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/352285",
-   "title": "엔지니어링 매니저 (서비스 운영, 보안, 품질)",
-   "url": "https://www.wanted.co.kr/wd/385835",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/385835"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "8~16년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "클로닉스|서비스운영팀장hwsw융합제품",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "클로닉스",
-   "headhunter": false,
-   "location": "경기 안양시",
-   "station": "안양역",
-   "distance_km": 18.8,
-   "rating": 2.5,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/52218",
-   "title": "서비스 운영 팀장(HW/SW 융합 제품)",
-   "url": "https://www.wanted.co.kr/wd/388253",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/388253"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5~11년",
-   "due": "2026-12-21",
-   "due_sort": "2026-12-21",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "이파피루스|판교글로벌솔루션엔지니어",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "이파피루스",
-   "headhunter": false,
-   "location": "경기 성남시",
-   "station": "모란역",
-   "distance_km": 17.2,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[판교/글로벌] 솔루션 엔지니어",
-   "url": "https://www.wanted.co.kr/wd/389904",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/389904"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5년↑",
-   "due": "2026-10-30",
-   "due_sort": "2026-10-30",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "엘리스|인프라솔루션엔지니어",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "엘리스",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "인프라 솔루션 엔지니어",
-   "url": "https://www.wanted.co.kr/wd/364839",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/364839"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "4~10년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-10"
-  },
-  {
-   "key": "엘리스|클라우드솔루션엔지니어",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "엘리스",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "클라우드 솔루션 엔지니어",
-   "url": "https://www.wanted.co.kr/wd/358336",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/358336"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5~12년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-10"
-  },
-  {
-   "key": "매니코어소프트|기술영업",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "매니코어소프트",
-   "headhunter": false,
-   "location": "서울 구로구",
-   "station": "구로디지털단지역",
-   "distance_km": 29.6,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/299619",
-   "title": "기술영업",
-   "url": "https://www.wanted.co.kr/wd/394173",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/394173"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~20년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-23"
-  },
-  {
-   "key": "미켈로로보틱스|technicalsales기술영업",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "미켈로로보틱스",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "Technical Sales (기술영업)",
-   "url": "https://www.wanted.co.kr/wd/394160",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/394160"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-23"
-  },
-  {
-   "key": "마드라스체크|aiworkagent플로우엔터프라이즈기술영업담당자",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "마드라스체크(플로우)",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[AI Work Agent 플로우] 엔터프라이즈 기술영업 담당자",
-   "url": "https://www.wanted.co.kr/wd/393970",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/393970",
-    "saramin": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55363986"
-   },
-   "sources": [
-    "wanted",
-    "saramin"
-   ],
-   "experience": "5~15년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-23"
-  },
-  {
-   "key": "엘케이삼양|카메라이미징장치개발및기술영업과천사무소근무",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "엘케이삼양",
-   "headhunter": false,
-   "location": "경기 과천시",
-   "station": "과천역",
-   "distance_km": 20.1,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "카메라 이미징 장치 개발 및 기술영업(과천사무소 근무)",
-   "url": "https://www.wanted.co.kr/wd/393055",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/393055"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5~15년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-20"
-  },
-  {
-   "key": "한국딥러닝|엔터프라이즈b2bai솔루션기술영업",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "한국딥러닝",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "엔터프라이즈 B2B AI 솔루션 기술영업",
-   "url": "https://www.wanted.co.kr/wd/392848",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/392848"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~10년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "컴트루테크놀로지|정보보안솔루션it기술영업팀장",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "컴트루테크놀로지",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "정보보안솔루션 IT기술영업 팀장",
-   "url": "https://www.wanted.co.kr/wd/392404",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/392404"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5~10년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "에이아이스타|기술영업사업개발bd",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "에이아이스타",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "기술영업·사업개발(BD)",
-   "url": "https://www.wanted.co.kr/wd/391528",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/391528"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~15년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "럭스로보|기술영업4년이상",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "럭스로보(LUXROBO)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "기술영업(4년이상)",
-   "url": "https://www.wanted.co.kr/wd/390115",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/390115"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "4년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "빅웨이브로보틱스|로봇자동화솔루션기술영업3년이상",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "빅웨이브로보틱스",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "로봇 자동화 솔루션 기술영업 (3년 이상)",
-   "url": "https://www.wanted.co.kr/wd/389914",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/389914"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~10년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "라피치|네트워크기술영업hpejuniperㆍaruba",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "라피치",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "네트워크 기술영업(HPE JuniperㆍAruba)",
-   "url": "https://www.wanted.co.kr/wd/389842",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/389842"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "7년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "포르텍|it솔루션기술영업",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "포르텍",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "IT 솔루션 기술영업",
-   "url": "https://www.wanted.co.kr/wd/388856",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/388856"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~10년",
-   "due": "2026-10-28",
-   "due_sort": "2026-10-28",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "한스네트워크|기술영업리드technicalsaleslead",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "한스네트워크",
-   "headhunter": false,
-   "location": "서울 중구",
-   "station": "서울역",
-   "distance_km": 33.3,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "기술영업 리드(Technical Sales Lead)",
-   "url": "https://www.wanted.co.kr/wd/387867",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/387867"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5~11년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "에스케이그룹|sksignet충방전기기술영업및사업개발",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "에스케이그룹 (SK)",
-   "headhunter": false,
-   "location": "서울 종로구",
-   "station": "종각역",
-   "distance_km": 34.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[SK signet] 충방전기 기술영업 및 사업개발",
-   "url": "https://www.wanted.co.kr/wd/387342",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/387342"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "스토어링크|체험단서비스운영매니저일본어가능자",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "스토어링크",
-   "headhunter": false,
-   "location": "서울 중구",
-   "station": "서울역",
-   "distance_km": 33.3,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "체험단서비스 운영 매니저 (일본어 가능자)",
-   "url": "https://www.wanted.co.kr/wd/392243",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/392243"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "2년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "현대자동차그룹|avp모빌리티플랫폼서비스운영기획및관리",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "현대자동차그룹 (HYUNDAI)",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[AVP] 모빌리티 플랫폼 서비스 운영 기획 및 관리",
-   "url": "https://www.wanted.co.kr/wd/387537",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/387537"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "7년↑",
-   "due": "2026-12-31",
-   "due_sort": "2026-12-31",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "에이아이씨엑스|여행서비스운영파트리더",
-   "tier": "추천 직군",
-   "score": 45,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음"
-   ],
-   "company": "에이아이씨엑스",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "여행 서비스 운영 파트리더",
-   "url": "https://www.wanted.co.kr/wd/385223",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/385223"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5년↑",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
    "first_seen": "2026-10-23"
   },
   {
@@ -5900,155 +7279,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "유비쿼스|기술팀기술지원엔지니어",
-   "tier": "기술지원",
-   "score": 40,
-   "reasons": [
-    "기술지원 직무",
-    "평점 낮음 2.1"
-   ],
-   "company": "유비쿼스",
-   "headhunter": false,
-   "location": "경기 성남시",
-   "station": "모란역",
-   "distance_km": 17.2,
-   "rating": 2.1,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/385314",
-   "title": "기술팀 기술지원 엔지니어",
-   "url": "https://www.wanted.co.kr/wd/382972",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/382972"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~5년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "시큐어포인트|보안솔루션엔지니어db데이터플랫폼",
-   "tier": "추천 직군",
-   "score": 40,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "평점 낮음 2"
-   ],
-   "company": "시큐어포인트",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/403296",
-   "title": "보안 솔루션 엔지니어(DB·데이터 플랫폼)",
-   "url": "https://www.wanted.co.kr/wd/394132",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/394132"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~8년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-23"
-  },
-  {
-   "key": "시큐어포인트|보안솔루션엔지니어인증암호화보안",
-   "tier": "추천 직군",
-   "score": 40,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "평점 낮음 2"
-   ],
-   "company": "시큐어포인트",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/403296",
-   "title": "보안 솔루션 엔지니어(인증·암호화 보안)",
-   "url": "https://www.wanted.co.kr/wd/394033",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/394033"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~8년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-23"
-  },
-  {
-   "key": "시큐어포인트|보안솔루션엔지니어시스템접근통제보안",
-   "tier": "추천 직군",
-   "score": 40,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "평점 낮음 2"
-   ],
-   "company": "시큐어포인트",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/403296",
-   "title": "보안 솔루션 엔지니어(시스템·접근통제 보안)",
-   "url": "https://www.wanted.co.kr/wd/394030",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/394030"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~8년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-23"
-  },
-  {
-   "key": "시큐어포인트|시스템db접근제어솔루션엔지니어",
-   "tier": "추천 직군",
-   "score": 40,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "평점 낮음 2"
-   ],
-   "company": "시큐어포인트",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/403296",
-   "title": "시스템/DB 접근제어 솔루션 엔지니어",
-   "url": "https://www.wanted.co.kr/wd/393964",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/393964"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~8년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-23"
-  },
-  {
    "key": "이노튜브|기술지원엔지니어산업용iot기기설치및설정",
    "tier": "기술지원",
    "score": 40,
@@ -6131,36 +7361,6 @@
     "remember"
    ],
    "experience": "경력무관",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "마티니아이오|고객성공매니저customersuccessmanager",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "마티니아이오",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": 3.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/422455",
-   "title": "고객성공매니저 (Customer Success Manager)",
-   "url": "https://www.wanted.co.kr/wd/349956",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/349956",
-    "remember": "https://career.rememberapp.co.kr/job/posting/319483"
-   },
-   "sources": [
-    "wanted",
-    "remember"
-   ],
-   "experience": "0~5년",
    "due": "상시채용",
    "due_sort": "9999-99-99",
    "first_seen": "2026-09-26"
@@ -6278,62 +7478,6 @@
    "first_seen": "2026-10-23"
   },
   {
-   "key": "데이터얼라이언스|gpu클라우드기술영업&bd채널영업&영업관리",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "데이터얼라이언스",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": 3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/325212",
-   "title": "[GPU클라우드] 기술영업 & BD, 채널 영업 & 영업 관리",
-   "url": "https://www.wanted.co.kr/wd/323923",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/323923"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "2~7년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "기웅정보통신|케이어카운팅서비스운영담당자3년이상",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "기웅정보통신",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": 3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/43232",
-   "title": "[케이어카운팅] 서비스 운영 담당자 (3년 이상)",
-   "url": "https://www.wanted.co.kr/wd/386924",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/386924"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~8년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "쏘카|공항사업운영매니저",
    "tier": "추천 직군",
    "score": 35,
@@ -6422,96 +7566,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "씨메스로보틱스|물류자동화기술영업",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 낮음 2.3"
-   ],
-   "company": "씨메스로보틱스",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/372439",
-   "title": "물류 자동화 기술영업",
-   "url": "https://www.wanted.co.kr/wd/388867",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/388867"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5~20년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "와따에이아이|사업전략부국내기술영업담당자판교",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 낮음 2.3"
-   ],
-   "company": "와따에이아이",
-   "headhunter": false,
-   "location": "경기 성남시",
-   "station": "모란역",
-   "distance_km": 17.2,
-   "rating": 2.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/407851",
-   "title": "사업전략부 국내 기술영업 담당자 (판교)",
-   "url": "https://www.wanted.co.kr/wd/340641",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/340641"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "5~15년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "와따에이아이|사업전략부해외사업및해외기술영업실무판교",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 낮음 2.3"
-   ],
-   "company": "와따에이아이",
-   "headhunter": false,
-   "location": "경기 성남시",
-   "station": "모란역",
-   "distance_km": 17.2,
-   "rating": 2.3,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/407851",
-   "title": "사업전략부 해외사업 및 해외 기술영업 실무 (판교)",
-   "url": "https://www.wanted.co.kr/wd/340636",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/340636"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "4~10년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "프로메디우스|프로메디우스cxcustomerexperiencemanager",
    "tier": "추천 직군",
    "score": 35,
@@ -6535,66 +7589,6 @@
    },
    "sources": [
     "remember"
-   ],
-   "experience": "3년↑",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "비케이엠|기술영업담당자",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 낮음 2.1"
-   ],
-   "company": "비케이엠",
-   "headhunter": false,
-   "location": "경기 수원시",
-   "station": "수원역",
-   "distance_km": 9.7,
-   "rating": 2.1,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/241180",
-   "title": "기술영업 담당자",
-   "url": "https://www.wanted.co.kr/wd/336351",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/336351"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~10년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "유비쿼스|pi팀it인프라서비스운영엔지니어",
-   "tier": "추천 직군",
-   "score": 35,
-   "reasons": [
-    "인접 직무",
-    "경력 조건 맞음",
-    "평점 낮음 2.1"
-   ],
-   "company": "유비쿼스",
-   "headhunter": false,
-   "location": "경기 성남시",
-   "station": "모란역",
-   "distance_km": 17.2,
-   "rating": 2.1,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/385314",
-   "title": "PI팀 IT 인프라·서비스 운영 엔지니어",
-   "url": "https://www.wanted.co.kr/wd/385404",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/385404"
-   },
-   "sources": [
-    "wanted"
    ],
    "experience": "3년↑",
    "due": "상시채용",
@@ -6692,34 +7686,6 @@
    "first_seen": "2026-10-10"
   },
   {
-   "key": "화승엔지니어링|전화사주전문가유입응대및서비스운영관리",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "화승엔지니어링",
-   "headhunter": false,
-   "location": "서울 구로구",
-   "station": "구로디지털단지역",
-   "distance_km": 29.6,
-   "rating": 2.9,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/87540",
-   "title": "전화사주 전문가 유입, 응대 및 서비스 운영 관리",
-   "url": "https://www.wanted.co.kr/wd/335954",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/335954"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "2~7년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "쥬비스다이어트|it서비스기획자경력채용",
    "tier": "추천 직군",
    "score": 30,
@@ -6746,34 +7712,6 @@
    "due": "2026-11-21",
    "due_sort": "2026-11-21",
    "first_seen": "2026-10-23"
-  },
-  {
-   "key": "센트비|서비스운영전략기획자",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "센트비(Sentbe)",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": 2.8,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/321550",
-   "title": "서비스 운영 전략 기획자",
-   "url": "https://www.wanted.co.kr/wd/388226",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/388226"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~7년",
-   "due": "2026-10-28",
-   "due_sort": "2026-10-28",
-   "first_seen": "2026-09-26"
   },
   {
    "key": "롯데이노베이트|카드is팀영업채널시스템운영경력",
@@ -6804,62 +7742,6 @@
    "first_seen": "2026-10-23"
   },
   {
-   "key": "스카이랩스|국내기술영업마케터영업지원담당",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "스카이랩스(SkyLabs)",
-   "headhunter": false,
-   "location": "경기 성남시",
-   "station": "모란역",
-   "distance_km": 17.2,
-   "rating": 2.7,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/360248",
-   "title": "국내 기술영업 마케터 (영업지원 담당)",
-   "url": "https://www.wanted.co.kr/wd/374760",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/374760"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~7년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "브이디크럭스|serviceoperator서비스운영담당&cx",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "브이디크럭스",
-   "headhunter": false,
-   "location": "서울 구로구",
-   "station": "구로디지털단지역",
-   "distance_km": 29.6,
-   "rating": 2.7,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/437339",
-   "title": "Service Operator(서비스 운영 담당 & CX)",
-   "url": "https://www.wanted.co.kr/wd/358139",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/358139"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~5년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "팬딩|qa엔지니어",
    "tier": "추천 직군",
    "score": 30,
@@ -6886,34 +7768,6 @@
    "due": "2026-11-21",
    "due_sort": "2026-11-21",
    "first_seen": "2026-10-23"
-  },
-  {
-   "key": "디지시스|로봇기술영업담당자1~5년",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "디지시스",
-   "headhunter": false,
-   "location": "서울 영등포구",
-   "station": "여의도역",
-   "distance_km": 31.8,
-   "rating": 2.6,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/259739",
-   "title": "로봇 기술영업 담당자 (1~5년)",
-   "url": "https://www.wanted.co.kr/wd/377562",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/377562"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~5년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
   },
   {
    "key": "티디씨엑스코리아|광화문외국계글로벌ota플랫폼고객경험담당자cs",
@@ -6972,35 +7826,6 @@
    "first_seen": "2026-10-23"
   },
   {
-   "key": "두꺼비세상|아파트너기술지원사무관리",
-   "tier": "기술지원",
-   "score": 30,
-   "reasons": [
-    "기술지원 직무",
-    "주니어 대상"
-   ],
-   "company": "두꺼비세상",
-   "headhunter": false,
-   "location": "서울 구로구",
-   "station": "구로디지털단지역",
-   "distance_km": 29.6,
-   "rating": 2.5,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/309099",
-   "title": "[아파트너] 기술지원/사무관리",
-   "url": "https://www.wanted.co.kr/wd/387781",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/387781"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~1년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "글리티|글리티마메드네서비스상품기획자pmpo채용",
    "tier": "추천 직군",
    "score": 30,
@@ -7027,492 +7852,6 @@
    "due": "2026-11-12",
    "due_sort": "2026-11-12",
    "first_seen": "2026-10-16"
-  },
-  {
-   "key": "카본식스코리아|applicationengineer기술지원",
-   "tier": "기술지원",
-   "score": 30,
-   "reasons": [
-    "기술지원 직무",
-    "주니어 대상"
-   ],
-   "company": "카본식스코리아",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "Application Engineer (기술지원)",
-   "url": "https://www.wanted.co.kr/wd/382525",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/382525"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~4년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "이글로벌시스템|소프트웨어기술지원담당자0~3년",
-   "tier": "기술지원",
-   "score": 30,
-   "reasons": [
-    "기술지원 직무",
-    "주니어 대상"
-   ],
-   "company": "이글로벌시스템",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/59377",
-   "title": "소프트웨어 기술지원 담당자 (0~3년)",
-   "url": "https://www.wanted.co.kr/wd/376630",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/376630"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~3년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "비앤브이솔루션|ai솔루션엔지니어",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "비앤브이솔루션",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/473279",
-   "title": "AI 솔루션 엔지니어",
-   "url": "https://www.wanted.co.kr/wd/383666",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/383666"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~8년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "비에이피|자동화제어기기술영업직plc기반차장",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "비에이피",
-   "headhunter": false,
-   "location": "경기 수원시",
-   "station": "수원역",
-   "distance_km": 9.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "자동화 제어기 기술영업직 (PLC 기반 / 차장)",
-   "url": "https://www.wanted.co.kr/wd/376640",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/376640"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~5년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "이투비비|gpsgnss제품b2bb2g기술영업담당자",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "이투비비",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/374141",
-   "title": "GPS/GNSS 제품 B2B/B2G 기술영업 담당자",
-   "url": "https://www.wanted.co.kr/wd/333199",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/333199"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "10~19년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "엔엠에스글로벌|기술영업총괄",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "엔엠에스글로벌",
-   "headhunter": false,
-   "location": "경기 성남시",
-   "station": "모란역",
-   "distance_km": 17.2,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "기술영업총괄",
-   "url": "https://www.wanted.co.kr/wd/286554",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/286554"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~5년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "솜씨당컴퍼니|서비스운영md",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "솜씨당컴퍼니",
-   "headhunter": false,
-   "location": "서울 마포구",
-   "station": "홍대입구역",
-   "distance_km": 35.2,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "서비스 운영 MD",
-   "url": "https://www.wanted.co.kr/wd/393384",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/393384"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~8년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-20"
-  },
-  {
-   "key": "아파트아이|서비스운영담당자3년이상",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "아파트아이",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "서비스 운영 담당자 (3년 이상)",
-   "url": "https://www.wanted.co.kr/wd/391796",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/391796"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~8년",
-   "due": "2026-11-30",
-   "due_sort": "2026-11-30",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "와트니|대만서비스운영pm",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "와트니",
-   "headhunter": false,
-   "location": "경기 용인시",
-   "station": "기흥역",
-   "distance_km": 0.9,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "대만 서비스 운영 PM",
-   "url": "https://www.wanted.co.kr/wd/391308",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/391308"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~7년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "무사퇴근|산업안전b2bsaas서비스운영기획담당자",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "무사퇴근",
-   "headhunter": false,
-   "location": "서울 금천구",
-   "station": "가산디지털단지역",
-   "distance_km": 30.4,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/539765",
-   "title": "산업안전 B2B SaaS 서비스 운영·기획 담당자",
-   "url": "https://www.wanted.co.kr/wd/387855",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/387855"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~5년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "쓰리에이치더블유이엔씨|사내스타트업축제플랫폼서비스운영매니저",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "쓰리에이치더블유이엔씨",
-   "headhunter": false,
-   "location": "서울 강동구",
-   "station": "천호역",
-   "distance_km": 29.2,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[사내 스타트업] 축제 플랫폼 서비스 운영 매니저",
-   "url": "https://www.wanted.co.kr/wd/386169",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/386169"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~5년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "브레이크앤컴퍼니|서비스운영매니저",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "브레이크앤컴퍼니",
-   "headhunter": false,
-   "location": "서울 성동구",
-   "station": "성수역",
-   "distance_km": 30.2,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "서비스 운영 매니저",
-   "url": "https://www.wanted.co.kr/wd/234192",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/234192"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~5년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "한국모바일결제|cs및점주지원매니저고객문의점주관리신규서비스안내",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "주니어 대상"
-   ],
-   "company": "한국모바일결제",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "CS 및 점주지원 매니저 (고객문의 · 점주관리 · 신규서비스안내)",
-   "url": "https://www.wanted.co.kr/wd/389051",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/389051"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~3년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "3030영어|본사사무직｜가맹점문의접수운영지원",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무",
-    "API 서비스 도메인",
-    "주니어 대상"
-   ],
-   "company": "3030영어",
-   "headhunter": false,
-   "location": "경기 성남시",
-   "station": "모란역",
-   "distance_km": 17.2,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "본사 사무직｜가맹점 문의 접수·운영지원",
-   "url": "https://www.wanted.co.kr/wd/389794",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/389794"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~1년",
-   "due": "2026-10-30",
-   "due_sort": "2026-10-30",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "에이비제트|csm고객성공매니저7년미만",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "에이비제트",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "CSM (고객성공매니저, 7년 미만)",
-   "url": "https://www.wanted.co.kr/wd/391891",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/391891",
-    "remember": "https://career.rememberapp.co.kr/job/posting/348478"
-   },
-   "sources": [
-    "wanted",
-    "remember"
-   ],
-   "experience": "0~6년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-16"
-  },
-  {
-   "key": "피처링|프로덕트csm고객성공매니저",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "피처링(FeaturingCorp.)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[프로덕트] CSM 고객성공매니저",
-   "url": "https://www.wanted.co.kr/wd/389851",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/389851",
-    "remember": "https://career.rememberapp.co.kr/job/posting/344154"
-   },
-   "sources": [
-    "wanted",
-    "remember"
-   ],
-   "experience": "2~7년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "비브라토|고객성공매니저csm—온보딩고객관리",
-   "tier": "추천 직군",
-   "score": 30,
-   "reasons": [
-    "인접 직무"
-   ],
-   "company": "비브라토",
-   "headhunter": false,
-   "location": "서울 서대문구",
-   "station": "신촌역",
-   "distance_km": 34.6,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/523870",
-   "title": "고객성공 매니저 (CSM) — 온보딩·고객 관리",
-   "url": "https://www.wanted.co.kr/wd/382137",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/382137"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "3~5년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
   },
   {
    "key": "오마이호텔앤코|주오마이호텔앤코제휴영업신입사원공개채용",
@@ -9030,65 +9369,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "김캐디|서비스운영담당자cs",
-   "tier": "추천 직군",
-   "score": 25,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상",
-    "평점 4.6"
-   ],
-   "company": "김캐디",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": 4.6,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/364369",
-   "title": "서비스 운영담당자(CS)",
-   "url": "https://www.wanted.co.kr/wd/382230",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/382230"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~3년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "모인|서비스운영신입가능",
-   "tier": "추천 직군",
-   "score": 20,
-   "reasons": [
-    "인접 직무",
-    "평점 낮음 2.4"
-   ],
-   "company": "모인(MOIN)",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2.4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/327157",
-   "title": "서비스 운영 (신입 가능)",
-   "url": "https://www.wanted.co.kr/wd/190682",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/190682"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~5년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "가제트코리아|고객지원팀고객경험담당매니저2년↑",
    "tier": "추천 직군",
    "score": 20,
@@ -9174,35 +9454,6 @@
    "due": "2026-10-30",
    "due_sort": "2026-10-30",
    "first_seen": "2026-10-20"
-  },
-  {
-   "key": "마인드허브|서비스운영담당자",
-   "tier": "추천 직군",
-   "score": 20,
-   "reasons": [
-    "인접 직무",
-    "평점 낮음 2.2"
-   ],
-   "company": "마인드허브",
-   "headhunter": false,
-   "location": "경기 안양시",
-   "station": "안양역",
-   "distance_km": 18.8,
-   "rating": 2.2,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/369347",
-   "title": "서비스 운영 담당자",
-   "url": "https://www.wanted.co.kr/wd/211504",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/211504"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~8년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
   },
   {
    "key": "포페런츠|cscx고객경험매니저신입경력",
@@ -9350,35 +9601,6 @@
    "first_seen": "2026-09-26"
   },
   {
-   "key": "문토|서비스운영기획매니저",
-   "tier": "추천 직군",
-   "score": 10,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상"
-   ],
-   "company": "문토",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2.6,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/379420",
-   "title": "서비스 운영·기획 매니저",
-   "url": "https://www.wanted.co.kr/wd/388988",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/388988"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~4년",
-   "due": "2026-10-26",
-   "due_sort": "2026-10-26",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "티디씨엑스코리아|tdcx광화문프리미엄라이프스타일브랜드cs팀장tl",
    "tier": "추천 직군",
    "score": 10,
@@ -9408,209 +9630,6 @@
    "first_seen": "2026-10-16"
   },
   {
-   "key": "컨포트랩|제조ai솔루션기술영업technicalsalesmanager",
-   "tier": "추천 직군",
-   "score": 10,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상"
-   ],
-   "company": "컨포트랩",
-   "headhunter": false,
-   "location": "서울 송파구",
-   "station": "잠실역",
-   "distance_km": 26.4,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/532369",
-   "title": "제조 AI 솔루션 기술영업 (Technical Sales Manager)",
-   "url": "https://www.wanted.co.kr/wd/386309",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/386309"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~1년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "비에이피|자동화제어기기술영업직plc기반과장",
-   "tier": "추천 직군",
-   "score": 10,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상"
-   ],
-   "company": "비에이피",
-   "headhunter": false,
-   "location": "경기 수원시",
-   "station": "수원역",
-   "distance_km": 9.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "자동화 제어기 기술영업직 (PLC 기반 / 과장)",
-   "url": "https://www.wanted.co.kr/wd/376644",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/376644"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~3년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "디플라이어|서비스운영매니저",
-   "tier": "추천 직군",
-   "score": 10,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상"
-   ],
-   "company": "디플라이어",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "서비스 운영 매니저",
-   "url": "https://www.wanted.co.kr/wd/393581",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/393581"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~3년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-23"
-  },
-  {
-   "key": "업밸류|cxoperationmanager서비스운영관리",
-   "tier": "추천 직군",
-   "score": 10,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상"
-   ],
-   "company": "업밸류",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "CX Operation Manager(서비스 운영관리)",
-   "url": "https://www.wanted.co.kr/wd/392956",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/392956"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~3년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "화이트큐브|압축ㅡ성장챌린지서비스운영인증샷검수&검수자동화",
-   "tier": "추천 직군",
-   "score": 10,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상"
-   ],
-   "company": "화이트큐브",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "[압축 ㅡ 성장] 챌린지 서비스 운영 (인증샷 검수 & 검수 자동화)",
-   "url": "https://www.wanted.co.kr/wd/392900",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/392900"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~3년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-10-18"
-  },
-  {
-   "key": "티엠씨케이|geo서비스운영및데이터분석신입~3년",
-   "tier": "추천 직군",
-   "score": 10,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상"
-   ],
-   "company": "티엠씨케이",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": null,
-   "review_count": null,
-   "jobplanet_url": null,
-   "title": "GEO 서비스 운영 및 데이터 분석 (신입~3년)",
-   "url": "https://www.wanted.co.kr/wd/389275",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/389275"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "1~3년",
-   "due": "2026-10-31",
-   "due_sort": "2026-10-31",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "key": "퀀타리움|서비스운영&콘텐츠매니저",
-   "tier": "추천 직군",
-   "score": 10,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상"
-   ],
-   "company": "퀀타리움",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": null,
-   "review_count": 0,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/511045",
-   "title": "서비스 운영 & 콘텐츠 매니저",
-   "url": "https://www.wanted.co.kr/wd/385648",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/385648"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~4년",
-   "due": "2026-10-23",
-   "due_sort": "2026-10-23",
-   "first_seen": "2026-09-26"
-  },
-  {
    "key": "유니시티코리아|수원고객지원센터직원모집픽업물류",
    "tier": "추천 직군",
    "score": 5,
@@ -9638,96 +9657,6 @@
    "due": "2026-10-25",
    "due_sort": "2026-10-25",
    "first_seen": "2026-10-23"
-  },
-  {
-   "key": "제이씨바이오|기술영업학술지원석사",
-   "tier": "추천 직군",
-   "score": 0,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상",
-    "평점 낮음 2.4"
-   ],
-   "company": "제이씨바이오",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": 2.4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/121122",
-   "title": "기술영업/학술지원 (석사)",
-   "url": "https://www.wanted.co.kr/wd/361128",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/361128"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~1년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "제이씨바이오|기술영업학술지원담당자박사",
-   "tier": "추천 직군",
-   "score": 0,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상",
-    "평점 낮음 2.4"
-   ],
-   "company": "제이씨바이오",
-   "headhunter": false,
-   "location": "서울 서초구",
-   "station": "교대역",
-   "distance_km": 25.6,
-   "rating": 2.4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/121122",
-   "title": "기술영업/학술지원 담당자 (박사)",
-   "url": "https://www.wanted.co.kr/wd/360975",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/360975"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~1년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
-  },
-  {
-   "key": "케어네이션|서비스운영기획",
-   "tier": "추천 직군",
-   "score": 0,
-   "reasons": [
-    "인접 직무",
-    "주니어 대상",
-    "평점 낮음 2.4"
-   ],
-   "company": "케어네이션",
-   "headhunter": false,
-   "location": "서울 강남구",
-   "station": "강남역",
-   "distance_km": 25.7,
-   "rating": 2.4,
-   "review_count": null,
-   "jobplanet_url": "https://www.jobplanet.co.kr/companies/321865",
-   "title": "서비스 운영 기획",
-   "url": "https://www.wanted.co.kr/wd/296593",
-   "links": {
-    "wanted": "https://www.wanted.co.kr/wd/296593"
-   },
-   "sources": [
-    "wanted"
-   ],
-   "experience": "0~1년",
-   "due": "상시채용",
-   "due_sort": "9999-99-99",
-   "first_seen": "2026-09-26"
   },
   {
    "key": "크로네코리아|외국계정규직기술영업팀신입사원채용공고",
